@@ -11,7 +11,7 @@ class TableSearchTest(unittest.TestCase):
 
     def setUp(self):
         # setup appium
-        app = os.path.expanduser("~/Documents/REU/scripts/TableSearch.app")
+        app = os.path.expanduser("~/Code/REU/TableSearch.app")
 
         app = os.path.abspath(app)
         self.driver = webdriver.Remote(
