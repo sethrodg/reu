@@ -24,8 +24,7 @@ class settingsCheck(unittest.TestCase):
 
     def test_navigation(self):
         #click 'apps and notifications'
-        element = self.driver.find_elements_by_class_name("android.widget.LinearLayout")
-        element[11].click()
+        self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Apps & Notifications")').click()
         sleep(2)
 
         #scroll down
@@ -34,20 +33,22 @@ class settingsCheck(unittest.TestCase):
         sleep(1)
 
         #click 'advanced' and scroll down
-        element = self.driver.find_elements_by_class_name("android.widget.LinearLayout")
-        element[31].click()
+        self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Advanced")').click()
         sleep(1)
         actions.press(x=20, y=972).move_to(x=10, y=476).release().perform()
         sleep(2)
 
         #click special app access
-        element = self.driver.find_elements_by_class_name("android.widget.RelativeLayout")
-        element[5].click()
+        self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Special App Access")').click()
         sleep(2)
 
-        element = self.driver.find_elements_by_class_name("android.widget.RelativeLayout")
-        element[1].click()
+        self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Device Admin Apps")').click()
         sleep(5)
+
+        #return device admin true/false for specific app
+        #search text views?
+        #search by text?
+        
 
 
 
@@ -55,3 +56,9 @@ class settingsCheck(unittest.TestCase):
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(settingsCheck)
     unittest.TextTestRunner(verbosity=2).run(suite)
+
+
+
+
+# use UIAUtomator to navigate instead of find_elements_by_class_name
+# self.driver.find_element_by_android_uiautomator('new UISelector().textContains("Apps & Notifications")')
