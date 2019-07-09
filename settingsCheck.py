@@ -5,7 +5,12 @@ from time import sleep
 from appium.webdriver.common.touch_action import TouchAction
 
 
+
 class settingsCheck(unittest.TestCase):
+
+    appName = raw_input("enter the name of the app: ")
+
+    da_found = False
 
     def setUp(self):
         #setup for the test
@@ -43,12 +48,29 @@ class settingsCheck(unittest.TestCase):
         sleep(2)
 
         self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Device Admin Apps")').click()
-        sleep(5)
+        sleep(3)
 
         #return device admin true/false for specific app
         #search text views?
         #search by text?
-        
+        #use 'find my device' as test case
+
+        try:
+            element = self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Find My Device")')
+            element.click()
+            da_found = True
+        except:
+            print("\n\nnot found")
+            pass
+
+        sleep(5)
+        print("\n\n")
+        if da_found == True:
+            print("found")
+        else:
+            print("not found")
+
+
 
 
 
