@@ -8,17 +8,13 @@ from appium.webdriver.common.touch_action import TouchAction
 
 class settingsCheck(unittest.TestCase):
 
-    appName = raw_input("enter the name of the app: ")
-
-    da_found = False
-
     def setUp(self):
         #setup for the test
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
         desired_caps['platformVersion'] = '9'
-        desired_caps['deviceName'] = 'Nexus 5x'
-        #desired_caps['app'] = os.path.expanduser("~/Code/REU/apks/chess.apk")
+        desired_caps['deviceName'] = 'Pixel API 28'
+        #desired_caps['automationName'] = 'uiautomator2'
         desired_caps['appPackage'] = 'com.android.settings'
         desired_caps['appActivity'] = 'com.android.settings.Settings'
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
@@ -28,6 +24,10 @@ class settingsCheck(unittest.TestCase):
         self.driver.quit()
 
     def test_navigation(self):
+
+        appName = raw_input("enter the name of the app: ")
+        da_found = False
+
         #click 'apps and notifications'
         self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Apps & Notifications")').click()
         sleep(2)
@@ -56,11 +56,9 @@ class settingsCheck(unittest.TestCase):
         #use 'find my device' as test case
 
         try:
-            element = self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Find My Device")')
-            element.click()
+            self.driver.find_element_by_android_uiautomator('new UiSelector().textContains(\"{}\")'.format(appName)).click()
             da_found = True
         except:
-            print("\n\nnot found")
             pass
 
         sleep(5)
@@ -70,8 +68,9 @@ class settingsCheck(unittest.TestCase):
         else:
             print("not found")
 
-
-
+        #
+        #./apks/<file.apk>
+        #adb install -r "file.apk"
 
 
 
