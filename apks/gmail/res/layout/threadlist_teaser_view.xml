@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/threadlist_teaser_view" android:background="@color/threadlist_teaser_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/teaser_header_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_banner_padding" android:paddingStart="@dimen/threadlist_teaser_left_right_padding" android:paddingEnd="@dimen/threadlist_teaser_left_right_padding" app:srcCompat="@drawable/quantum_gm_ic_help_outline_vd_theme_24" />
+        <TextView android:textSize="@dimen/threadlist_teaser_text_size" android:textColor="@color/threadlist_teaser_text" android:id="@id/threadlist_teaser_textview" android:paddingTop="@dimen/search_banner_padding" android:paddingBottom="@dimen/search_banner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/threadlist_teaser_left_right_padding" />
+    </LinearLayout>
+    <View style="@style/MaterialDividerStyle" />
+</LinearLayout>

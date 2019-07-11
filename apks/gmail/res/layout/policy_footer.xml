@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.button.MaterialButton android:theme="@style/Theme.GoogleMaterial.Light.Bridge" android:id="@id/og_privacy_policy_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/og_privacy_policy" style="@style/OneGoogle.AccountMenu.FooterButton" />
+    <ImageView android:layout_gravity="center" android:id="@id/og_separator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:importantForAccessibility="no" app:srcCompat="@drawable/separator" />
+    <android.support.design.button.MaterialButton android:theme="@style/Theme.GoogleMaterial.Light.Bridge" android:id="@id/og_tos_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/og_terms_of_service" style="@style/OneGoogle.AccountMenu.FooterButton" />
+</merge>

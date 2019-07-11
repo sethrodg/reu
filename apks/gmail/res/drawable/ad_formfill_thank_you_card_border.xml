@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:id="@id/listview_background_shape"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/ad_formfill_thank_you_card_stroke" android:color="@color/google_grey500" />
+    <padding android:left="@dimen/ad_formfill_thank_you_card_border_padding" android:top="@dimen/ad_formfill_thank_you_card_border_padding" android:right="@dimen/ad_formfill_thank_you_card_border_padding" android:bottom="@dimen/ad_formfill_thank_you_card_border_padding" />
+    <corners android:radius="@dimen/ad_formfill_thank_you_card_corner_radius" />
+</shape>

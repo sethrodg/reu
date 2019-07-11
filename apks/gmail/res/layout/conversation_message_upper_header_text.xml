@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_header_text_margin_top" android:layout_weight="1.0" style="@style/MessageUpperHeaderTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/subject_and_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/reply_forward_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/message_header_upper_text_margin" app:srcCompat="@drawable/ic_reply_grey600_16dp" />
+        <TextView android:id="@id/sender_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/MessageSenderNameStyle" />
+        <TextView android:layout_gravity="bottom" android:id="@id/wa_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="1" style="@style/AttachmentIconStyle" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/attachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_attachment_grey600_18" style="@style/AttachmentIconStyle" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/dynamic_mail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_bolt_grey600_18" android:contentDescription="@string/dynamic_email_icon_description" style="@style/DynamicMailIconStyle" />
+        <TextView android:id="@id/upper_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/MessageHeaderUpperDateStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/recipient_summary_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/subject_and_date">
+        <include layout="@layout/ces_indicator" />
+        <include layout="@layout/s4_security_icons_container" />
+        <TextView android:ellipsize="end" android:id="@id/recipient_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/MessageHeaderSubtitleStyle" />
+        <ImageView android:layout_gravity="top" android:id="@id/show_hide_details" android:padding="@dimen/message_header_show_hide_details_padding" android:layout_width="@dimen/message_header_show_hide_details_size" android:layout_height="@dimen/message_header_show_hide_details_size" android:layout_marginTop="@dimen/message_header_show_hide_details_margin_top" app:srcCompat="@drawable/quantum_gm_ic_keyboard_arrow_down_vd_theme_24" />
+    </LinearLayout>
+    <TextView android:id="@id/email_snippet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/message_header_snippet_margin_bottom" android:layout_below="@id/subject_and_date" style="@style/MessageHeaderSnippetStyle" />
+</RelativeLayout>

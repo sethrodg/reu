@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Zur Startseite</string>
+    <string name="abc_action_bar_home_description_format">%1$s: %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s: %3$s</string>
+    <string name="abc_action_bar_up_description">Nach oben</string>
+    <string name="abc_action_menu_overflow_description">Weitere Optionen</string>
+    <string name="abc_action_mode_done">Fertig</string>
+    <string name="abc_activity_chooser_view_see_all">Alle ansehen</string>
+    <string name="abc_activitychooserview_choose_application">App auswählen</string>
+    <string name="abc_searchview_description_clear">Suchanfrage löschen</string>
+    <string name="abc_searchview_description_query">Suchanfrage</string>
+    <string name="abc_searchview_description_search">Suchen</string>
+    <string name="abc_searchview_description_submit">Suchanfrage senden</string>
+    <string name="abc_searchview_description_voice">Sprachsuche</string>
+    <string name="abc_shareactionprovider_share_with">Freigeben für</string>
+    <string name="abc_shareactionprovider_share_with_application">Freigeben für %s</string>
+    <string name="common_google_play_services_enable_button">Aktivieren</string>
+    <string name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_install_button">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_install_text_phone">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Smartphone nicht installiert sind.</string>
+    <string name="common_google_play_services_install_text_tablet">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Tablet nicht installiert sind.</string>
+    <string name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit Google Play-Diensten. Wenn das Problem weiterhin besteht, kontaktiere bitte den Entwickler.</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich. Diese werden auf deinem Gerät jedoch nicht unterstützt. Wende dich für weitere Informationen an den Hersteller.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-Dienste</string>
+    <string name="common_google_play_services_update_button">Aktualisieren</string>
+    <string name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst.</string>
+    <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_updating_title">Google Play-Dienste werden aktualisiert</string>
+    <string name="common_google_play_services_wear_update_text">Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert.</string>
+    <string name="common_open_on_phone">Auf Smartphone öffnen</string>
+    <string name="common_signin_button_text">Anmelden</string>
+    <string name="common_signin_button_text_long">Über Google anmelden</string>
+    <string name="abandon">"Spiel
+abbrechen"</string>
+    <string name="accept">Annehmen</string>
+    <string name="accept_resign">Aufgabe annehmen</string>
+    <string name="achievements">Leistungen</string>
+    <string name="advanced">Erweitert:</string>
+    <string name="already_offered_draw">Sie haben während dieses Zuges bereits ein Angebot gemacht, das abgelehnt wurde.</string>
+    <string name="also_available">Auch erhältlich ...</string>
+    <string name="analyse">Analyse</string>
+    <string name="analyse_help">Bei einer \"Analyse\" wird eine deutlich intensivere Suche durchgeführt als bei einem gewöhnlichen Tipp, und es werden Ihnen zudem die Züge angezeigt, die der Computer im Laufe seines Denkprozesses in Erwägung zieht.</string>
+    <string name="app_name_free">Schach Free</string>
+    <string name="app_name_paid">Schach</string>
+    <string name="back">ZURÜCK</string>
+    <string name="board_selection">Brett:</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="castling_body">Der letzte vom Computer gemachte Zug heißt ochade Lesen Sie für weitere Informationen dazu den Abschnitt Spielregeln.</string>
+    <string name="castling_title">\"Rochade\"</string>
+    <string name="casual_body">Sie haben die \"Casual\"-Option gewählt. In diesem Modus können Sie Züge zurücknehmen und die Funktionen \"Tipp\", \"Analyse\", \"Tutor\", \"Weiß-Handicaps\", \"Computer-Strategie anzeigen\" und \"Zeige gefährdete Figuren\" nutzen, um Ihre spielerischen Fähigkeiten zu verbessern.</string>
+    <string name="casual_only">Nur Casual-Modus:</string>
+    <string name="casual_only2">(Nur Casual-Modus)</string>
+    <string name="check">Schach!</string>
+    <string name="check_mate">Schachmatt!</string>
+    <string name="checkbox_aids">Erlaubte &amp; letzte Züge anzeigen</string>
+    <string name="checkbox_confirm">Bestätigen Zug (Pro)</string>
+    <string name="checkbox_coords">Zeige Koordinaten</string>
+    <string name="checkbox_cpu_offers">Computergegner Aufgabe/Unentschieden erlauben</string>
+    <string name="checkbox_cpu_offers_explain">Wenn ausgewählt, darf der Computergegner die Aufgabe oder ein Unentschieden anbieten.</string>
+    <string name="checkbox_expanded">Ausführliche Zugnotation</string>
+    <string name="checkbox_flip">Spieler-gegen-Spieler-Brett drehen</string>
+    <string name="checkbox_hidegpg">\"Google Play Games\" ausblenden</string>
+    <string name="checkbox_hideundo">Rückgängig-Taste verbergen</string>
+    <string name="checkbox_infobar">Statusleiste ausblenden</string>
+    <string name="checkbox_replace_hint">Ersetzen Sie Tipp mit Analyse</string>
+    <string name="checkbox_screenalwayson">Bildschirm immer an</string>
+    <string name="checkbox_sfx">Ton ein</string>
+    <string name="checkbox_thinking">Computer-Strategie anzeigen</string>
+    <string name="checkbox_threat">Zeige gefährdete Figuren</string>
+    <string name="checkbox_timer">Zeitmesser immer anzeigen</string>
+    <string name="checkbox_transitions">Animationen</string>
+    <string name="chess_program"><b>UNSER SCHACHPROGRAM:</b>"
+
+Unser Schachprogramm basiert auf unserer Treebeard-Schachprogrammierung. Mehr dazu können Sie auf http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm lesen. Für die Verwendung mit Produkten von Microsoft lizenziert. Diese Programmierung nutzt Techniken, die Sie bei den meisten Schachprogrammen vergeblich suchen und einen menschlicheren Spielstil ermöglichen. Im Gegensatz zu konventionellen Programmen durchsucht es nicht Millionen von Stellungen, sondern bedient sich einer Wahrscheinlichkeits-basierten Suche, mit der weniger Stellungen genauer untersucht werden. Dieses Programm nutzt dieselbe Technologie wie das japanische Schachprogramm hotest das weltweit zweimal an dritter Stelle eingestuft wurde.
+
+"</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="continue_message">Weiter</string>
+    <string name="corrupt_file">Leider war Ihre Spieldatei beschädigt. Es wurde stattdessen ein neues Spiel begonnen.</string>
+    <string name="cpu">Ihr Gegner</string>
+    <string name="cpu_1">Cpu (1)</string>
+    <string name="cpu_10">Cpu (10)</string>
+    <string name="cpu_11">Cpu (11)</string>
+    <string name="cpu_12">Cpu (12)</string>
+    <string name="cpu_2">Cpu (2)</string>
+    <string name="cpu_3">Cpu (3)</string>
+    <string name="cpu_4">Cpu (4)</string>
+    <string name="cpu_5">Cpu (5)</string>
+    <string name="cpu_6">Cpu (6)</string>
+    <string name="cpu_7">Cpu (7)</string>
+    <string name="cpu_8">Cpu (8)</string>
+    <string name="cpu_9">Cpu (9)</string>
+    <string name="cpu_p">Cpu P</string>
+    <string name="cpu_short">Cpu</string>
+    <string name="crosspromBackgammon">Das uralte und immer wieder neue Spiel um Geschick, Strategie und Glück.</string>
+    <string name="crosspromMoveit">Elegante, neue Version des Original-Blockpuzzles = nur ein Download!</string>
+    <string name="decline">Ablehnen</string>
+    <string name="decline_resign">Weiterspielen</string>
+    <string name="delete">Löschen</string>
+    <string name="delete_question">Sind Sie sicher, dass Sie dieses gespeicherte Spiel löschen wollen?</string>
+    <string name="difficulty">"Schwierigkeit
+(P,1→12) :"</string>
+    <string name="dont_show_again">Nicht mehr anzeigen</string>
+    <string name="dontshowagain">Nichtmehr anzeigen</string>
+    <string name="download_now">Jetzt herunterladen!</string>
+    <string name="draw">Unentschieden!</string>
+    <string name="draw_50move">(50 Züge ohne Schlag- oder Bauernzug)</string>
+    <string name="draw_agreed">Unentschieden wurde akzeptiert!</string>
+    <string name="draw_agreed_">Die Spieler haben einem Unentschieden zugestimmt</string>
+    <string name="draw_lackofpieces">(Sieg mit verbleibenden Figuren nicht möglich)</string>
+    <string name="draw_offered">Wollen Sie einem Unentschieden zustimmen?</string>
+    <string name="draw_offered_p1">Spieler 1 möchte Ihnen ein Unentschieden anbieten. Stimmen Sie dem zu?</string>
+    <string name="draw_offered_p2">Spieler 2 möchte Ihnen ein Unentschieden anbieten. Stimmen Sie dem zu?</string>
+    <string name="draw_rejected">Ich würde immer noch gern weiterspielen.</string>
+    <string name="draw_rejected_first">Ich würde gern noch weiterspielen.</string>
+    <string name="draw_rejected_p1">Spieler 1 würde gern noch weiterspielen.</string>
+    <string name="draw_rejected_p2">Spieler 2 würde gern noch weiterspielen.</string>
+    <string name="draw_repeated">(Wiederholte Züge)</string>
+    <string name="draw_stalemate">"(Aktueller Spieler kann keinen zulässigen Zug machen und ist
+icht Schach)"</string>
+    <string name="elo_help"><b>ELO-Bewertungssystem:</b>"
+
+Das Spiel wird im \"Pro\"-Modus eine Elo-Bewertung für Sie errechnen, nachdem Sie 5 Partien gespielt haben. Dies erfolgt auf der Grundlage der FIDE-Version des Elo-Systems und ermöglicht eine gute Elo-Bewertung innerhalb der App. Jeder Computer-Schwierigkeitsgrad im Spiel besitzt eine geprüfte Bewertung. Wir haben KI-Level 12 auf einen FIDE-Elo-Wert von 2100 ausgelegt (er kann jedoch auch etwas höher sein), Level 1 auf einen Wert von 423.
+
+Bedenken Sie jedoch, dass dies nicht exakt mit den Elo-Bewertungen bei Partien zwischen menschlichen Spielern übereinstimmt, und zwar aus den folgenden Gründen:
+
+1. FIDE-Elo- und USCF-Systeme würden die Elo-Bewertungen normalerweise aus Partien mit Zeitüberwachung errechnen, doch Chess Free ist diesbezüglich weniger streng, so dass sich der Spieler beliebig viel Zeit nehmen kann. Daher erhalten Sie unter Umständen eine bessere Bewertung als es bei einem Turnier zwischen menschlichen Gegnern der Fall gewesen wäre.
+
+2. Das Elo-System für den Computer stimmt nicht immer vollständig mit dem Elo-System für menschliche Spieler überein, so dass der eine Nutzer ein Programm vielleicht deutlich einfacher findet als erwartet, während es von einem anderen Nutzer als schwieriger empfunden wird als erwartet. Dies liegt an der Spielweise eines Computers. Wer häufig gegen Schachprogramme spielt, findet oft kleine Marotten des Computers, die sich für ein besseres Ergebnis nutzen lassen.
+
+3. Die Elo-Skalen der FIDE, der USCF und anderer Organisationen weichen zuweilen voneinander ab, so dass sich eine Bewertung durch die USCF beispielsweise um etwa 100 Elo-Punkte von einer FIDE-Bewertung unterscheiden kann.
+
+4. Im Hinblick auf die Spielstärke kann es zwischen den Geräten einige Abweichungen geben. In den niedrigeren Levels macht sich dies nicht bemerkbar, doch bei einigen wenigen Zügen in den höheren Levels spielt ein schnelleres Smartphone besser.
+
+Das Elo-System verfolgt die Veränderungen in der FIDE-ELO-Bewertung durch die App genau, damit Sie die relative Verbesserung Ihrer Spielstärke nachverfolgen können. So werden Sie Ihre spielerischen Fähigkeiten weiterentwickeln und behalten den Überblick über Ihre Fortschritte.
+
+(Hinweis: Das Bewertungssystem im \"Casual\"-Modus ist kein Elo-System, sondern ein einfacheres kumulatives Bewertungssystem auf der Basis aller Ihrer Ergebnisse auf allen Levels.)"</string>
+    <string name="enpassant_body">Der letzte vom Computer gemachte Zug heißt n Passant Lesen Sie für weitere Informationen dazu den Abschnitt Spielregeln.</string>
+    <string name="enpassant_title">n PassantSchlag</string>
+    <string name="export_pgn">PGN exportieren</string>
+    <string name="export_pgn2">PGN exportieren</string>
+    <string name="exportpgn_text">Geben Sie einen Namen für dieses PNG ein:</string>
+    <string name="exportpgn_text2">(Das PNG wird auch in die Zwischenablage kopiert)</string>
+    <string name="finish_game">Spiel beenden</string>
+    <string name="gameTimer">Zeitmesser:</string>
+    <string name="game_in_progress">Spiel läuft</string>
+    <string name="game_over">Game Over!</string>
+    <string name="game_timer">Spielzeitmesser (Min):</string>
+    <string name="games_by_third_party">Empfohlene Spiele unserer Partner:</string>
+    <string name="google1">Melden Sie sich bei Google an, damit Ihre Freunde Ihre Fortschritte sehen können</string>
+    <string name="google2">Sie sind bei Google angemeldet</string>
+    <string name="handicap">"Weißes
+Handicap:"</string>
+    <string name="handicap_help">Sie haben ein Weiß-Handicap aktiviert. Dadurch wird die gewählte weiße Figur aus dem Spiel genommen, so dass Schwarz einen Vorteil erhält.</string>
+    <string name="handicap_short">Weißes H.cap:</string>
+    <string name="help1">SPIELREGELN</string>
+    <string name="help2">"Das Schachspiel ist ein Wettkampf zwischen zwei Spielern, die mit abwechselnden Züge ihrer Spielfiguren (Schwarz gegen Weiß) gegeneinander antreten. Die Figuren werden entweder auf ein leeres oder auf ein mit einer gegnerischen Spielfigur besetztes Feld gezogen. Bei besetzten Feldern wird die darauf stehende Figur geschlagen (und vom Brett entfernt). Ziel des Spiels ist es, den gegnerischen König Schachmatt zu setzen, so dass er keinen Ausweg mehr hat. Diesem letzten Schritt gehen jedoch sorgfältige Manöver voraus, die darauf abzielen, Raum auf dem Brett sowie gegnerische Figuren zu erobern, um sich für den finalen Angriff zu rüsten.
+
+Traditionell stehen die Schachfiguren für Bereiche der mittelalterlichen Gesellschaft. In den folgenden Abschnitten werden die Spielzüge mit den Schachfiguren beschrieben."</string>
+    <string name="help3">"Die acht Bauern symbolisieren Arbeiter oder Soldaten. Sie bewegen sich in einer Vorwärtsbewegung, mit einem Feld pro Zug. Beim ersten Zug kann ein Bauer auch optional zwei Felder vorrücken. Diese Vorwärtszüge können keine Schlagzüge sein. Bauern können hingegen Figuren in einer diagonalen Vorwärtsbewegung schlagen. Sonst dürfen sie sich nicht diagonal bewegen. Erreicht ein Bauer die Grundlinie des Schachbretts, kann er in eine beliebige Figur der eigenen Farbe - natürlich mit Ausnahme des Königs - eingetauscht werden. Dies wird als \"Umwandlung\" bezeichnet. Normalerweise wird ein Bauer in eine Dame umgewandelt.
+
+Der Bauer verfügt über eine zusätzliche Zugmöglichkeit: die \"En Passant\"-Regel. Dabei kann ein Bauer von einem gegnerischen Bauern geschlagen werden, wenn er aus seiner Ausgangsstellung zwei Felder nach vorne neben die gegnerische Figur bewegt wird. Der Zug muss unmittelbar nach dem Doppelzug des Bauern ausgeführt werden (in seiner 5. Reihe). Ein späteres Schlagen ist nicht zulässig. Praktisch bedeutet dies, dass der Gegner den normalen Schlag spielen kann, der ihm zur Verfügung stünde, wenn der Bauer nur ein Feld vorgerückt wäre. Der En-Passant-Schlag auf dem Brett bewegt den schlagenden Bauern hinter den Doppelzug-Bauern und nimmt diesen dann aus dem Spiel."</string>
+    <string name="help4">Der Zug des Springers ist ungewöhnlich: Er bewegt sich nicht geradlinig, sondern in einem doppelten Zug, der aus einem geraden und einem diagonalen Einzelzug besteht. Dieser \"L-förmige\" Zug kann in jede Richtung erfolgen, so dass acht potenzielle Züge möglich sind, wenn sich der Springer ungefähr in der Brettmitte befindet. Ähnlich wie mit einem richtigen Pferd kann der Springer eigene oder generische Schachfiguren überspringen. Setzt der Springer von einem weißen Feld zum Zug an, beendet er ihn auf einem schwarzen Feld.</string>
+    <string name="help5">Der Läufer kann eine beliebige Anzahl Felder diagonal bewegt werden. Er kann nicht wie der Springer Schachfiguren überspringen.</string>
+    <string name="help6">Der Turm kann eine beliebige Anzahl Felder horizontal oder vertikal bewegt werden. Er kann nicht wie der Springer Schachfiguren überspringen.</string>
+    <string name="help7">Die Dame hat die Fähigkeit, horizontale, vertikale oder diagonale Züge über eine beliebige Anzahl Felder zu machen, solange sie nicht blockiert ist. Daher kombiniert die Dame die Züge von Turm und Läufer. Die Dame ist eine überragende Figur und spielt häufig bei Angriffen eine wichtige Rolle.</string>
+    <string name="help8">Der König ist das Hauptziel der Angriffe Ihre Gegners. Sobald er Schachmatt gesetzt wird, ist das Spiel zu Ende! Er kann in alle acht diagonalen und horizontalen Richtungen ziehen, aber immer nur ein Feld pro Zug. Der König verfügt auch über einen eigenen Rochadenzug, mit dem er zwei Felder nach links oder rechts ziehen kann. Dabei überspringt der Turm den König, um das Feld gegenüber vom König zu besetzen.</string>
+    <string name="help9">"Dies ist nur erlaubt, wenn König und Turm vorher nicht bewegt wurden, keines der Felder zwischen Turm und König blockiert ist, der König nicht Schach ist und keines der Felder, das der König überquert, von gegnerischen Schachfiguren angegriffen wird. Der König muss beschützt werden, kann aber auch eine mächtige Angriffsfigur sein. In der Endrunde ist er eine beeindruckende Angriffsfigur gegen gegnerische Bauern. Bei einfachen Matt-Endrunden ist er Teil des Mattangriffes.
+
+Wird der König direkt von einer gegnerischen Figur angegriffen, ist der König \"Schach\". Ist der König Schach, muss er sofort befreit werden.
+
+Es gibt drei Möglichkeiten, sich aus der Schach-Situation zu befreien:
+
+1. Der König kann auf ein Feld ziehen, das nicht von einer gegnerischen Figur angegriffen wird.
+
+2. Die Figur, die den König angreift, kann geschlagen werden.
+
+3. Eine Figur kann zwischen König und Gegner gebracht werden, um die Schachsetzung zu blockieren.
+
+Wurde der König Schach gesetzt und kann sich daraus nicht befreien, dann spricht man von \"Schachmatt\" und das Spiel ist verloren."</string>
+    <string name="helpmain1">SO WIRD GESPIELT</string>
+    <string name="helpmain2">"(Nach unten blättern, um zu den Schachregeln zu gelangen)
+
+Vor Spielbeginn wird Ihnen ein Spieleinstellungen-Bildschirm angezeigt. Dort können Sie die Seite wählen (oder einstellen, dass die Seite bei jedem Spiel getauscht wird),den Schwierigkeitsgrad des Computers (1 für Anfänger, 12 für Experten), das Weiß-Handicap (Entfernung einer weißen Schachfigur, um Schwarz zu unterstützen) sowie die Spielzeitparameter.
+
+Die Zeitmesser verfügen über zwei Elemente:
+
+SPIELZEIT bestimmt die ursprüngliche Zeit, die jedem Spieler vor einer Partie zugeteilt wird. Sie wird herunter gezählt, solange der Spieler über seine Züge nachdenkt. Ist sie abgelaufen, hat der Spieler die Partei sofort verloren.
+
+ZUGZEIT ist die Extrazeit, die einem Spieler gegeben wird, nachdem er einen Zug gemacht hat.
+
+Verwenden Sie nach Spielbeginn Touchscreen oder DPad bzw. Joystick des Telefons für die Auswahl und die Züge der Figuren. Eine Figur wird bewegt, indem man zuerst die Figur und anschließend ein erlaubtes Feld auswählt, auf das die Figur gezogen werden soll.
+
+Mit der Rückgängig-Taste kann man beliebig viele Züge rückgängig machen.
+
+Spielernamen, geschlagene Figuren und SCHACH-Meldungen werden oberhalb und unterhalb des Schachbretts angezeigt. Wenn der Computer über einen Zug nachdenkt, wird oben rechts eine Animation abgespielt. Beachten Sie, dass der Computer bei höherem Schwierigkeitsgrad auch mehr Zeit zum Nachdenken benötigt. Sind Zeitmesser aktiviert, verkürzt der Computer seine Denkzeit bei Bedarf.
+
+Während einer Partie können Sie die MENÜ-Taste des Telefons drücken, um zwei nützliche Funktionen zu verwenden. TIPP fordert den Computer auf, ihre gegenwärtige Situation zu bewerten und einen Zug vorzuschlagen. SPIEL SEHEN zeigt Ihnen auf einem anderen Bildschirm eine Züge-Liste, wo Siealle bis zu diesem Zeitpunkt gespielten Züge ansehen können. Man kann die Liste durchsuchen. Durch Auswahl eines Spielzuges springt man zu dieser Stelle. Sie können auch die Navigationstasten auf der linken Seite verwenden, um die Spielzüge einzeln aufzurufen oder zum Anfang bzw. Ende der Spielzughistorie zu springen.
+
+SPEICHERN &amp; BEENDEN steht immer unter der MENÜ-Taste zur Verfügung - damit werden alle Spielstände bzw. ihre Einstellungsänderungen gespeichert und das Spiel beendet.
+
+"<b>STATISTIK:</b>"
+
+Das Spiel speichert ihre Siege / Niederlagen / Unentschieden von jeder Computerschwierigkeitsstufe. Diese Informationen können vom Titelmenü-Bildschirm abgerufen werden. Die Bewertung am unteren linken Rand der Statistikseite stellt eine kumulative Wertung all ihrer Spiele dar. (Es handelt sich nicht um eine Elo-Zahl.) Die Prozentzahl der Siege errechnet sich aus 1 Punkt für Sieg und 0,5 Punkte für Unentschieden. Beachten Sie, dass Handicap-Spiele nicht in diese Statistik einbezogen werden.
+
+"<b>UNSER SCHACHPROGRAM:</b>"
+
+Unser Schachprogramm basiert auf unserer Treebeard-Schachprogrammierung. Mehr dazu können Sie auf http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm lesen. Für die Verwendung mit Produkten von Microsoft lizenziert. Diese Programmierung nutzt Techniken, die Sie bei den meisten Schachprogrammen vergeblich suchen und einen menschlicheren Spielstil ermöglichen. Im Gegensatz zu konventionellen Programmen durchsucht es nicht Millionen von Stellungen, sondern bedient sich einer Wahrscheinlichkeits-basierten Suche, mit der weniger Stellungen genauer untersucht werden. Dieses Programm nutzt dieselbe Technologie wie das japanische Schachprogramm hotest das weltweit zweimal an dritter Stelle eingestuft wurde.
+
+"<b>HEYZAP:</b>"
+
+Dieses Spiel unterstützt das Heyzap-Spielenetzwerk, das Ihnen ermöglicht, sich optional bei Facebook oder Twitter anzumelden, wenn Sie Spiele gewinnen. Mit Heyzap können Sie sehen, welche Spiele Ihre Freunde gerade spielen und Sie können erreichte Leistungen (Badges) einbuchen und Tipps teilen.
+
+"</string>
+    <string name="hint">Tipp</string>
+    <string name="leaderboards">Ranglisten</string>
+    <string name="leaving_game">"Sie sind dabei, das Spiel zu verlassen. Alle nicht gespeicherten Zwischenstände gehen verloren.
+
+Wenn Sie die Spielstände zuerst speichern oder in ein PNG exportieren wollen, drücken Sie Abbrechen und gehen zum Menü."</string>
+    <string name="load">Laden</string>
+    <string name="loadgame_title">Spiel laden</string>
+    <string name="loadsavedgame">"Gespeichertes
+Spiel laden"</string>
+    <string name="log_as_draw">"Spiel
+unentschieden"</string>
+    <string name="mail_body">"Testen Sie dieses großartige Schachspiel!
+
+http://market.android.com/details?id=uk.co.aifactory.chessfree
+"</string>
+    <string name="mail_body_no_link">Testen Sie das neue Android-Game hess Freevon AI Factory Limited!</string>
+    <string name="mail_prompt">Wählen Sie eine Anwendung aus:</string>
+    <string name="mail_subject">Probieren Sie dieses Android-Spiel aus!</string>
+    <string name="main_menu">Hauptmenü</string>
+    <string name="main_menu_2">Hauptmenü</string>
+    <string name="match_settings">SPIELEINSTELLUNGEN</string>
+    <string name="menu_button_end_of_game">→</string>
+    <string name="menu_text">Menü</string>
+    <string name="menu_text_large">MENÜ</string>
+    <string name="more">Mehr</string>
+    <string name="more_games">Mehr Spiele</string>
+    <string name="move_timer">Zugzeitmesser (Sek):</string>
+    <string name="new_feature">Neues Merkmal!</string>
+    <string name="new_feature_1">"Neues Merkmal:
+
+Sie können bei einer Zwei-Spieler-Partie wählen, wie die Figuren auf dem Brett dargestellt werden. Unter Optionen stehen vier verschiedene Modi zur Auswahl.
+"</string>
+    <string name="new_game">Neues Spiel</string>
+    <string name="no">Nein</string>
+    <string name="noTimers">Keine Zeitmesser</string>
+    <string name="nosavedgames">Keine gespeicherten Spiele vorhanden</string>
+    <string name="nothanks">Nein, danke.</string>
+    <string name="off">Aus</string>
+    <string name="offer_draw">Unentschieden anbieten</string>
+    <string name="ok">OK</string>
+    <string name="on">An</string>
+    <string name="overwrite">"Wollen Sie die bestehende Datei überschreiben:
+"</string>
+    <string name="piece_selection">Figur:</string>
+    <string name="piecesindanger_help">Durch die Funktion \"Zeige gefährdete Figuren\" werden diejenigen Figuren rot hinterlegt, die der Gegner gefahrlos schlagen kann. So lernen Sie, Fehler zu vermeiden.</string>
+    <string name="play">Spielen</string>
+    <string name="play_again">Erneut spielen</string>
+    <string name="play_as">Farbwahl:</string>
+    <string name="play_mode">Play-Modus:</string>
+    <string name="play_to">Anzahl Partien:</string>
+    <string name="player">Sie</string>
+    <string name="player1">Spieler 1</string>
+    <string name="player1_resigns">Spieler 1 hat aufgegeben</string>
+    <string name="player1_wins">Spieler 1 gewinnt!</string>
+    <string name="player2">Spieler 2</string>
+    <string name="player2_resigns">Spieler 2 hat aufgegeben</string>
+    <string name="player2_wins">Spieler 2 gewinnt!</string>
+    <string name="practice_help">.</string>
+    <string name="pro_body">Sie haben die \"Pro\"-Option gewählt. In diesem Modus sind alle Hilfen deaktiviert, Sie können ein Spiel nicht abbrechen, ohne aufzugeben, und die Statistiken werden separat aufgezeichnet.</string>
+    <string name="promote">Wählen Sie eine Schachfigur für die Umwandlung aus:</string>
+    <string name="proswitch_body">Sie befinden sich derzeit im \"Pro\"-Modus, d. h. alle Hilfen (wie beispielsweise die Funktion \"Rückgängig machen\") sind deaktiviert. \"Pro\"-Partien werden zudem in den Statistiken separat aufgezeichnet und können nicht abgebrochen werden.</string>
+    <string name="rate">Bewerten</string>
+    <string name="rate_body">"Gefällt Ihnen Chess Free?
+Wir bitten Sie um Ihre Bewertung!"</string>
+    <string name="rating_casual_help">Im Casual-Modul ist dies eine zusammenfassende Bewertung auf der Basis Ihrer Leistungen in allen Schwierigkeitsstufen.</string>
+    <string name="rating_pro_help">Im \"Pro\"-Modus wird Ihre Bewertung in Form einer Elo-Zahl dargestellt, basierend auf dem FIDE-System (nachdem Sie 5 \"Pro\"-Partien gespielt haben). Bitte beachten Sie, dass es hierbei Abweichungen von den menschlichen FIDE-Bewertungen geben kann. Vollständige Erläuterungen hierzu finden Sie am Ende der \"Schachregeln\".</string>
+    <string name="recommend">"Freund/Freundin
+empfehlen"</string>
+    <string name="recommend_warning">Sie sind dabei, das Spiel kurzzeitig zu verlassen, um mit Ihrer bevorzugten Anwendung zum Nachrichtenversand eine Empfehlung zu versenden.</string>
+    <string name="recordgame">Spiel aufzeichnen</string>
+    <string name="reset">"Statistiken
+zurücksetzen"</string>
+    <string name="reset_question">Sind Sie sicher, dass Sie Ihre Statistiken zurücksetzen wollen?</string>
+    <string name="reset_question_gpg">Sind Sie sicher, dass Sie alle Ihre Statistiken zurücksetzen wollen? Dadurch werden auch die Statistiken in der Cloud und Ihre Fortschritte in der Rangliste zurückgesetzt, falls Sie \"Google Play Games\"-Features verwenden.</string>
+    <string name="resign">Aufgeben</string>
+    <string name="resign_cap">Aufgeben</string>
+    <string name="resign_confirm">Sind Sie sicher, dass Sie dieses Spiel aufgeben wollen?</string>
+    <string name="resign_match">"Spiel
+aufgeben"</string>
+    <string name="resign_offered">Ich würde gern aufgeben. Möchten Sie dennoch weiterspielen?</string>
+    <string name="resigns">Aufgegebene Spiele</string>
+    <string name="review_game">Spiel ansehen</string>
+    <string name="review_help">Auf diesem Bildschirm können Sie den gesamten Verlauf der aktuellen Partie von Anfang bis Ende ansehen. Wenn Sie auf einen der in der Liste aufgeführten Züge klicken, gelangen Sie zum jeweiligen Punkt der Partie, alternativ können Sie auch mit Hilfe der Pfeiltasten navigieren.</string>
+    <string name="rules">Spielregeln</string>
+    <string name="rules_of_chess">"Schach-
+regeln"</string>
+    <string name="rules_of_chess2">Schachregeln</string>
+    <string name="save">Speichern</string>
+    <string name="save_and_quit">Speichern &amp; Beenden</string>
+    <string name="save_pgn_success1">"auf externem Datenträger gespeichert, Ordner:
+
+"</string>
+    <string name="save_pgn_success2">"
+
+PGN auch in der Zwischenablage gespeichert"</string>
+    <string name="save_success">"Spiel erfolgreich gespeichert
+
+Spiele können im Hauptmenü geladen werden."</string>
+    <string name="saveas">Spiel speichern</string>
+    <string name="saveas_text">Geben Sie für das gespeicherte Spiel einen Namen ein:</string>
+    <string name="screen_warning">"** WARNUNG **
+
+Bei diesem Spiel ist der Bildschirm auf \"Immer An\" gestellt.
+
+Dies kann Ihre Batterie überdurchschnittlich stark belasten."</string>
+    <string name="sd_load_fail">Speichern auf externem Datenträger ist fehlgeschlagen. Wenn Sie eine SD-Karte haben, stellen Sie sicher, dass sienicht vom Computer verwendet wird.</string>
+    <string name="selectagame">Wählen Sie oben ein Spiel aus</string>
+    <string name="settings">Optionen</string>
+    <string name="settings1">SPIELOPTIONEN</string>
+    <string name="sfx_off">Ton aus</string>
+    <string name="showcputhinking_help">Die Funktion \"Computer-Strategie anzeigen\" hebt den Zug hervor, den der Computer im derzeitigen Stadium seines Denkprozesses für den besten hält. Hierdurch erhalten Sie einen Einblick in die Computeranalyse der gegenwärtigen Position.</string>
+    <string name="signin_body">Um dieses Feature zu nutzen, müssen Sie bei Google angemeldet sein. Nach der Anmeldung können Sie Ihren Freunden Ihre Fortschritte mitteilen!</string>
+    <string name="signout">"Abmelden
+Google"</string>
+    <string name="single_player">Ein Spieler</string>
+    <string name="skip">Überspringen</string>
+    <string name="splat_confirm">Sind Sie sicher, dass Sie dieses Spiel verlassen wollen? Ihr bisheriger Stand wird nicht gespeichert.</string>
+    <string name="stale_mate">Patt</string>
+    <string name="start">SPIELEN</string>
+    <string name="stats">Statistik</string>
+    <string name="stats_already_logged">Die Statistiken für diese Partie wurden bereits aufgezeichnet, daher zählt die Beendigung dieser Partie nicht für Ihre Statistik.</string>
+    <string name="stats_col1">Schwierigkeit</string>
+    <string name="stats_col2">Siege</string>
+    <string name="stats_col3">Remis</string>
+    <string name="stats_col4">Niederlagen</string>
+    <string name="stats_col5">Sieg %</string>
+    <string name="stats_title">Statistiken gegen Computer</string>
+    <string name="swap_sides">Seitentausch</string>
+    <string name="swap_sides_confirm">Sind Sie sich sicher, die Seiten wechseln zu wollen? Sie erhalten Kontrolle über die Figuren Ihres Gegners während er Ihre kontrollieren wird. Im Spiel bleiben die Positionen jedoch unverändert.</string>
+    <string name="swap_sides_result">Für das Spiel wird keine Statistik aufgezeichnet und es zählt nicht für Ihre Leistungen oder Ranglisten.</string>
+    <string name="switch_casual">"Umschalten auf 
+\"Casual\"-Modus"</string>
+    <string name="tap_for_more_info">Drücken Sie für den kostenlosen Download auf das Spiel!</string>
+    <string name="tap_to_continue">Zum Fortfahren Brett antippen...</string>
+    <string name="timer_expired">Zeit abgelaufen!</string>
+    <string name="timer_help">Der \"Spielzeitmesser\" zeigt die Gesamtzeit an, die Ihnen für alle Ihre Züge zur Verfügung steht. Der \"Zugzeitmesser\" zeigt den Zeitbonus an, der Ihnen nach einem Zug gutgeschrieben wird.</string>
+    <string name="timers_active">Zeitmesser aktiv:</string>
+    <string name="title1">Wählen Sie eine Option aus, um zu beginnen:</string>
+    <string name="tried">Haben Sie dieses Spiel schon ausprobiert?</string>
+    <string name="tutor">Tutor:</string>
+    <string name="tutor_body">Der Tutor hilft Ihnen beim Lernen und schlägt vor, bestimmte Figuren zu bewegen. So können Sie Ihre Positionen optimal nutzen und Fehler vermeiden. Sie können sich jedoch dafür entscheiden, eine andere Figur als die empfohlene zu bewegen.</string>
+    <string name="tutor_level_0">"Stufe:
+Auto-"</string>
+    <string name="tutor_level_1">"Stufe:
+1/8"</string>
+    <string name="tutor_level_2">"Stufe:
+2/8"</string>
+    <string name="tutor_level_3">"Stufe:
+3/8"</string>
+    <string name="tutor_level_4">"Stufe:
+4/8"</string>
+    <string name="tutor_level_5">"Stufe:
+5/8"</string>
+    <string name="tutor_level_6">"Stufe:
+6/8"</string>
+    <string name="tutor_level_7">"Stufe:
+7/8"</string>
+    <string name="tutor_level_8">"Stufe:
+8/8"</string>
+    <string name="tutor_title">Tutor-Modus</string>
+    <string name="tutorlevel_help">Der Tutor-Level legt die Bedenkzeit des Tutors fest und damit auch die Qualität seiner Züge. Die Funktion \"Auto\" bestimmt einen Level auf der Basis des Computer-Schwierigkeitsgrades in Ihrer aktuellen Partie.</string>
+    <string name="two_player">Zwei Spieler</string>
+    <string name="twoplayermode">"Zwei-Spieler-
+Figurenmodus:"</string>
+    <string name="twoplayerpieces_help">Mittels dieser Option können Sie auswählen, wie die Figuren in einer Zwei-Spieler-Partie dargestellt werden.</string>
+    <string name="undo_hint">"Tipp
+
+Mit der ückgängig-Taste können Sie die Auswahl eines Objektes aufheben sowie im Spiel zurück gehen."</string>
+    <string name="undo_last_move">Rückgängig letzten Zug</string>
+    <string name="undo_text">Undo</string>
+    <string name="upgrade">Chess aktualisieren</string>
+    <string name="user_offer_draw_confirm">Sind Sie sich sicher, Ihrem Gegner ein Unentschieden anbieten zu wollen?</string>
+    <string name="view_all">Alle Spiele sehen</string>
+    <string name="view_board">Brett ansehen</string>
+    <string name="vsCPU">gegen Computerschwierigkeitsstufe</string>
+    <string name="vsPlayer">Zwei Spieler</string>
+    <string name="win">Sieg!</string>
+    <string name="win_rate">Sieg %:</string>
+    <string name="wins">Siege!</string>
+    <string name="yes">Ja</string>
+    <string name="you_resign">Sie haben aufgegeben</string>
+    <string name="you_win">Sie haben gewonnen!</string>
+    <string name="you_win_short">Sie haben gewonnen!</string>
+    <string name="your_elo">Elo-Zahl:</string>
+    <string name="your_opponent_resigns">Ihr Gegner hat aufgegeben</string>
+    <string name="your_opponent_resigns_short">Gegner hat aufgegeben</string>
+    <string name="your_opponent_wins">Ihr Gegner hat gewonnen!</string>
+    <string name="your_rating">Ihre Wertung:</string>
+    <string name="your_score">Ihr Score:</string>
+</resources>

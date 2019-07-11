@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/general_background" android:layout_width="wrap_content" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/nav_button_container" android:layout_width="@dimen/tasks_nav_button_width" android:layout_height="fill_parent" android:layout_alignParentStart="true">
+        <ImageView android:layout_gravity="center" android:id="@id/nav_button" android:background="?selectableItemBackgroundBorderless" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/quantum_gm_ic_menu_vd_theme_24" />
+    </FrameLayout>
+    <TextView android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mailbox_name_display_t4" android:layout_centerVertical="true" android:layout_toEndOf="@id/nav_button_container" style="@style/Tasks.ToolbarTitleText" />
+    <com.google.android.libraries.onegoogle.account.disc.AccountParticleDisc android:id="@id/account_particle_disc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/task_toolbar_account_switcher_margin_end" android:layout_alignParentEnd="true" style="@style/AccountParticleDisc.AppBar" />
+</RelativeLayout>

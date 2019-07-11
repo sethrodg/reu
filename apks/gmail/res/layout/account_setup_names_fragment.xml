@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.GoogleMaterial.Light.Bridge" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.textfield.TextInputLayout android:theme="@style/Theme.GoogleMaterial.Light.Bridge.TextField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_names_account_name_hint" style="@style/SudGmailTextInputLayoutBottomMargin">
+        <android.support.design.textfield.TextInputEditText android:id="@id/account_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords|textNoSuggestions" style="@style/AccountSetupTextInputEditText" />
+    </android.support.design.textfield.TextInputLayout>
+    <android.support.design.textfield.TextInputLayout android:theme="@style/Theme.GoogleMaterial.Light.Bridge.TextField" android:id="@id/display_name_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/account_setup_names_user_name_hint" style="@style/MarginCompensationEditText">
+        <android.support.design.textfield.TextInputEditText android:id="@id/display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPersonName" style="@style/AccountSetupTextInputEditText" />
+    </android.support.design.textfield.TextInputLayout>
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_names_user_name_label" style="@style/AccountSetupText.Info.NameDescription" />
+</LinearLayout>

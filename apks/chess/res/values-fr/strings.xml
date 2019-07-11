@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">"Revenir à l'accueil"</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">"Plus d'options"</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="common_google_play_services_enable_button">Activer</string>
+    <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
+    <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string name="common_google_play_services_install_button">Installer les services Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre téléphone.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre tablette.</string>
+    <string name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Si le problème persiste, veuillez contacter le développeur pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s dépend des services Google Play, qui ne sont pas compatibles avec votre appareil. Veuillez contacter le fabricant pour obtenir de l'aide."</string>
+    <string name="common_google_play_services_unsupported_title">Services Google Play</string>
+    <string name="common_google_play_services_update_button">Mettre à jour</string>
+    <string name="common_google_play_services_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
+    <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_updating_title">Mise à jour des services Google Play</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="abandon">"Abandonner
+la partie"</string>
+    <string name="accept">Accepter</string>
+    <string name="accept_resign">Accepter abandon</string>
+    <string name="achievements">Résultats</string>
+    <string name="advanced">Avancé:</string>
+    <string name="already_offered_draw">Vous avez déjà fait une offre durant ce tour et elle a été refusée.</string>
+    <string name="also_available">Également disponible...</string>
+    <string name="analyse">Analyse</string>
+    <string name="analyse_help">"\"Analyse\" effectue une recherche beaucoup plus poussée qu'une simple astuce, et affiche également les coups envisagés par l'UC pendant son temps de réflexion."</string>
+    <string name="app_name_free">Échecs Free</string>
+    <string name="app_name_paid">Échecs</string>
+    <string name="back">RETOUR</string>
+    <string name="board_selection">Échiquier:</string>
+    <string name="cancel">Annuler</string>
+    <string name="castling_body">"Le dernier coup joué par l'UC s'appelle le \"Roque\". Pour en savoir plus, veuillez lire les règles du jeu."</string>
+    <string name="castling_title">Roque</string>
+    <string name="casual_body">"Vous avez choisi l'option \"Amateur\".Ce mode donne accès à la reprise de coup, astuce, analyse, tuteur, désavantage des blancs, \"Afficher le temps de réflexion UC\" et \"Afficher les pièces en danger\" afin d'améliorer votre jeu."</string>
+    <string name="casual_only">Mode amateur seul:</string>
+    <string name="casual_only2">(Mode amateur seul)</string>
+    <string name="check">Échec!</string>
+    <string name="check_mate">Échec et mat!</string>
+    <string name="checkbox_aids">Afficher les derniers coups permis</string>
+    <string name="checkbox_confirm">Confirmer Coup (Pro)</string>
+    <string name="checkbox_coords">Afficher les coordonnées</string>
+    <string name="checkbox_cpu_offers">"Autoriser l'abandon/la partie nulle de l'UC"</string>
+    <string name="checkbox_cpu_offers_explain">"Si activée, autorise l'UC à proposer un abandon ou une partie nulle."</string>
+    <string name="checkbox_expanded">Notation descript. des coups</string>
+    <string name="checkbox_flip">"Retourner l'échiquier joueur contre joueur"</string>
+    <string name="checkbox_hidegpg">Masquer \"Google Play Jeux\"</string>
+    <string name="checkbox_hideundo">Masquer le bouton \"Annuler\"</string>
+    <string name="checkbox_infobar">"Masquer la barre d'état"</string>
+    <string name="checkbox_replace_hint">Remplacer Astuce avec Analyse</string>
+    <string name="checkbox_screenalwayson">Écran Toujours allumé</string>
+    <string name="checkbox_sfx">Son activé</string>
+    <string name="checkbox_thinking">"Afficher le temps
+de réflexion UC"</string>
+    <string name="checkbox_threat">Afficher les pièces en danger</string>
+    <string name="checkbox_timer">Toujours afficher les minuteurs</string>
+    <string name="checkbox_transitions">"Transitions d'écran"</string>
+    <string name="chess_program"><b>"NOTRE PROGRAMME d'échecs :"</b>"
+
+Notre programme d'échecs a été développé à partir de notre moteur d'échecs Treebeard (plus d'informations ici : http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm) et dont des licences ont été accordées pour une utilisation avec les produits Microsoft. Ce moteur d'échecs utilise des techniques non présentes dans la majorité des autres programmes d'échecs. Il permet de jouer des parties plus réalistes. Contrairement à des programmes classiques, le nôtre ne cherche pas parmi des millions de positions, mais utilise une recherche basée sur les probabilités pour examiner moins de positions en plus de détail. Ce programme partage sa technologie avec le programme d'échecs japonais \"Shotest\", classé deux fois 3e au niveau mondial.
+
+"</string>
+    <string name="confirm">Confirmer</string>
+    <string name="continue_message">Continuer...</string>
+    <string name="corrupt_file">Malheureusement, le fichier de la partie est endommagé. Une nouvelle partie a été démarrée.</string>
+    <string name="cpu">Votre adversaire</string>
+    <string name="cpu_1">UC (1)</string>
+    <string name="cpu_10">UC (10)</string>
+    <string name="cpu_11">UC (11)</string>
+    <string name="cpu_12">UC (12)</string>
+    <string name="cpu_2">UC (2)</string>
+    <string name="cpu_3">UC (3)</string>
+    <string name="cpu_4">UC (4)</string>
+    <string name="cpu_5">UC (5)</string>
+    <string name="cpu_6">UC (6)</string>
+    <string name="cpu_7">UC (7)</string>
+    <string name="cpu_8">UC (8)</string>
+    <string name="cpu_9">UC (9)</string>
+    <string name="cpu_p">UC P</string>
+    <string name="cpu_short">UC</string>
+    <string name="crosspromBackgammon">Le jeu de réflexion, de stratégie et de chance par excellence</string>
+    <string name="crosspromMoveit">Nouveau type de puzzle en blocs élégant et original. À télécharger absolument!</string>
+    <string name="decline">Refuser</string>
+    <string name="decline_resign">Continuer à jouer</string>
+    <string name="delete">Effacer</string>
+    <string name="delete_question">Voulez-vous vraiment supprimer cette partie enregistrée?</string>
+    <string name="difficulty">"Difficulté
+(P,1→12) :"</string>
+    <string name="dont_show_again">"Ne plus
+afficher"</string>
+    <string name="dontshowagain">Ne plus afficher</string>
+    <string name="download_now">Télécharger maintenant</string>
+    <string name="draw">Partie nulle!</string>
+    <string name="draw_50move">(50 coups joués sans prise ou sans mouvement de pion)</string>
+    <string name="draw_agreed">Partie nulle acceptée !</string>
+    <string name="draw_agreed_">Joueurs ont accepté la partie nulle</string>
+    <string name="draw_lackofpieces">(Victoire impossible avec les pièces restantes)</string>
+    <string name="draw_offered">Acceptez-vous la partie nulle ?</string>
+    <string name="draw_offered_p1">Le joueur 1 propose une partie nulle. Acceptez-vous ?</string>
+    <string name="draw_offered_p2">Le joueur 2 propose une partie nulle. Acceptez-vous ?</string>
+    <string name="draw_rejected">Je souhaite encore continuer à jouer.</string>
+    <string name="draw_rejected_first">Je souhaite continuer à jouer.</string>
+    <string name="draw_rejected_p1">Le joueur 1 souhaite continuer à jouer.</string>
+    <string name="draw_rejected_p2">Le joueur 2 souhaite continuer à jouer.</string>
+    <string name="draw_repeated">(Mouvements répétés)</string>
+    <string name="draw_stalemate">"(Le joueur actuel n'a pas de coup jouable et n'estpas en échec)"</string>
+    <string name="elo_help"><b>Système de classement ELO :</b>"
+
+Lors de la partie en mode \"Pro\", vous bénéficiez de votre Propre classement ELO après avoir joué 5 parties. Ce classement se base sur la version FIDE du classement ELO, et l'indice qu'il apporte dans l'application est approprié. Chaque niveau de difficulté de l'UC au sein de la partie dispose d'un classement vérifié. Nous avons réglé le niveau UC 12 sur le niveau FIDE ELO 2100 (mais il peut être plus élevé), avec un niveau 1 à 750.
+
+Cependant, cela ne correspond pas exactement au système ELO utilisé dans le cadre de tournois entre personnes réelles pour les raisons suivantes : 
+
+1.Le système ELO de la FIDE et l'USCF évaluent généralement les classements ELO à partir d'évènements minutés limités, alors que Chess Free Propose une limitation moins stricte, permettant à l'utilisateur de prendre le temps qu'il veut. Le classement dont vous bénéficiez peut donc être potentiellement plus élevé qu'un classement de tournoi entre personnes réelles.
+
+2. Le classement ELO par ordinateur ne correspond pas toujours à celui d'un tournoi entre personnes réelles; il est possible que certains joueurs trouvent un Programme plus difficile qu'il prétend l'être, tandis que d'autres joueurs peuvent le trouver beaucoup plus facile. Cela est lié au type d'ordinateur. Les personnes jouant souvent sur des Programmes d'échecs vont trouver des invraisemblances dans l'IA qu'ils vont pouvoir exploiter afin d'obtenir de meilleurs résultats. 
+
+3. Les échelles FIDE et USCF, ainsi que toute autre échelle ELO, varient dans leur codification, de sorte que, par exemple, l'USCF peut fluctuer de 100 points ELO par rapport au système de la FIDE.
+
+4. Des variations en termes de force sont constatées en fonction des appareils. Pour les niveaux inférieurs, ils sont les mêmes sur n'importe quel appareil, alors qu'un appareil plus puissant aura un meilleur jeu dans les niveaux supérieurs, sur quelques coups.
+
+ Ce système ELO s'appuie précisément sur les variations de classement ELO FIDE au sein de l'application même, de sorte que vous pouvez suivre l'évolution relative de votre force. De cette façon, vous serez en mesure de Progresser en tant que joueur et d'avoir une meilleure idée de votre évolution.
+
+(Remarque : le système de notation du mode \"Amateur\" ne correspond pas au classement ELO mais à un simple système de notation cumulée basé sur vos résultats, par rapport à tous les niveaux.)"</string>
+    <string name="enpassant_body">"Le dernier coup joué par l'UC s'appelle la \"Prise en passant\". Pour en savoir plus, veuillez lire les règles du jeu."</string>
+    <string name="enpassant_title">Prise en passant</string>
+    <string name="export_pgn">Exporter PGN...</string>
+    <string name="export_pgn2">Exporter PGN</string>
+    <string name="exportpgn_text">Entrez le nom de ce fichier PGN:</string>
+    <string name="exportpgn_text2">(le fichier PGN sera copié dans le presse-papier)</string>
+    <string name="finish_game">Finir la partie</string>
+    <string name="gameTimer">Minuteur:</string>
+    <string name="game_in_progress">Partie en cours...</string>
+    <string name="game_over">Partie terminée!</string>
+    <string name="game_timer">"Minuteur de
+partie (en min):"</string>
+    <string name="games_by_third_party">Jeu recommandé par nos partenaires:</string>
+    <string name="google1">Connectez-vous via Google et partagez votre évolution et vos résultats avec vos amis</string>
+    <string name="google2">Vous êtes connecté via Google</string>
+    <string name="handicap">"Désavantage
+des blancs:"</string>
+    <string name="handicap_help">Vous avez activé la fonction désavantage des blancs. La pièce choisie est alors retirée du camp des blancs, offrant ainsi un avantage aux noirs.</string>
+    <string name="handicap_short">Désavantage blancs:</string>
+    <string name="help1">RÈGLES DU JEU</string>
+    <string name="help2">"Le jeu d'échecs oppose deux joueurs qui déplacent à tour de rôle leurs pièces, les noirs et les blancs respectivement. Les pièces sont déplacées sur des cases vides ou occupées par les pièces de l'adversaire (qui sont alors capturées et soustraites de l'échiquier). L'objectif final du jeu est de mettre son adversaire échec et mat. Pour y parvenir, il faut déplacer les pièces stratégiquement afin de contrôler l'espace, de prendre les pièces de l'adversaire et de renforcer l'attaque finale.
+
+Traditionnellement, les pièces du jeu d'échecs représentent des personnages de la société médiévale. Les sections suivantes expliquent comment déplacer les pièces."</string>
+    <string name="help3">"Les huit pions représentent les ouvriers ou les soldats. Ils avancent en ligne droite, une case à la fois. En début de partie, le pion peut éventuellement avancer de deux cases. Ces déplacements vers l'avant ne peuvent pas être des prises. Les pions capturent des pièces en diagonale, mais ne peuvent pas se déplacer dans ce sens. Quand un pion atteint la rangée opposée de l'échiquier, il peut être échangé contre une autre pièce de sa couleur, à l'exception du roi évidemment. Ce coup s'appelle la \"promotion\". En principe, un pion est échangé contre la reine.
+
+Le pion jouit d'un coup supplémentaire appelée \"prise en passant\". Avec ce coup, un pion qui s'est déplacé de deux cases peut être immédiatement capturé par un pion attaquant si ce dernier se trouve à côté du pion adverse une fois le déplacement effectué (sur la 5e rangée). En pratique, cela signifie que l'adversaire peut jouer la prise normale qui aurait été possible si le pion avait avancé d'une case seulement. Sur l'échiquier, la prise en passant déplace le pion attaquant derrière le pion adverse qui s'est déplacé de deux cases, et le soustrait de l'échiquier."</string>
+    <string name="help4">"Les déplacements du cavalier sont très inhabituels : il ne bouge pas en ligne droite, mais dans un mouvement double où il se déplace d'une case en ligne droite, puis d'une case en diagonale. Ce coup en L peut se faire dans n'importe quelle direction, ce qui laisse 8 possibilités lorsque le cavalier se trouve près du centre de l'échiquier. Comme un vrai cheval, le cavalier peut sauter par dessus les pièces de la même couleur ou de la couleur opposée. Si le cavalier se déplace depuis un carré blanc, il atterrit sur un carré noir."</string>
+    <string name="help5">"Le fou peut se déplacer d'autant de cases souhaitées dans la diagonale. Par contre, elle ne peut pas sauter par dessus des pièces comme le cavalier le fait."</string>
+    <string name="help6">"La tour peut se déplacer d'autant de cases souhaitées à l'horizontale ou à la verticale. Par contre, elle ne peut pas sauter par dessus des pièces comme le cavalier le fait."</string>
+    <string name="help7">"La reine peut se déplacer à l'horizontale, à la verticale ou dans la diagonale d'autant de cases souhaitées tant qu'elle n'est pas bloquée. Elle peut donc combiner les déplacements de la tour et du fou. La reine est une pièce stratégique, souvent au centre des attaques."</string>
+    <string name="help8">"Le roi est la principale cible des attaques de votre adversaire. Une fois qu'il est échec et mat, la partie est terminée! Il peut se déplacer dans les huit directions possibles (horizontale, verticale et diagonale), mais une seule case à la fois. Un coup spécial est réservé au roi : le roque. Il lui permet de se déplacer de deux cases vers la gauche ou la droite en permutant avec la tour qui se retrouve alors dans la case située de l'autre côté du roi."</string>
+    <string name="help9">"Ce mouvement n'est possible que si le roi et la tour n'ont pas encore bougé, qu'aucune des cases entre eux n'est bloquée, que le roi n'est pas en échec et qu'aucune des cases que le roi traverse n'est attaquée par des pièces adverses. Le roi doit être protégé, mais peut également s'imposer comme une pièce d'attaque puissante. En fin de partie, c'est une pièce attaquante majeure contre les pions adverses. Dans les coups de mat simples, il fait partie de la stratégie d'attaque.
+
+Lorsque le roi est visé directement par une pièce adverse, on dit qu'il est en \"échec\". Si le roi est échec, il doit être immédiatement défendu.
+
+Il y a trois façons de parer à l'échec :
+
+1. Le roi peut se déplacer d'une case qui n'est pas ciblée par une pièce adverse.
+
+2 La pièce qui met le roi en échec peut être soustraite.
+
+3 Une pièce peut être intercalée ente le roi et la pièce adverse pour parer l'échec.
+
+Si l'échec au roi est imparable, on dit du roi qu'il est \"échec et mat\", et la partie est terminée."</string>
+    <string name="helpmain1">COMMENT JOUER</string>
+    <string name="helpmain2">"(Faire défiler pour accéder aux règles du jeu d'échecs)
+
+Avant de commencer une partie, vous accédez à l'écran Paramètres de la partie. Dans cet écran, vous pouvez choisir de jouer avec les blancs ou les noirs (ou d'alterner à chaque partie), la difficulté du jeu (1 pour les débutants jusqu'à 12 pour les experts), le désavantage des blancs (un blanc soustrait pour avantager les noirs) et les paramètres de minuterie de la partie.
+
+La minuterie a deux paramètres :
+
+MINUTEUR DE PARTIE détermine la durée initiale accordée à chaque joueur avant la partie. Il compte à rebours alors que le joueur réfléchit à un coup. Le joueur perd la partie si ce minuteur atteint zéro.
+
+MINUTEUR DE COUP est le temps bonus accordé à un joueur après qu'il a joué son coup.
+
+Une fois la partie démarrée, utilisez l'écran digital ou le pavé d-pad/joystick du téléphone pour sélectionner et déplacer des pièces. Pour déplacer une pièce, sélectionnez-la, puis sélectionnez une case permise sur laquelle la déplacer.
+
+Utilisez le bouton Annuler pour annuler autant de coups que vous le souhaitez.
+
+Les noms des joueurs, minuteurs, pièces capturées et notifications d'ÉCHEC s'affichent en haut et en bas de l'échiquier. Lorsque l'UC (unité centrale) réfléchit à un coup à jouer, une animation est exécutée en haut à droite. Plus la difficulté de la partie est élevée, plus la durée de réflexion augmente. Si les minuteurs sont activés, l'UC réduit le temps de réflexion conséquemment.
+
+Au cours de la partie, appuyez sur le bouton MENU du téléphone pour accéder à deux fonctions très utiles. ASTUCE indique à l'UC d'accéder à votre position en cours et de vous suggérer un coup. ANALYSE PARTIE vous fait accéder à un autre écran répertoriant tous les coups joués jusqu'à présent. Faites défiler la liste des coups joués et sélectionnez un coup pour accéder à ce moment de la partie. Utilisez les boutons de navigation sur la gauche pour parcourir les coups un à un ou accéder au début et à la fin de l'historique des coups.
+
+l'option ENREGISTRER ET QUITTER est toujours disponible sous le bouton MENU. Elle enregistre l'état de la partie et les modifications de paramètres effectués, puis quitte le jeu.
+
+ "<b>STATISTIQUES :</b>"
+
+Le jeu compte vos parties gagnées, perdues et nulles pour chaque niveau de difficulté. Vous accédez à ces informations depuis l'écran du menu de titre. Le classement affiché en bas à gauche de la page de statistiques est un classement cumulé calculé de toutes vos parties (ce n'est pas un classement ELO). Les pourcentages de parties gagnées comptabilisent un point par partie gagnée et 0,5 point par partie perdue. Sachez que les parties avec désavantage ne sont pas comptées dans ces statistiques ;
+
+"<b>"NOTRE PROGRAMME d'échecs :"</b>"
+
+Notre programme d'échecs a été développé à partir de notre moteur d'échecs Treebeard (plus d'informations ici : http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm) et dont des licences ont été accordées pour une utilisation avec les produits Microsoft. Ce moteur d'échecs utilise des techniques non présentes dans la majorité des autres programmes d'échecs. Il permet de jouer des parties plus réalistes. Contrairement à des programmes classiques, le nôtre ne cherche pas parmi des millions de positions, mais utilise une recherche basée sur les probabilités pour examiner moins de positions en plus de détail. Ce programme partage sa technologie avec le programme d'échecs japonais \"Shotest\", classé deux fois 3e au niveau mondial.
+
+"<b>HEYZAP :</b>"
+
+Ce jeu prend désormais en charge le réseau de jeux Heyzap qui vous permet de vous connecter à twitter et à facebook lorsque vous gagnez une partie. Heyzap vous permet de voir les jeux auxquels jouent vos amis, de journaliser vos résultats (insignes) et de partager des conseils.
+
+"</string>
+    <string name="hint">Astuce</string>
+    <string name="leaderboards">Classements</string>
+    <string name="leaving_game">"Vous êtes sur le point de quitter la partie et de perdre tous les coups non enregistrés.
+
+Pour d'abord enregistrer ou exporter un fichier PGN, appuyez sur Annuler et accédez au menu."</string>
+    <string name="load">Charger</string>
+    <string name="loadgame_title">Charger le jeu</string>
+    <string name="loadsavedgame">Charger</string>
+    <string name="log_as_draw">"Déclarer
+la partie nulle"</string>
+    <string name="mail_body">"Essayez cet excellent jeu d'échecs gratuit !
+
+http://market.android.com/details?id=uk.co.aifactory.chessfree
+"</string>
+    <string name="mail_body_no_link">"Découvrez le jeu Android \"Chess Free\" d'AI Factory Limited !"</string>
+    <string name="mail_prompt">Sélectionnez une application:</string>
+    <string name="mail_subject">Essayez ce jeu Android!</string>
+    <string name="main_menu">Menu principal</string>
+    <string name="main_menu_2">Menu principal</string>
+    <string name="match_settings">PARAMÈTRES DE LA PARTIE</string>
+    <string name="menu_button_end_of_game">→</string>
+    <string name="menu_text">Menu</string>
+    <string name="menu_text_large">MENU</string>
+    <string name="more">Plus</string>
+    <string name="more_games">Plus de jeux</string>
+    <string name="move_timer">"Minuteur de
+coup (en s):"</string>
+    <string name="new_feature">Nouvelle fonctionnalité!</string>
+    <string name="new_feature_1">"Nouvelle fonctionnalité:
+
+Vous pouvez désormais indiquer comment afficher les pièces sur l'échiquier durant les parties à deux joueurs. Quatre modes différents sont disponibles dans les options.
+"</string>
+    <string name="new_game">Nouvelle partie</string>
+    <string name="no">Non</string>
+    <string name="noTimers">Pas de minuteurs</string>
+    <string name="nosavedgames">Pas de partie enregistrée trouvée...</string>
+    <string name="nothanks">Non merci</string>
+    <string name="off">Désactivé</string>
+    <string name="offer_draw">Proposer partie nulle</string>
+    <string name="ok">OK</string>
+    <string name="on">Activé</string>
+    <string name="overwrite">"Voulez-vous écraser le fichier existant:
+"</string>
+    <string name="piece_selection">Pièce:</string>
+    <string name="piecesindanger_help">"\"Afficher les pièces en danger\" marque en rouge les pièces pouvant facilement être récupérées par l'adversaire. Vous apprenez ainsi à éviter les erreurs."</string>
+    <string name="play">JOUER!</string>
+    <string name="play_again">Rejouer</string>
+    <string name="play_as">Jouer en tant que:</string>
+    <string name="play_mode">Mode jeu :</string>
+    <string name="play_to">Jouer avec:</string>
+    <string name="player">Vous</string>
+    <string name="player1">Joueur 1</string>
+    <string name="player1_resigns">Le joueur 1 a abandonné</string>
+    <string name="player1_wins">"Le joueur 1 l'emporte !"</string>
+    <string name="player2">Joueur 2</string>
+    <string name="player2_resigns">Le joueur 2 a abandonné</string>
+    <string name="player2_wins">"Le joueur 2 l'emporte !"</string>
+    <string name="practice_help">.</string>
+    <string name="pro_body">"Vous avez choisi l'option \"Pro\" : aucune aide de jeu n'est accessible, l'abandon d'une partie vaut pour perte et les statistiques sont enregistrées séparément."</string>
+    <string name="promote">"Sélectionnez une pièce d'échange pour la promotion:"</string>
+    <string name="proswitch_body">"Vous êtes actuellement en mode \"Pro\", dans lequel les aides au jeu sont désactivées (comme l'option annuler). Les parties Pro sont enregistrées séparément dans les statistiques et ne peuvent pas être abandonnées."</string>
+    <string name="rate">Note</string>
+    <string name="rate_body">"Vous aimez Chess Free?
+Merci de donner votre avis."</string>
+    <string name="rating_casual_help">"En mode Amateur, le résultat est cumulé : il se base sur votre performance par rapport à l'ensemble des niveaux de difficulté."</string>
+    <string name="rating_pro_help">En mode Pro, votre classement suit le classement ELO, basé sur le système FIDE (après avoir joué 5 parties Pro). Il peut diverger du classement FIDE utilisé pour les joueurs humains. Veuillez vous référer à la fin des \"Règles des échecs\" pour une description complète.</string>
+    <string name="recommend">"Recommander
+à un ami"</string>
+    <string name="recommend_warning">"Vous allez temporairement quitter la partie pour recommander le jeu par e-mail avec l'application de messagerie de votre choix."</string>
+    <string name="recordgame">Enregistrer la partie</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="reset_question">Voulez-vous vraiment réinitialiser vos statistiques?</string>
+    <string name="reset_question_gpg">Voulez-vous vraiment réinitialiser toutes vos statistiques? Les statistiques dans le cloud seront aussi réinitialisées et votre évolution dans le classement supprimée si vous utilisez des fonctions \"Google Play Jeux\".</string>
+    <string name="resign">abandon</string>
+    <string name="resign_cap">Abandonner</string>
+    <string name="resign_confirm">Voulez-vous vraiment abandonner cette partie?</string>
+    <string name="resign_match">"Annuler
+la partie"</string>
+    <string name="resign_offered">Je souhaite abandonner. Voulez-vous continuer la partie ?</string>
+    <string name="resigns">abandons</string>
+    <string name="review_game">Analyse partie</string>
+    <string name="review_help">À partir de cet écran, vous pouvez évaluer la partie en cours, du début à la fin. Cliquer sur un coup dans la liste vous amènera à ce moment de la partie (vous pouvez aussi utiliser les flèches pour naviguer).</string>
+    <string name="rules">RÈGLES DU JEU</string>
+    <string name="rules_of_chess">"Règles
+des échecs"</string>
+    <string name="rules_of_chess2">Règles des échecs</string>
+    <string name="save">Save</string>
+    <string name="save_and_quit">Enregistrer et quitter</string>
+    <string name="save_pgn_success1">"enregistrée dans le stockage externe, dossier:
+
+"</string>
+    <string name="save_pgn_success2">"
+
+PGN également copiée dans le presse-papier ..."</string>
+    <string name="save_success">"Partie correctement enregistrée ...
+
+Vous pouvez la télécharger depuis le Menu principal."</string>
+    <string name="saveas">Enregistrer la partie...</string>
+    <string name="saveas_text">Entrez le nom de la partie enregistrée:</string>
+    <string name="screen_warning">"** AVERTISSEMENT **
+
+l'écran est paramétré sur \"Toujours allumé\" dans cette partie.
+
+l'utilisation de la batterie risque d'être plus importante"</string>
+    <string name="sd_load_fail">"Échec de l'enregistrement sur un stockage externe. Si vous disposez d'une carte SD, vérifiez qu'elle n'est pas montée pour une utilisation sur un ordinateur."</string>
+    <string name="selectagame">Sélectionnez une partie ci-dessus...</string>
+    <string name="settings">Options</string>
+    <string name="settings1">OPTIONS DE JEU</string>
+    <string name="sfx_off">Son désactivé</string>
+    <string name="showcputhinking_help">"\"Afficher le temps de réflexion UC\" montre le coup que l'UC considère comme étant le meilleur au moment de sa réflexion. Vous pouvez ainsi connaître l'analyse de l'UC sur le placement actuel."</string>
+    <string name="signin_body">Vous devez vous connecter via Google pour cette option. Une fois connecté, partagez votre évolution et vos résultats avec vos amis!</string>
+    <string name="signout">"Se déconnecter
+Google"</string>
+    <string name="single_player">Un seul joueur</string>
+    <string name="skip">Ignorer</string>
+    <string name="splat_confirm">Voulez-vous vraiment quitter cette partie? Vous perdrez le déroulement de la partie.</string>
+    <string name="stale_mate">Impasse ...</string>
+    <string name="start">JOUER</string>
+    <string name="stats">Statistiques</string>
+    <string name="stats_already_logged">Des statistiques ont déjà été enregistrées pour cette partie : cette partie ne sera donc pas prise en compte dans vos statistiques.</string>
+    <string name="stats_col1">Difficulté</string>
+    <string name="stats_col2">Gagnées</string>
+    <string name="stats_col3">Nulles</string>
+    <string name="stats_col4">Perdues</string>
+    <string name="stats_col5">%Gagnées</string>
+    <string name="stats_title">Statistiques contre le CPU</string>
+    <string name="swap_sides">Changer de côté</string>
+    <string name="swap_sides_confirm">Êtes-vous sûr de vouloir changer de côté ? Vous prendrez le contrôle des pions de votre adversaire et il contrôlera les vôtres mais les positions des pions ne changeront pas.</string>
+    <string name="swap_sides_result">Les stats ne seront pas enregistrées pour la partie et ne compteront pas pour les résultats et classements.</string>
+    <string name="switch_casual">"Basculer en mode 
+\"Amateur\""</string>
+    <string name="tap_for_more_info">Touchez le jeu pour le télécharger gratuitement!</string>
+    <string name="tap_to_continue">"Toucher l'échiquier pour continuer..."</string>
+    <string name="timer_expired">Minuterie expirée!</string>
+    <string name="timer_help">\"Minuteur de partie\" correspond au temps total dont vous disposez pour effectuer tous vos coups \"Minuteur de coup\" offre un temps bonus après chaque coup que vous exécutez.</string>
+    <string name="timers_active">Minuteurs actifs:</string>
+    <string name="title1">Sélectionnez une option pour démarrer:</string>
+    <string name="tried">Avez-vous essayé ce jeu?</string>
+    <string name="tutor">Tuteur:</string>
+    <string name="tutor_body">Le tuteur vous vient en aide en conseillant les pièces à déplacer. Il vous guide en expliquant comment jouer un coup et vous évite de faire des erreurs. Une autre pièce que celle conseillée peut être jouée.</string>
+    <string name="tutor_level_0">"Niveau:
+Auto-"</string>
+    <string name="tutor_level_1">"Niveau:
+1/8"</string>
+    <string name="tutor_level_2">"Niveau:
+2/8"</string>
+    <string name="tutor_level_3">"Niveau:
+3/8"</string>
+    <string name="tutor_level_4">"Niveau:
+4/8"</string>
+    <string name="tutor_level_5">"Niveau:
+5/8"</string>
+    <string name="tutor_level_6">"Niveau:
+6/8"</string>
+    <string name="tutor_level_7">"Niveau:
+7/8"</string>
+    <string name="tutor_level_8">"Niveau:
+8/8"</string>
+    <string name="tutor_title">Mode tuteur</string>
+    <string name="tutorlevel_help">"Le niveau du tuteur détermine la durée de réflexion du tuteur, donc la force de ses coups. \"Auto\" choisit un niveau basé sur la difficulté de l'UC contre laquelle vous jouez."</string>
+    <string name="two_player">Deux joueurs</string>
+    <string name="twoplayermode">Mode deux joueurs:</string>
+    <string name="twoplayerpieces_help">"Cette option vous permet de choisir l'affichage des pièces dans une partie à deux joueurs."</string>
+    <string name="undo_hint">"Conseil
+
+Utilisez le bouton Annuler pour désélectionner une pièce choisie et pour reculer dans la partie."</string>
+    <string name="undo_last_move">Annuler le dernier coup</string>
+    <string name="undo_text">Undo</string>
+    <string name="upgrade">Mettre à jour Chess</string>
+    <string name="user_offer_draw_confirm">Êtes-vous sûr de vouloir proposer une partie nulle à votre adversaire ?</string>
+    <string name="view_all">"Voir tous
+les jeux"</string>
+    <string name="view_board">"Voir l'échiquier"</string>
+    <string name="vsCPU">contre niveau UC</string>
+    <string name="vsPlayer">Deux joueurs</string>
+    <string name="win">partie gagnée!</string>
+    <string name="win_rate">% Gagnées:</string>
+    <string name="wins">parties gagnées!</string>
+    <string name="yes">OUI</string>
+    <string name="you_resign">Vous avez abandonné</string>
+    <string name="you_win">Vous avez gagné !</string>
+    <string name="you_win_short">Vous avez gagné !</string>
+    <string name="your_elo">Classement ELO:</string>
+    <string name="your_opponent_resigns">Votre adversaire a abandonné</string>
+    <string name="your_opponent_resigns_short">"Abandon de l'adversaire"</string>
+    <string name="your_opponent_wins">Votre adversaire a gagné !</string>
+    <string name="your_rating">Classement:</string>
+    <string name="your_score">Votre résultat:</string>
+</resources>

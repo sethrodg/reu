@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/google_logo" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/account_menu_close_button_size" android:layout_marginRight="@dimen/account_menu_close_button_size" android:contentDescription="@null" android:importantForAccessibility="no" />
+    <include layout="@layout/account_menu_choose_an_account_standalone" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/tasks_list_section_checkbox_padding" android:top="@dimen/tasks_list_section_checkbox_padding" android:right="@dimen/tasks_list_section_checkbox_padding" android:bottom="@dimen/tasks_list_section_checkbox_padding">
+        <selector>
+            <item android:state_checked="true" android:drawable="@drawable/quantum_gm_ic_done_vd_theme_24" />
+            <item android:state_checked="false" android:drawable="@drawable/quantum_gm_ic_radio_button_unchecked_vd_theme_24" />
+        </selector>
+    </item>
+</layer-list>

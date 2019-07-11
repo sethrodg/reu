@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ir a la pantalla de inicio</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Listo</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="common_google_play_services_enable_button">Habilitar</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionará hasta que no habilites Servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilita Servicios de Google Play</string>
+    <string name="common_google_play_services_install_button">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_install_text_phone">%1$s no se ejecutará si Servicios de Google Play no está instalado en tu teléfono.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s no se ejecutará si Servicios de Google Play no está instalado en tu tablet.</string>
+    <string name="common_google_play_services_install_title">Descargar Servicios de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Servicios de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tiene problemas conServicios de Google Play. Si el problema persiste, ponte en contacto con el desarrollador para obtener ayuda.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s se basa en Servicios de Google Play, pero no es compatible con tu dispositivo. Ponte en contacto con el fabricante para obtener asistencia.</string>
+    <string name="common_google_play_services_unsupported_title">Servicios de Google Play</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s no funcionará hasta que no actualicesServicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualiza Servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará hasta que finalice la actualización en curso de Servicios de Google Play.</string>
+    <string name="common_google_play_services_updating_title">Actualizando Servicios de Google Play</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de Servicios de Google Play. Se actualizará en breve.</string>
+    <string name="common_open_on_phone">Abrir en teléfono</string>
+    <string name="common_signin_button_text">Iniciar sesión</string>
+    <string name="common_signin_button_text_long">Iniciar sesión con Google</string>
+    <string name="abandon">"Retirarse
+de la partida"</string>
+    <string name="accept">Aceptar</string>
+    <string name="accept_resign">Aceptar abandonar</string>
+    <string name="achievements">Logros</string>
+    <string name="advanced">Avanzado:</string>
+    <string name="already_offered_draw">Ya has presentado una oferta durante este turno y ha sido rechazada.</string>
+    <string name="also_available">También disponible...</string>
+    <string name="analyse">Análisis</string>
+    <string name="analyse_help">\"Análisis\" hace búsquedas más exhaustivas que una sugerencia normal y muestra los movimientos conforme los piensa.</string>
+    <string name="app_name_free">Ajedrez Free</string>
+    <string name="app_name_paid">Ajedrez</string>
+    <string name="back">ATRÁS</string>
+    <string name="board_selection">Tablero:</string>
+    <string name="cancel">Cancelar</string>
+    <string name="castling_body">El último movimiento que hizo la máquina se llama \"Enroque\". Consulta la sección de reglas para informarte al respecto.</string>
+    <string name="castling_title">\"Enroque\"</string>
+    <string name="casual_body">Has seleccionado \"Casual\". Este modo te da acceso a Deshacer, Sugerencia, Tutor, Desventaja blanca, \"Indica que la máquina está pensando\" y \"Mostrar piezas en peligro\" para ayudarte a mejorar la partida.</string>
+    <string name="casual_only">Solo modo casual:</string>
+    <string name="casual_only2">(Solo modo casual)</string>
+    <string name="check">¡Jaque!</string>
+    <string name="check_mate">¡Jaque mate!</string>
+    <string name="checkbox_aids">Mostrar los últimos movimientos y los movimientos permitidos</string>
+    <string name="checkbox_confirm">Confirmar movimiento (Pro)</string>
+    <string name="checkbox_coords">Mostrar coordenadas</string>
+    <string name="checkbox_cpu_offers">Permitir a la máquina abandonar/hacer tablas</string>
+    <string name="checkbox_cpu_offers_explain">Si se selecciona esta opción, la máquina podrá ofrecer abandonar la partida o acordar tablas.</string>
+    <string name="checkbox_expanded">Notación expandida</string>
+    <string name="checkbox_flip">Girar tablero de jugador contra jugador</string>
+    <string name="checkbox_hidegpg">Ocultar \"Google Play Games\"</string>
+    <string name="checkbox_hideundo">Ocultar botón \"Deshacer\"</string>
+    <string name="checkbox_infobar">Ocultar barra de estado</string>
+    <string name="checkbox_replace_hint">Reemplace Sugerencia con Análisis</string>
+    <string name="checkbox_screenalwayson">Pantalla siempre activada</string>
+    <string name="checkbox_sfx">Sonido activado</string>
+    <string name="checkbox_thinking">"Indica que la máquina
+está pensando"</string>
+    <string name="checkbox_threat">Ver piezas en peligro</string>
+    <string name="checkbox_timer">Mostrar siempre los tiempos</string>
+    <string name="checkbox_transitions">Transiciones de pantalla</string>
+    <string name="chess_program"><b>NUESTRO PROGRAMA DE AJEDREZ:</b>"
+
+Nuestro programa de ajedrez está basado en el motor de ajedrez de Treebeard, sobre el que puede informarse en http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm y cuyo uso ha sido autorizado mediante licencia para los productos de Microsoft. Este motor de ajedrez usa técnicas que no se encuentran en la mayoría de los programas de ajedrez, lo que te permite jugar con un estilo más humano. Al contrario que en los programas convencionales, no busca millones de posiciones, sino que realiza una búsqueda por probabilidades para examinar menos posiciones pero con más detalle. Este programa comparte tecnología con el programa de ajedrez japonés \"Shotest\", clasificado dos veces como el tercero del mundo.
+
+"</string>
+    <string name="confirm">Confirmar</string>
+    <string name="continue_message">Continuar</string>
+    <string name="corrupt_file">Desgraciadamente el archivo de la partida estaba dañado, así que se ha iniciado una nueva partida en su lugar.</string>
+    <string name="cpu">Tu oponente</string>
+    <string name="cpu_1">Cpu (1)</string>
+    <string name="cpu_10">Cpu (10)</string>
+    <string name="cpu_11">Cpu (11)</string>
+    <string name="cpu_12">Cpu (12)</string>
+    <string name="cpu_2">Cpu (2)</string>
+    <string name="cpu_3">Cpu (3)</string>
+    <string name="cpu_4">Cpu (4)</string>
+    <string name="cpu_5">Cpu (5)</string>
+    <string name="cpu_6">Cpu (6)</string>
+    <string name="cpu_7">Cpu (7)</string>
+    <string name="cpu_8">Cpu (8)</string>
+    <string name="cpu_9">Cpu (9)</string>
+    <string name="cpu_p">Cpu P</string>
+    <string name="cpu_short">Máquina</string>
+    <string name="crosspromBackgammon">El antiguo y siempre popular juego de habilidad, estrategia y suerte.</string>
+    <string name="crosspromMoveit">Un rompecabezas elegante, original y completamente nuevo = ¡Una descarga esencial!</string>
+    <string name="decline">Rechazar</string>
+    <string name="decline_resign">Seguir jugando</string>
+    <string name="delete">Borrar</string>
+    <string name="delete_question">¿Estás seguro de que quieres borrar la partida guardada?</string>
+    <string name="difficulty">"Dificultad
+(P,1→12) :"</string>
+    <string name="dont_show_again">No volver a mostrar</string>
+    <string name="dontshowagain">No volver a mostrar</string>
+    <string name="download_now">¡Descargar ahora!</string>
+    <string name="draw">¡Tablas!</string>
+    <string name="draw_50move">(50 movimientos sin captura ni movimiento de peón)</string>
+    <string name="draw_agreed">¡Se han acordado tablas!</string>
+    <string name="draw_agreed_">Los jugadores han acordado unas tablas</string>
+    <string name="draw_lackofpieces">(No es posible ganar con las piezas que quedan)</string>
+    <string name="draw_offered">¿Quieres acordar tablas?</string>
+    <string name="draw_offered_p1">El jugador 1 desea ofrecer tablas. ¿Estás de acuerdo?</string>
+    <string name="draw_offered_p2">El jugador 2 desea ofrecer tablas. ¿Estás de acuerdo?</string>
+    <string name="draw_rejected">Aún me gustaría seguir jugando un poco más.</string>
+    <string name="draw_rejected_first">Me gustaría seguir jugando un poco más.</string>
+    <string name="draw_rejected_p1">Al jugador 1 le gustaría seguir jugando.</string>
+    <string name="draw_rejected_p2">Al jugador 2 le gustaría seguir jugando.</string>
+    <string name="draw_repeated">(Movimientos repetidos)</string>
+    <string name="draw_stalemate">(El jugador actual no tiene ningún movimiento permitido y no estáen jaque)</string>
+    <string name="elo_help"><b>Sistema de puntuación ELO:</b>"
+
+Cuando el juego está en modo \"Pro\", te calcula una puntuación ELO tras jugar 5 partidas. Este cálculo se basa en la versión FIDE del sistema ELO y da una puntuación ELO adecuada en la aplicación. Todos los niveles de dificultad de la máquina tienen un sistema de puntuación probado. El nivel 12 de la máquina equivale al rango 2100 de ELO según la FIDE (pero podría ser mayor), y el nivel 1 equivale al 423.
+
+Sin embargo, esto no coincide exactamente con el sistema ELO empleado en los torneos físicos debido a las siguientes razones:
+
+1. El sistema ELO según la FIDE y la USCF normalmente calculan la puntuación ELO a partir de eventos cronometrados y controlados, pero Chess Free presenta un control más moderado que permite al usuario tomarse el tiempo que necesite. Por eso, puede que tu puntuación sea más alta que en un torneo físico.
+
+2. El sistema ELO electrónico no siempre coincide con el real, de modo que algunos jugadores pensarán que el programa es más fuerte de lo que se supone, mientras que otros creerán que es más débil. Esto se debe al estilo electrónico. Quienes juegan normalmente a programas de ajedrez encontrarán peculiaridades en el AI que pueden aprovechar para conseguir mejores resultados.
+
+3. La FIDE, la USCF y otros escalafones ELO tienen estándares distintos, de modo que, por ejemplo, la USCF puede diferenciarse de la FIDE en 100 puntos ELO.
+
+4. Habrá variaciones en la fuerza según el dispositivo. Para los niveles más bajos, esta será la misma en todos los dispositivos, pero ciertos movimientos de niveles superiores se jugarán mejor en dispositivos más rápidos.
+
+El sistema ELO sigue de forma precisa los cambios de puntuación ELO según la FIDE en la aplicación, así que podrás comprobar el cambio relativo de tu fuerza. Esto te permitirá mejorar como jugador y hacerte una idea de tu rendimiento.
+
+(Nota: El sitema de puntuación del modo \"Casual\" no es ELO, sino un sistema más simple que acumula puntos según tus resultados en todos los niveles)."</string>
+    <string name="enpassant_body">El último movimiento que hizo la máquina se llama \"toma al paso\" Consulta la sección de reglas para informarte al respecto.</string>
+    <string name="enpassant_title">\"Toma al paso\"</string>
+    <string name="export_pgn">Exportar a PGN</string>
+    <string name="export_pgn2">Exportar PGN</string>
+    <string name="exportpgn_text">Introduce un nombre para este PGN:</string>
+    <string name="exportpgn_text2">(el PGN también se copiará en el portapapeles)</string>
+    <string name="finish_game">Finalizar</string>
+    <string name="gameTimer">Cronómetro:</string>
+    <string name="game_in_progress">Partida en curso</string>
+    <string name="game_over">¡Fin de la partida!</string>
+    <string name="game_timer">"Tiempo de
+la partida (min):"</string>
+    <string name="games_by_third_party">Juego recomendado de nuestros socios:</string>
+    <string name="google1">Inicia sesión en Google para compartir tu progreso y logros con tus amigos</string>
+    <string name="google2">Has accedido a Google</string>
+    <string name="handicap">"Desventaja
+blanca:"</string>
+    <string name="handicap_help">Has activado una Desventaja blanca. Se retirará la pieza elegida del lado de las blancas para dar ventaja a las negras.</string>
+    <string name="handicap_short">Desv. blanca:</string>
+    <string name="help1">REGLAS DEL JUEGO</string>
+    <string name="help2">"El juego del ajedrez es una batalla entre dos jugadores que mueven sus piezas, blancas o negras, por turnos. Las piezas se mueven o bien a una casilla vacía, o bien a una casilla ocupada por una pieza del adversario, que en ese caso se captura y se retira del tablero. El objetivo final del juego es dar jaque mate al rey del contrincante para que no pueda escapar, pero para ello hay que aplicar unas meticulosas maniobras diseñadas para controlar el espacio y ganar piezas, y de este modo reforzar el ataque final.
+
+Tradicionalmente las piezas del ajedrez representan aspectos de la sociedad medieval. En las siguientes secciones se describe cómo se mueven las piezas."</string>
+    <string name="help3">"Los 8 peones simbolizan trabajadores o soldados. Se mueven hacia delante, una casilla cada vez. En su primer movimiento, el peón también puede opcionalmente moverse dos casillas hacia delante. Estos movimientos hacia delante no pueden ser movimientos de captura. Los peones capturan piezas con un movimiento diagonal hacia delante, pero salvo con este fin, no pueden moverse en diagonal. Cuando un peón alcanza el otro extremo del tablero, puede cambiarse por cualquier otra pieza de su mismo color, excepto el rey, por supuesto. Esto se llama \"coronar\". Normalmente, los peones se coronan como damas.
+
+Los peones tiene un movimiento adicional: la \"toma al paso\". En esta captura, un peón puede ser capturado por un peón del oponente inmediatamente después de haber realizado un movimiento doble, si al finalizar el movimiento queda en una casilla adyacente a la que se encuentra el peón del oponente (en la quinta fila). En la práctica esto significa que el oponente puede capturarlo como si el peón al paso hubiese avanzado solo una casilla, como se hace normalmente. En el tablero, la toma al paso se hace moviendo el peón que toma al otro detrás del peón que ha hecho un desplazamiento doble, y retirándolo luego."</string>
+    <string name="help4">El movimiento del caballo es excepcional: no se mueve en línea recta, sino que hace un movimiento doble, con un movimiento recto sencillo y un movimiento lateral sencillo. Este movimiento \"en forma de L\" puede hacerse en cualquier dirección, lo que da 8 movimientos posibles cuando el caballo se encuentra cerca del centro del tablero. Igual que los caballos reales, los caballos del ajedrez pueden saltar por encima de las demás piezas de ajedrez del mismo color o del color del contrincante. Si el caballo comienza su movimiento en una casilla blanca, lo finaliza en una negra.</string>
+    <string name="help5">El alfil puede moverse el número de casillas que desee en diagonal. No puede saltar otras piezas como el caballo.</string>
+    <string name="help6">La torre puede moverse el número de casillas que desee en horizontal o en vertical. No puede saltar otras piezas como el caballo.</string>
+    <string name="help7">La dama tiene la capacidad de moverse en sentido horizontal, vertical o diagonal cualquier número de casillas vacías siempre y cuando no se la bloquee. Por lo tanto, la dama combina el movimiento de la torre y el alfil. La dama es una pieza poderosa, y con frecuencia es muy importante en los ataques.</string>
+    <string name="help8">El rey es el principal objetivo de los ataques de tu oponente. ¡Cuando se le pone en jaque mate se acaba el juego! Puede moverse en las ocho direcciones diagonales y horizontales posibles, pero solo una casilla cada vez. El rey también tiene un movimiento de enroque especial, en el que puede moverse dos casillas a la izquierda o a la derecha, con la torre pasando por encima de él para ocupar la casilla al otro lado del rey.</string>
+    <string name="help9">"Esto solo puede hacerse si tanto el rey como la torre no se han movido previamente, ninguna de las casillas entre la torre y el rey están ocupadas, el rey no está en jaque, y ninguna de las casillas por las que pasa el rey está siendo atacada por piezas enemigas. El rey tiene que estar protegido, pero también puede convertirse en una poderosa pieza de ataque. En el final de la partida es una formidable pieza de ataque contra los peones enemigos. En los finales de partidas simples de mate, forma parte del ataque de mate.
+
+Cuando el rey está siendo atacado directamente por una pieza del oponente, decimos que el rey está en \"jaque\". Si el rey está en jaque hay que ponerlo a salvo inmediatamente.
+
+Hay tres formas de escapar del jaque:
+
+1. Se puede mover el rey a una casilla que no esté siendo atacada por una pieza enemiga.
+
+2. Se puede capturar la pieza que esté atacando al rey.
+
+3. Se puede interponer una pieza entre el rey y la pieza agresora para bloquear el jaque.
+
+Si el rey está en jaque y no puede evitarlo, se habla entonces de \"jaque mate\" y se pierde la partida."</string>
+    <string name="helpmain1">CÓMO JUGAR</string>
+    <string name="helpmain2">"(Desplácese hacia abajo para ver las reglas del ajedrez)
+
+Antes de comenzar la partida aparece la pantalla de Configuración de la partida. Desde ella se puede elegir el lado desde el que se quiere jugar (o hacer que se alterne en cada partida), la dificultad de la máquina (1 para principiantes, y 12 para expertos), la desventaja blanca (se retira una pieza blanca para ayudar a las negras), y los parámetros del tiempo de la partida.
+
+El temporizador cuenta con dos elementos:
+
+El CRONÓMETRO DE LA PARTIDA determina la cantidad inicial de tiempo que se le da a cada jugador antes de la partida. Este va descontando tiempo mientras los jugadores piensan los movimientos que van a hacer. Una vez agotado su tiempo, el jugador pierde la partida inmediatamente.
+
+El CRONÓMETRO DE MOVIMIENTO es el tiempo extra que se le da a un jugador después de hacer un movimiento.
+
+Una vez ha empezado la partida, usa la pantalla táctil o el mando de control / joystick del teléfono para seleccionar y mover las piezas. Las piezas se mueven seleccionándolas primero, y seleccionando a continuación una casilla correcta a la que desplazarlas.
+
+El botón Deshacer se puede utilizar para deshacer cuantos movimientos se desee.
+
+Los nombres de los jugadores, los tiempos, las piezas capturadas y las notificaciones de JAQUE se muestran por encima y por debajo del tablero. Cuando la máquina está pensando un movimiento, aparece una animación en la parte superior derecha. Hay que tener en cuenta que cuanto más alta es la dificultad de la máquina, más tiempo le llevará pensar los movimientos. Si el temporizador está activo, la máquina abreviará el tiempo que emplea en pensar si es necesario.
+
+Durante el juego, se puede pulsar el botón MENU del teléfono para acceder a dos útiles funciones. SUGERENCIA le dirá a la máquina que evalúe tu situación actual y te sugiera un movimiento. REVISAR PARTIDA te llevará a otra pantalla con una lista de movimientos en la que podrás ver todos los movimientos realizados hasta ese momento. Puedes desplazarte por la lista de movimientos y seleccionando un movimiento saltar hasta ese punto. También se pueden usar los botones de navegación de la izquierda para desplazarse por los movimientos uno a uno, o saltar al inicio o el final del historial de movimientos.
+
+En el botón MENU siempre están disponibles las funciones GUARDAR Y SALIR; de este modo se guardan los movimientos o los cambios de configuración que se hayan hecho, y luego se sale.
+
+"<b>ESTADÍSTICAS:</b>"
+
+El juego monitoriza tus victorias, derrotas y partidas en tablas contra todos los niveles de la máquina. Se puede acceder a esta información desde la pantalla de menú del título. La clasificación que se muestra en la parte inferior izquierda de la página de estadísticas es una clasificación acumulativa calculada con todas tus partidas (no se trata de un sistema de puntuación ELO). El porcentaje de victorias se calcula con 1 punto por victoria y 0,5 por tablas. Las partidas con desventaja no cuentan para estas estadísticas.
+
+"<b>NUESTRO PROGRAMA DE AJEDREZ:</b>"
+
+Nuestro programa de ajedrez está basado en el motor de ajedrez de Treebeard, sobre el que puede informarse en http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm y cuyo uso ha sido autorizado mediante licencia para los productos de Microsoft. Este motor de ajedrez usa técnicas que no se encuentran en la mayoría de los programas de ajedrez, lo que te permite jugar con un estilo más humano. Al contrario que en los programas convencionales, no busca millones de posiciones, sino que realiza una búsqueda por probabilidades para examinar menos posiciones pero con más detalle. Este programa comparte tecnología con el programa de ajedrez japonés \"Shotest\", clasificado dos veces como el tercero del mundo.
+
+"<b>HEYZAP:</b>"
+
+Este juego es ahora compatible con Heyzap, la red social de juegos, que te permite de forma opcional iniciar sesión en twitter o facebook cuando ganas partidas. Heyzap te permite ver a qué juegos juegan tus amigos, registrar tus logros (insignias) y compartir consejos.
+
+"</string>
+    <string name="hint">Sugerencia</string>
+    <string name="leaderboards">Clasificación</string>
+    <string name="leaving_game">"Estás apunto de abandonar la partida y perder todos los movimientos no guardados.
+
+Para guardar o exportar a PGN antes, pulsa cancelar y ve al menú."</string>
+    <string name="load">Cargar</string>
+    <string name="loadgame_title">Cargar partida</string>
+    <string name="loadsavedgame">"Cargar
+partida guardada"</string>
+    <string name="log_as_draw">"Dejar en
+tablas"</string>
+    <string name="mail_body">"¡Prueba este estupendo juego de ajedrez!
+
+http://market.android.com/details?id=uk.co.aifactory.chessfree
+"</string>
+    <string name="mail_body_no_link">¡Echa un vistazo al juego para Android \"Chess Free\" de AI Factory Limited!</string>
+    <string name="mail_prompt">Selecciona una aplicación:</string>
+    <string name="mail_subject">¡Prueba este juego de Android!</string>
+    <string name="main_menu">Menú principal</string>
+    <string name="main_menu_2">Menú principal</string>
+    <string name="match_settings">AJUSTES DE LA PARTIDA</string>
+    <string name="menu_button_end_of_game">→</string>
+    <string name="menu_text">Menú</string>
+    <string name="menu_text_large">MENU</string>
+    <string name="more">Más</string>
+    <string name="more_games">Más juegos</string>
+    <string name="move_timer">"Tiempo de
+movimiento (s):"</string>
+    <string name="new_feature">¡Novedad!</string>
+    <string name="new_feature_1">"Novedad:
+
+Ahora puedes elegir cómo se ven las piezas en el tablero durante las partidas de dos jugadores. En las opciones hay disponibles cuatro modos diferentes.
+"</string>
+    <string name="new_game">Nueva partida</string>
+    <string name="no">No</string>
+    <string name="noTimers">Sin cronómetros</string>
+    <string name="nosavedgames">No hay partidas guardadas</string>
+    <string name="nothanks">No</string>
+    <string name="off">Off</string>
+    <string name="offer_draw">Ofrecer tablas</string>
+    <string name="ok">OK</string>
+    <string name="on">Activados</string>
+    <string name="overwrite">"¿Quieres remplazar el archivo existente?:
+"</string>
+    <string name="piece_selection">Pieza:</string>
+    <string name="piecesindanger_help">\"Mostrar piezas en peligro\" coloca una luz roja detrás de las piezas que el oponente puede capturar fácilmente. Esto también puede ayudarte a evitar errores.</string>
+    <string name="play">JUGAR</string>
+    <string name="play_again">Volver a jugar</string>
+    <string name="play_as">Jugar como:</string>
+    <string name="play_mode">Modo juego:</string>
+    <string name="play_to">Jugar con:</string>
+    <string name="player">Tú</string>
+    <string name="player1">Jugador 1</string>
+    <string name="player1_resigns">El jugador 1 ha abandonado</string>
+    <string name="player1_wins">¡Ha ganado el jugador 1!</string>
+    <string name="player2">Jugador 2</string>
+    <string name="player2_resigns">El jugador 2 ha abandonado</string>
+    <string name="player2_wins">¡Ha ganado el jugador 2!</string>
+    <string name="practice_help">.</string>
+    <string name="pro_body">Has seleccionado \"Pro\". Este modo desactiva las opciones de ayuda, no puedes salir de la partida sin abandonar y las estadísticas se registran aparte.</string>
+    <string name="promote">Seleccione una pieza para coronar como:</string>
+    <string name="proswitch_body">Estás en modo \"Pro\", que desactiva la ayuda (como Deshacer). Estas partidas también se registran en estadísticas aparte y no pueden abandonarse.</string>
+    <string name="rate">Puntuación</string>
+    <string name="rate_body">"¿Te gusta Chess Free?
+Dale una puntuación."</string>
+    <string name="rating_casual_help">El modo Casual acumula puntos según tus resultados en todos los niveles de dificultad.</string>
+    <string name="rating_pro_help">El modo Pro sigue un sistema de puntuación ELO basado en la FIDE (tras jugar 5 partidas Pro). Puede que se diferencie de las puntuaciones reales de la FIDE. En la sección del final de \"Reglas del ajedrez\" hay una explicación detallada.</string>
+    <string name="recommend">"Recomendar
+a un amigo"</string>
+    <string name="recommend_warning">Vas a abandonar el juego un momento para enviar una recomendación con tu aplicación de mensajería preferida.</string>
+    <string name="recordgame">Guardar partida</string>
+    <string name="reset">"Restablecer
+estadísticas"</string>
+    <string name="reset_question">¿Estás seguro de que quieres restablecer las estadísticas?</string>
+    <string name="reset_question_gpg">¿Seguro que quieres restablecer las estadísticas? Se restablecerán las estadísticas en la nube y tu progreso en las clasif. si utilizas las funciones de\"Google Play Games\".</string>
+    <string name="resign">abandonaste</string>
+    <string name="resign_cap">Abandonar</string>
+    <string name="resign_confirm">¿Estás seguro de que quieres abandonar la partida?</string>
+    <string name="resign_match">"Abandonar
+partida"</string>
+    <string name="resign_offered">Me gustaría abandonar. ¿Quieres continuar con la partida?</string>
+    <string name="resigns">abandonó</string>
+    <string name="review_game">Repasar la partida</string>
+    <string name="review_help">Puedes evaluar la partida actual de principio a fin. Si pulsas sobre un movimiento de la lista, irás a ese punto de la partida. También puedes utilizar las flechas para navegar.</string>
+    <string name="rules">Reglas del juego</string>
+    <string name="rules_of_chess">"Reglas
+ ajedrez"</string>
+    <string name="rules_of_chess2">Reglas ajedrez</string>
+    <string name="save">Guardar</string>
+    <string name="save_and_quit">Guardar y salir</string>
+    <string name="save_pgn_success1">"guardada en el almacenamiento externo, carpeta:
+
+"</string>
+    <string name="save_pgn_success2">"
+
+PGN also copied to clipboardâ€¦"</string>
+    <string name="save_success">"Partida correctamente guardada
+
+Se pueden descargar del menú principal."</string>
+    <string name="saveas">Guardar la partida</string>
+    <string name="saveas_text">Introduce un nombre para guardar la partida:</string>
+    <string name="screen_warning">"** ADVERTENCIA **
+
+La pantalla está ajustada en \"Siempre activada\" en este juego.
+
+Esto podría consumir más batería de lo normal."</string>
+    <string name="sd_load_fail">Se ha producido un error al guardar en el almacenamiento externo. Si tienes una tarjeta SD, asegúrate de que no esté montada en el ordenador para su uso.</string>
+    <string name="selectagame">Seleccionar una partida arriba</string>
+    <string name="settings">Opciones</string>
+    <string name="settings1">OPCIONES DEL JUEGO</string>
+    <string name="sfx_off">Sonido desactivado</string>
+    <string name="showcputhinking_help">\"Indica que la máquina está pensando\" indica el mejor movimiento que considera la máquina. Esto ayuda a entender mejor el análisis de esta sobre la posición actual.</string>
+    <string name="signin_body">Para utilizar esta función necesitas iniciar sesión en Google. Así podrás compartir tu progreso y tus logros con tus amigos.</string>
+    <string name="signout">"Salir de
+Google"</string>
+    <string name="single_player">Un solo jugador</string>
+    <string name="skip">Omitir</string>
+    <string name="splat_confirm">¿Estás seguro de que quieres abandonar esta partida? Perderás todo lo conseguido.</string>
+    <string name="stale_mate">Tablas</string>
+    <string name="start">JUGAR</string>
+    <string name="stats">Estadísticas</string>
+    <string name="stats_already_logged">Ya se han registrado las estadísticas de esta partida, por lo que los resultados no contarán al finalizarla.</string>
+    <string name="stats_col1">Dificultad</string>
+    <string name="stats_col2">Victorias</string>
+    <string name="stats_col3">Tablas</string>
+    <string name="stats_col4">Derrotas</string>
+    <string name="stats_col5">Victorias %</string>
+    <string name="stats_title">Estadística contra la máquina</string>
+    <string name="swap_sides">Camb. lado</string>
+    <string name="swap_sides_confirm">¿Estás seguro de que quieres cambiar de lado? Tomarás el control de las piezas de tus oponentes, y ellos de las tuyas, pero la posición de la partida permanecerá igual.</string>
+    <string name="swap_sides_result">La estadísticas de la partida no se cargarán y no contará de cara a los logros ni a las tablas de clasificación.</string>
+    <string name="switch_casual">"Cambia al modo
+\"Casual\""</string>
+    <string name="tap_for_more_info">¡Pulsa en el juego para descargártelo gratis!</string>
+    <string name="tap_to_continue">Pulsa la tabla y sigue</string>
+    <string name="timer_expired">¡Tiempo agotado!</string>
+    <string name="timer_help">\"Cronómetro de la partida\": tiempo total para movimientos. \"Cronómetro de movimiento\": tiempo extra añadido tras movimiento.</string>
+    <string name="timers_active">Temporizador activo:</string>
+    <string name="title1">Seleccione una opción para comenzar:</string>
+    <string name="tried">¿Has probado este juego?</string>
+    <string name="tutor">Tutor:</string>
+    <string name="tutor_body">El tutor te enseña al sugerirte piezas que puedes mover. Esto te guiará en tus movimientos y te ayudará a evitar errores. Puedes jugar con una pieza distinta a la sugerida.</string>
+    <string name="tutor_level_0">"Nivel:
+Auto-"</string>
+    <string name="tutor_level_1">"Nivel:
+1/8"</string>
+    <string name="tutor_level_2">"Nivel:
+2/8"</string>
+    <string name="tutor_level_3">"Nivel:
+3/8"</string>
+    <string name="tutor_level_4">"Nivel:
+4/8"</string>
+    <string name="tutor_level_5">"Nivel:
+5/8"</string>
+    <string name="tutor_level_6">"Nivel:
+6/8"</string>
+    <string name="tutor_level_7">"Nivel:
+7/8"</string>
+    <string name="tutor_level_8">"Nivel:
+8/8"</string>
+    <string name="tutor_title">Modo Tutor</string>
+    <string name="tutorlevel_help">El Nivel del tutor determina cuánto tiempo piensa el tutor y, por tanto, la fuerza de sus movimientos. \"Auto\" elige un nivel según la dificultad de la máquina contra la que juegas.</string>
+    <string name="two_player">Dos jugadores</string>
+    <string name="twoplayermode">"El modo de
+dos jugadores:"</string>
+    <string name="twoplayerpieces_help">Esta opción permite elegir cómo ver las piezas en una partida de dos jugadores.</string>
+    <string name="undo_hint">"Sugerencia
+
+Usa el botón \"Deshacer\" para deseleccionar una pieza seleccionada, y también retroceder en la partida."</string>
+    <string name="undo_last_move">Deshacer último movimiento</string>
+    <string name="undo_text">Undo</string>
+    <string name="upgrade">Actualizar ajedrez</string>
+    <string name="user_offer_draw_confirm">¿Estás seguro de que quieres ofrecer tablas a tu oponente?</string>
+    <string name="view_all">Ver todos los juegos</string>
+    <string name="view_board">Ver tabla</string>
+    <string name="vsCPU">Contra el nivel de máquina</string>
+    <string name="vsPlayer">Dos jugadores</string>
+    <string name="win">ganaste</string>
+    <string name="win_rate">Victorias %:</string>
+    <string name="wins">ganó</string>
+    <string name="yes">Sí</string>
+    <string name="you_resign">Has abandonado la partida</string>
+    <string name="you_win">¡Has ganado!</string>
+    <string name="you_win_short">¡Has ganado!</string>
+    <string name="your_elo">Puntos ELO:</string>
+    <string name="your_opponent_resigns">Tu oponente ha abandonado</string>
+    <string name="your_opponent_resigns_short">Tu oponente ha abandonado</string>
+    <string name="your_opponent_wins">Ha ganado tu oponente</string>
+    <string name="your_rating">Tu puntuación:</string>
+    <string name="your_score">Tus puntos:</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/ad_badge" android:visible="false" android:title="@string/ad" app:showAsAction="always" app:actionLayout="@layout/ad_badge_menu_item" />
+    <item android:id="@id/ad_info" android:visible="false" android:title="@string/ad_info_description" app:showAsAction="always" app:actionLayout="@layout/ad_info_menu_item" />
+    <item android:icon="@drawable/quantum_gm_ic_star_outline_vd_theme_24" android:id="@id/star_ad" android:visible="false" android:title="@string/add_star" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_delete_wht_24dp" android:id="@id/delete_ad" android:title="@string/delete" app:showAsAction="always" />
+</menu>

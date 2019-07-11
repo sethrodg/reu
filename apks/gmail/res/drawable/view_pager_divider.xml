@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/view_pager_margin_width" />
+            <solid android:color="@color/conversation_view_overlay_background_color" />
+        </shape>
+    </item>
+    <item android:left="@dimen/view_pager_divider_margin" android:right="@dimen/view_pager_divider_margin">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/view_pager_divider_width" />
+            <solid android:color="@color/conversation_view_border_color" />
+        </shape>
+    </item>
+</layer-list>

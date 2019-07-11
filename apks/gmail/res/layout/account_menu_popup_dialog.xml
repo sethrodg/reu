@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/scrim_layout" android:background="@color/google_scrim" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/popup_container" android:background="@color/google_transparent" android:focusable="false" android:clickable="false" android:clipChildren="false" android:layout_width="@dimen/account_menu_popup_width" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/account_menu_popup_bottom_margin" android:layoutDirection="locale">
+        <FrameLayout android:id="@id/popup_view" android:visibility="invisible" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/account_menu_popup_tip_height" />
+    </FrameLayout>
+</FrameLayout>

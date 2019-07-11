@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.material.opensearchbar.OpenSearchView android:id="@id/open_search_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/search_hint" app:layout_anchor="@id/open_search" app:useDrawerArrowDrawable="true" style="@style/Widget.GoogleMaterial.OpenSearchView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.mail.ui.search.OpenSearchSuggestionsListView android:orientation="vertical" android:id="@id/open_search_suggestions_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.google.android.libraries.material.opensearchbar.OpenSearchView>

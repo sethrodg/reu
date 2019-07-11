@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/attachment_chip_background_color" />
+    <stroke android:width="@dimen/button_hairline" android:color="@color/hairline_color" />
+    <corners android:radius="@dimen/conv_list_default_attachment_radius" />
+</shape>

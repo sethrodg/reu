@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/mail_toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:touchscreenBlocksFocus="true" android:keyboardNavigationCluster="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/mail_toolbar_view" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_dropshadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/shadow_height" />
+        <ViewStub android:id="@id/search_actionbar_view_stub" android:layout="@layout/mail_actionbar_searchview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

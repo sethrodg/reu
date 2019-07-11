@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/t4_list_t4_foreground" android:background="@drawable/tl_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/tasks_list_task_min_height">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/t4_list_t4_done_checkbox_container" android:layout_width="@dimen/tasks_list_task_checkbox_size" android:layout_height="fill_parent">
+            <com.android.mail.ui.ColorableCheckBox android:gravity="center" android:id="@id/t4_list_t4_done_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/t4_checkbox_selector" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/tasks_list_task_padding_vertical" android:paddingBottom="@dimen/tasks_list_task_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/tasks_list_task_padding_end">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/primary_text_color_grey" android:id="@id/t4_list_t4_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Tasks.ListSubject" />
+                </LinearLayout>
+                <ImageView android:id="@id/t4_list_t4_high_priority" android:contentDescription="@string/t4_list_high_priority_content_description" app:srcCompat="@drawable/quantum_gm_ic_priority_high_vd_theme_24" style="@style/Tasks.ListIconBase.Icon.Priority" />
+                <ImageView android:id="@id/t4_list_t4_low_priority" android:contentDescription="@string/t4_list_low_priority_content_description" app:srcCompat="@drawable/quantum_gm_ic_arrow_downward_vd_theme_24" style="@style/Tasks.ListIconBase.Icon.Priority" />
+                <ImageView android:id="@id/t4_list_t4_recurrence" android:contentDescription="@string/t4_list_recurrence_content_description" app:srcCompat="@drawable/quantum_gm_ic_refresh_vd_theme_24" style="@style/Tasks.ListIconBase.Icon" />
+                <ImageView android:id="@id/t4_list_t4_reminder_set" android:contentDescription="@string/t4_list_reminder_set_content_description" app:srcCompat="@drawable/quantum_gm_ic_notifications_none_vd_theme_24" style="@style/Tasks.ListIconBase.Icon" />
+                <ImageView android:id="@id/t4_list_t4_mail" android:contentDescription="@string/t4_list_mail_content_description" app:srcCompat="@drawable/quantum_gm_ic_email_vd_theme_24" style="@style/Tasks.ListIconBase.Icon" />
+            </LinearLayout>
+            <TextView android:textColor="@color/secondary_text_color_grey" android:id="@id/t4_list_t4_body" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Tasks.ListSummary" />
+            <TextView android:textColor="@color/secondary_text_color_grey" android:id="@id/t4_list_t4_due_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Tasks.ListSummary" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/t4_title_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip">
+        <include layout="@layout/t4_edit_divider" />
+    </FrameLayout>
+    <TextView android:id="@id/t4_list_section_title_text" android:layout_width="wrap_content" android:layout_height="@dimen/tasks_list_section_title_height" style="@style/Tasks.ListSectionTitleText" />
+</LinearLayout>

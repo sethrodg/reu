@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/incognito_off_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incognito_off_view__vertical_margin" android:layout_marginBottom="@dimen/incognito_off_view__vertical_margin">
+        <ImageView android:layout_gravity="center" android:id="@id/incognito_icon" android:layout_width="@dimen/incognito_off_icon_image_size" android:layout_height="@dimen/incognito_off_icon_image_size" android:layout_marginLeft="@dimen/incognito_off_icon_margin_left" android:src="@drawable/quantum_ic_incognito_circle_vd_theme_24" android:contentDescription="@null" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/turn_off_incognito_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/og_turn_off_incognito" android:layout_marginHorizontal="@dimen/incognito_off_text_view_horizontal_margin" style="@style/ActionItemStyle" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/account_menu_footer" />
+</merge>

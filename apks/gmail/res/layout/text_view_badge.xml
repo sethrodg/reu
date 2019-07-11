@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.onegoogle.account.disc.TextBadge android:id="@id/text_badge" style="@style/AccountParticleDiscBadge.TextBadge"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

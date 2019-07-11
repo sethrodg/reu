@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/compose_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/floating_action_bar_margin" android:contentDescription="@string/t4_compose_button" app:srcCompat="@drawable/quantum_gm_ic_add_vd_theme_24" style="@style/Widget.GoogleMaterial.FloatingActionButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

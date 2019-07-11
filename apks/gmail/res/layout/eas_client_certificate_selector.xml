@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.eas.onboarding.CertificateSelectionView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/account_setup_default_vertical_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_exchange_certificate_title" android:layout_marginStart="@dimen/account_setup_credentials_certificate_margin" style="@style/AccountSetupText.Label" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/icon" android:layout_width="@dimen/account_setup_credentials_certificate_icon_dimension" android:layout_height="@dimen/account_setup_credentials_certificate_icon_dimension" app:srcCompat="@drawable/quantum_gm_ic_security_vd_theme_24" app:tint="@color/account_setup_security_icon_color" />
+            <TextView android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/certificate_alias" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_setup_exchange_no_certificate" android:singleLine="true" android:layout_marginStart="@dimen/account_setup_credentials_certificate_margin" style="@style/AccountSetupText.Sub" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="end|center" android:id="@id/select_certificate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_exchange_select_certificate" style="@style/AccountSetupText.Action.Button.SelectCertificate" />
+        <TextView android:layout_gravity="end|center" android:id="@id/remove_certificate" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_setup_exchange_remove_certificate" style="@style/AccountSetupText.Action.Button.SelectCertificate" />
+    </FrameLayout>
+</com.google.android.libraries.eas.onboarding.CertificateSelectionView>

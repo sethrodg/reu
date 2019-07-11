@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mail_activity_status_bar_color">@color/transparent_white</color>
+    <color name="primary_dark_color">@color/google_white</color>
+</resources>

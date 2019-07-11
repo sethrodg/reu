@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/density_dialog_button_background" />
+    <stroke android:width="@dimen/button_hairline" android:color="@color/hairline_color" />
+    <corners android:radius="@dimen/density_button_radius" />
+</shape>

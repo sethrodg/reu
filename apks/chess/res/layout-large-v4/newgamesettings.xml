@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.aifactory.chessfree.AIF_LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/AIF_LinearLayout" android:background="@drawable/bg" android:paddingLeft="60.0dip" android:paddingTop="90.0dip" android:paddingRight="60.0dip" android:paddingBottom="90.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" aif:animationModeStart="fade" aif:animationModeEnd="fade" aif:animationElementLag="0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aif="http://schemas.android.com/apk/res/uk.co.aifactory.chessfree">
+    <FrameLayout android:layout_gravity="center" android:layout_width="320.0dip" android:layout_height="50.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/title" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/match_settings" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView03" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/difficulty" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="210.0dip" android:layout_height="0.0dip" android:layout_weight="5.0">
+                <FrameLayout android:layout_gravity="center" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageButton android:layout_gravity="center" android:id="@id/Difficulty_Left" android:background="#00000000" android:focusable="true" android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/src_arrow_left" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </FrameLayout>
+                <TextView android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/DifficultyText_Small1" android:layout_width="30.0dip" android:layout_height="fill_parent" android:text="P" />
+                <FrameLayout android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="fill_parent"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/DifficultyPractice" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/practice" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <TextView android:textSize="36.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/DifficultyText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="12" />
+                </FrameLayout>
+                <TextView android:textSize="18.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/DifficultyText_Small2" android:layout_width="30.0dip" android:layout_height="fill_parent" android:text="12" />
+                <FrameLayout android:layout_gravity="center" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <ImageButton android:layout_gravity="center" android:id="@id/Difficulty_Right" android:background="#00000000" android:focusable="true" android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/src_arrow_right" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="210.0dip" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/TextView13" android:layout_width="80.0dip" android:layout_height="wrap_content" android:text="ELO: 1234" android:layout_toRightOf="@id/Difficulty_Left" />
+                    <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/OffersELOHelp" android:background="#00000000" android:focusable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/button_your_rating" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView02" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/play_as" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/PlayAsBoth" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_both" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/PlayAsWhite" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_white" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/PlayAsBlack" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_black" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView08" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/play_mode" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Mode1" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_casual" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Mode2" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_pro" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView07" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tutor" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Tutor0" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_tutor0" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Tutor1" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_tutor1" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView04" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/handicap" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Handicap0" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_handicap0" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Handicap1" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_handicap1" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Handicap2" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_handicap2" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Handicap3" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_handicap3" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/Handicap4" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_handicap4" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView05" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/game_timer" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/GameTimer1" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_off" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/GameTimer2" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_gametimer1" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/GameTimer3" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_gametimer2" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/GameTimer4" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_gametimer3" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/GameTimer5" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_gametimer4" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0">
+        <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center|right" android:layout_gravity="center" android:id="@id/TextView06" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/move_timer" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/MoveTimer1" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_movetimer1" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/MoveTimer2" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_movetimer2" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/MoveTimer3" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_movetimer3" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/MoveTimer4" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_movetimer4" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ImageButton android:id="@id/MoveTimer5" android:background="#00000000" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_movetimer5" android:scaleType="fitXY" android:adjustViewBounds="true" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <Button android:id="@id/NewGameSettings_ContinueButton" android:layout_height="50.0dip" android:layout_marginRight="10.0dip" android:text="@string/start" style="@style/StretchyButton" />
+        <Button android:id="@id/NewGameSettings_ExitButton" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:text="@string/back" style="@style/StretchyButton" />
+    </LinearLayout>
+</uk.co.aifactory.chessfree.AIF_LinearLayout>

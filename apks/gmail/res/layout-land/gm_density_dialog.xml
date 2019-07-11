@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/illustration_image_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:adjustViewBounds="true" android:maxWidth="@dimen/density_illustration_width" app:srcCompat="@drawable/density_dialog_comfortable_anytheme" />
+    <View android:background="@color/hairline_color" android:layout_width="@dimen/button_hairline" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/density_text_container_margin" android:minWidth="@dimen/density_text_container_min_width">
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/density_title_margin_bottom" android:text="@string/density_dialog_title_text" style="@style/DensityDialogTitleStyle" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DensityDialogButtonsLayoutStyle">
+            <ToggleButton android:id="@id/default_button" android:layout_width="fill_parent" android:layout_height="@dimen/density_button_height" android:textOn="@string/density_option_default" android:textOff="@string/density_option_default" style="@style/DensityDialogButtonStyle" />
+            <ToggleButton android:id="@id/comfortable_button" android:layout_width="fill_parent" android:layout_height="@dimen/density_button_height" android:checked="true" android:textOn="@string/density_option_comfortable" android:textOff="@string/density_option_comfortable" style="@style/DensityDialogButtonStyle" />
+            <ToggleButton android:id="@id/compact_button" android:layout_width="fill_parent" android:layout_height="@dimen/density_button_height" android:textOn="@string/density_option_compact" android:textOff="@string/density_option_compact" style="@style/DensityDialogButtonStyle" />
+        </LinearLayout>
+        <android.support.design.button.MaterialButton android:layout_gravity="center" android:id="@id/gm_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/density_button_margin_top" android:text="@string/density_dialog_button_text" style="@style/Widget.GoogleMaterial.Button" />
+    </LinearLayout>
+</LinearLayout>

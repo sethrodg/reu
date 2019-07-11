@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/MainLayout" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:aif="http://schemas.android.com/apk/res/uk.co.aifactory.chessfree">
+    <uk.co.aifactory.chessfree.AIF_LinearLayout android:orientation="horizontal" android:id="@id/AIF_LinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" aif:animationModeStart="slide" aif:animationModeEnd="slide"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <uk.co.aifactory.chessfree.ChessGridView android:id="@id/chess" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:layout_weight="14.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="12.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <ScrollView android:id="@id/ScrollView" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <LinearLayout android:orientation="vertical" android:id="@id/ScrollViewLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      xmlns:android="http://schemas.android.com/apk/res/android" />
+                </ScrollView>
+                <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+                      xmlns:android="http://schemas.android.com/apk/res/android">
+                        <Button android:layout_gravity="center" android:id="@id/ButtonMenu" android:layout_height="75.0dip" android:layout_marginRight="1.0dip" android:text="@string/menu_text_large" style="@style/StretchyButton_Large" />
+                        <Button android:layout_gravity="center" android:id="@id/Review_Exit" android:layout_height="75.0dip" android:layout_marginLeft="1.0dip" android:text="@string/back" style="@style/StretchyButton_Large" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0">
+                    <ImageButton android:layout_gravity="center|left" android:id="@id/Review_Start" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_first_move" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0">
+                    <ImageButton android:layout_gravity="center|left" android:id="@id/Review_Prev" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_arrow_up" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0">
+                    <ImageButton android:layout_gravity="center|left" android:id="@id/Review_Next" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_arrow_down" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0">
+                    <ImageButton android:layout_gravity="center|left" android:id="@id/Review_End" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/src_last_move" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="10.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </uk.co.aifactory.chessfree.AIF_LinearLayout>
+</FrameLayout>

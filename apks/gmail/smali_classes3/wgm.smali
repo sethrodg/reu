@@ -1,0 +1,47 @@
+.class final synthetic Lwgm;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lajeg;
+
+
+# instance fields
+.field private final c:Lwgf;
+
+
+# direct methods
+.method constructor <init>(Lwgf;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lwgm;->c:Lwgf;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lwgm;->c:Lwgf;
+
+    .line 2
+    sget-object v1, Lehr;->b:Lajeg;
+
+    invoke-interface {v1, p1, p2, p3}, Lajeg;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p2, 0x1
+
+    .line 3
+    iput-boolean p2, v0, Lwgf;->a:Z
+
+    :cond_0
+    return-object p1
+.end method

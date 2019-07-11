@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/tl_item_background_highlight_margin_left" android:top="@dimen/tl_item_background_highlight_margin" android:bottom="@dimen/tl_item_background_highlight_margin">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/item_grey_pressed_color" />
+            <corners android:topLeftRadius="@dimen/tl_item_background_highlight_radius" android:bottomLeftRadius="@dimen/tl_item_background_highlight_radius" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/sc_onboarding_webview" android:scrollbars="none" android:layout_width="@dimen/sc_onboarding_hero_image_width" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sc_onboarding_hero_image_margin_start" android:layout_marginRight="@dimen/sc_onboarding_hero_image_margin_end" android:overScrollMode="never" android:layout_marginStart="@dimen/sc_onboarding_hero_image_margin_start" android:layout_marginEnd="@dimen/sc_onboarding_hero_image_margin_end" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/sc_onboarding_textview_container_margin_end">
+        <TextView android:textSize="@dimen/sc_title_text_size" android:textColor="@color/sc_onboarding_title_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sc_onboarding_title_margin_bottom" android:text="@string/sc_onboarding_title" />
+        <TextView android:textSize="@dimen/sc_onboarding_summary_text_size" android:gravity="center" android:layout_width="@dimen/sc_onboarding_summary_view_width" android:layout_height="wrap_content" android:text="@string/sc_onboarding_summary" />
+    </LinearLayout>
+</LinearLayout>

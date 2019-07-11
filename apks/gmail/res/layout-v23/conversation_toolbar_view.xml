@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conversation_toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/conversation_toolbar" android:background="@color/action_bar_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentInsetStart="@dimen/action_bar_content_inset_start" app:titleTextAppearance="@style/ActionBarTitleTextStyle" app:theme="@style/GmailGoogleMaterialActionBar" />
+    <View android:id="@id/toolbar_shadow" android:background="@drawable/toolbar_dropshadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/shadow_height" />
+</LinearLayout>

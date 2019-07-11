@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mail.browse.ConversationFooterView android:orientation="vertical" android:id="@id/conversation_footer" android:background="@color/conversation_view_overlay_background_color" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/border_between_smart_reply_and_reply_buttons" android:visibility="gone" android:layout_marginBottom="@dimen/conversation_footer_divider_margin_bottom" style="@style/MaterialDividerStyle" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/conversation_footer_buttons_margin_bottom" android:layout_marginStart="@dimen/conversation_border_margin_side" android:layout_marginEnd="@dimen/conversation_border_margin_side">
+        <LinearLayout android:orientation="horizontal" android:id="@id/reply_button" android:focusable="true" style="@style/ConversationFooterButtonStyle">
+            <ImageView android:id="@id/reply_button_icon" app:srcCompat="@drawable/quantum_gm_ic_reply_vd_theme_24" style="@style/ConversationFooterButtonImageViewStyle" />
+            <TextView android:id="@id/reply_button_text" android:text="@string/reply" style="@style/ConversationFooterButtonTextViewStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/reply_all_button" android:focusable="true" android:layout_height="wrap_content" style="@style/ConversationFooterButtonStyle">
+            <ImageView android:id="@id/reply_all_button_icon" app:srcCompat="@drawable/quantum_gm_ic_reply_all_vd_theme_24" style="@style/ConversationFooterButtonImageViewStyle" />
+            <TextView android:id="@id/reply_all_button_text" android:text="@string/reply_all" style="@style/ConversationFooterButtonTextViewStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/forward_button" android:focusable="true" style="@style/ConversationFooterButtonStyle">
+            <ImageView android:id="@id/forward_button_icon" app:srcCompat="@drawable/quantum_gm_ic_forward_vd_theme_24" style="@style/ConversationFooterButtonImageViewStyle" />
+            <TextView android:id="@id/forward_button_text" android:text="@string/forward" style="@style/ConversationFooterButtonTextViewStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/addons_footer_container" android:background="@color/conversation_view_addons_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/addons_separator" android:background="@color/addons_separator_background" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <Space android:id="@id/conversation_footer_navigation_bar_spacer" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentBottom="true" android:importantForAccessibility="no" />
+</com.android.mail.browse.ConversationFooterView>

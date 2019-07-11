@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/sectioned_inbox_onboarding_categories_padding_top" android:paddingBottom="@dimen/sectioned_inbox_onboarding_categories_padding_bottom" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sectioned_inbox_onboarding_categories_padding_horizontal" android:paddingEnd="@dimen/sectioned_inbox_onboarding_categories_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/ConversationListDividerStyle" />
+    <include android:id="@id/category_social" layout="@layout/sectioned_inbox_onboarding_category" />
+    <View style="@style/ConversationListDividerStyle" />
+    <include android:id="@id/category_promo" layout="@layout/sectioned_inbox_onboarding_category" />
+    <View style="@style/ConversationListDividerStyle" />
+</LinearLayout>

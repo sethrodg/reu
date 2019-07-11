@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Vai alla home page</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Vai in alto</string>
+    <string name="abc_action_menu_overflow_description">Altre opzioni</string>
+    <string name="abc_action_mode_done">Fine</string>
+    <string name="abc_activity_chooser_view_see_all">Visualizza tutte</string>
+    <string name="abc_activitychooserview_choose_application">"Scegli un'applicazione"</string>
+    <string name="abc_searchview_description_clear">Cancella query</string>
+    <string name="abc_searchview_description_query">Query di ricerca</string>
+    <string name="abc_searchview_description_search">Cerca</string>
+    <string name="abc_searchview_description_submit">Invia query</string>
+    <string name="abc_searchview_description_voice">Ricerca vocale</string>
+    <string name="abc_shareactionprovider_share_with">Condividi con</string>
+    <string name="abc_shareactionprovider_share_with_application">Condividi con %s</string>
+    <string name="common_google_play_services_enable_button">Attiva</string>
+    <string name="common_google_play_services_enable_text">%1$s non funzionerà se non attivi Google Play Services.</string>
+    <string name="common_google_play_services_enable_title">Attiva Google Play Services</string>
+    <string name="common_google_play_services_install_button">Installa Google Play Services</string>
+    <string name="common_google_play_services_install_text_phone">%1$s non funzionerà senza Google Play Services, non presente sul tuo telefono.</string>
+    <string name="common_google_play_services_install_text_tablet">%1$s non funzionerà senza Google Play Services, non presente sul tuo tablet.</string>
+    <string name="common_google_play_services_install_title">Installa Google Play Services</string>
+    <string name="common_google_play_services_notification_ticker">Errore Google Play Services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s sta riscontrando problemi con Google Play Services. Se il problema persiste, contatta lo sviluppatore per ricevere assistenza.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s si basa su Google Play Services, che non è supportato sul tuo dispositivo. Contatta il produttore per ricevere assistenza.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play Services</string>
+    <string name="common_google_play_services_update_button">Aggiorna</string>
+    <string name="common_google_play_services_update_text">%1$s non funzionerà se non aggiorni Google Play Services.</string>
+    <string name="common_google_play_services_update_title">Aggiorna Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
+    <string name="common_google_play_services_updating_title">Aggiornamento di Google Play Services</string>
+    <string name="common_google_play_services_wear_update_text">"È richiesta una nuova versione di Google Play Services. L'aggiornamento automatico verrà eseguito a breve."</string>
+    <string name="common_open_on_phone">Apri sul telefono</string>
+    <string name="common_signin_button_text">Accedi</string>
+    <string name="common_signin_button_text_long">Accedi con Google</string>
+    <string name="abandon">"Abbandona la
+partita"</string>
+    <string name="accept">Accetta</string>
+    <string name="accept_resign">Accetta rinuncia</string>
+    <string name="achievements">Risultati</string>
+    <string name="advanced">Avanzato:</string>
+    <string name="already_offered_draw">"Hai già fatto un'offerta in questo turno ed è stata rifiutata."</string>
+    <string name="also_available">Disponibile inoltre...</string>
+    <string name="analyse">Analisi</string>
+    <string name="analyse_help">"Con \"Analisi\" l'elaborazione del suggerimento è più lunga e si vedono le mosse prese in considerazione."</string>
+    <string name="app_name_free">Scacchi Free</string>
+    <string name="app_name_paid">Scacchi</string>
+    <string name="back">INDIETRO</string>
+    <string name="board_selection">Scacchiera:</string>
+    <string name="cancel">Annulla</string>
+    <string name="castling_body">"L'ultima mossa del CPU è chiamata \"arrocco\". Per ulteriori informazioni su questa mossa, leggere la sezione dedicata alle regole."</string>
+    <string name="castling_title">\"Arrocco\"</string>
+    <string name="casual_body">Modalità \"Casual\" selezionata. Funzioni di annullamento mossa, suggerimenti, analisi, tutor, handicap del bianco, \"Mostra riflessione CPU\" e \"Mostra pezzi in pericolo\" per giocare meglio.</string>
+    <string name="casual_only">Solo modalità Casual:</string>
+    <string name="casual_only2">(Solo modalità Casual)</string>
+    <string name="check">Scacco!</string>
+    <string name="check_mate">Scacco matto!</string>
+    <string name="checkbox_aids">Mostra mosse legali &amp; più recenti</string>
+    <string name="checkbox_confirm">Confermare mossa (Pro)</string>
+    <string name="checkbox_coords">Mostra coordinate</string>
+    <string name="checkbox_cpu_offers">Consenti rinuncia/pareggio CPU</string>
+    <string name="checkbox_cpu_offers_explain">Quando è selezionata, il giocatore CPU può rinunciare alla partita o proporre di concordare un pareggio.</string>
+    <string name="checkbox_expanded">Notazione estesa mossa</string>
+    <string name="checkbox_flip">Inverti scacchiera PvP</string>
+    <string name="checkbox_hidegpg">Nascondi \"Google Play Games\"</string>
+    <string name="checkbox_hideundo">Nascondi pulsante \"Annulla\"</string>
+    <string name="checkbox_infobar">Nascondi barra di stato</string>
+    <string name="checkbox_replace_hint">Sostituire Suggerimento con Analisi</string>
+    <string name="checkbox_screenalwayson">Schermata sempre attiva</string>
+    <string name="checkbox_sfx">Audio On</string>
+    <string name="checkbox_thinking">Mostra riflessione CPU</string>
+    <string name="checkbox_threat">Mostra pezzi in pericolo</string>
+    <string name="checkbox_timer">Mostra sempre timer</string>
+    <string name="checkbox_transitions">Schermata Transizioni</string>
+    <string name="chess_program"><b>IL NOSTRO PROGRAMMA DI SCACCHI:</b>"
+
+il nostro programma di scacchi si basa sul motore di scacchi Treebeard, di cui è possibile scoprire i dettagli all'indirizzo http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm e il cui uso è stato concesso in licenza da Microsoft sui propri prodotti. Questo motore di scacchi utilizza tecniche non presenti nella maggior parte di programmi di scacchi e consente di giocare secondo uno stile più umano. A differenza dei programmi convenzionali, non cerca milioni di posizioni, ma utilizza invece una ricerca indirizzata alla probabilità per esaminare meno posizioni con più dettagli. Questo programma condivide la tecnologia del programma di scacchi giapponese \"Shotest\", classificatosi per due volte terzo al mondo.
+
+"</string>
+    <string name="confirm">Confermare</string>
+    <string name="continue_message">Continua...</string>
+    <string name="corrupt_file">Sfortunatamente il file della partita è corrotto, pertanto è stata iniziata una nuova partita.</string>
+    <string name="cpu">"L'avversario"</string>
+    <string name="cpu_1">Cpu (1)</string>
+    <string name="cpu_10">Cpu (10)</string>
+    <string name="cpu_11">Cpu (11)</string>
+    <string name="cpu_12">Cpu (12)</string>
+    <string name="cpu_2">Cpu (2)</string>
+    <string name="cpu_3">Cpu (3)</string>
+    <string name="cpu_4">Cpu (4)</string>
+    <string name="cpu_5">Cpu (5)</string>
+    <string name="cpu_6">Cpu (6)</string>
+    <string name="cpu_7">Cpu (7)</string>
+    <string name="cpu_8">Cpu (8)</string>
+    <string name="cpu_9">Cpu (9)</string>
+    <string name="cpu_p">Cpu P</string>
+    <string name="cpu_short">Cpu</string>
+    <string name="crosspromBackgammon">"L'antico e sempre attuale gioco di capacità, strategia e fortuna."</string>
+    <string name="crosspromMoveit">Block puzzle elegante, originale e completamente nuovo = un download essenziale!</string>
+    <string name="decline">Rifiuta</string>
+    <string name="decline_resign">Continua a giocare</string>
+    <string name="delete">Elimina</string>
+    <string name="delete_question">Eliminare la partita salvata?</string>
+    <string name="difficulty">"Difficoltà
+(P,1→12) :"</string>
+    <string name="dont_show_again">Non mostrare più</string>
+    <string name="dontshowagain">Non mostrare più</string>
+    <string name="download_now">Scaricalo ora!</string>
+    <string name="draw">Pareggio!</string>
+    <string name="draw_50move">(50 mosse senza presa o mossa del pedone)</string>
+    <string name="draw_agreed">Pareggio concordato!</string>
+    <string name="draw_agreed_">I giocatori hanno concordato un pareggio</string>
+    <string name="draw_lackofpieces">(vittoria impossibile con i pezzi rimasti)</string>
+    <string name="draw_offered">Vuoi concordare un pareggio?</string>
+    <string name="draw_offered_p1">"Il Giocatore 1 vuole offrirti un pareggio. Sei d'accordo?"</string>
+    <string name="draw_offered_p2">"Il Giocatore 2 vuole offrirti un pareggio. Sei d'accordo?"</string>
+    <string name="draw_rejected">Desidero continuare a giocare ancora.</string>
+    <string name="draw_rejected_first">Desidero continuare a giocare.</string>
+    <string name="draw_rejected_p1">Il Giocatore 1 desidera continuare a giocare.</string>
+    <string name="draw_rejected_p2">Il Giocatore 2 desidera continuare a giocare.</string>
+    <string name="draw_repeated">(mosse ripetute)</string>
+    <string name="draw_stalemate">(il giocatore corrente non ha mosse legali e non è in scacco matto)</string>
+    <string name="elo_help"><b>Sistema di valutazione ELO:</b>"
+
+Dopo 5 partite in modalità \"Pro\" si calcola la valutazione ELO. N.B.: questa si basa sulla versione ELO FIDE e darà una buona valutazione ELO nella app. La valutazione di ogni livello del CPU nella partita è testata. Il livello 12 del CPU ha una valutazione ELO FIDE 2100 (o più alta), mentre quella del livello 1 è 423.
+
+Tuttavia, questa non corrisponde esattamente al sistema ELO dei tornei reali, perché:
+
+1. I sistemi ELO FIDE e USCF in genere calcolano le valutazioni ELO in eventi a tempo, ma in Chess Free il controllo è meno rigido e l'utente può impiegare tutto il tempo che desidera, quindi la valutazione ottenuta potrebbe essere maggiore di un torneo reale.
+
+2. La valutazione ELO del computer non sempre corrisponde a quella umana, quindi dei giocatori potrebbero trovare il programma più difficile di quanto indicato e altri invece molto più facile a seconda del computer. Chi usa spesso programmi per giocare a scacchi riuscirà a scoprire alcune caratteristiche tipiche di un'intelligenza artificiale da sfruttare per ottenere risultati migliori.
+
+3. I sistemi ELO FIDE, USCF e altri, hanno standard diversi. Per esempio, tra quello USCF e quello FIDE ci possono essere 100 punti ELO di differenza.
+
+4. La forza può variare a seconda del dispositivo. I livelli più bassi saranno uguali, ma per alcune mosse dei livelli più alti si giocherà meglio su un dispositivo più veloce.
+
+Questo sistema ELO segue le valutazioni ELO FIDE dell'app per permettere di controllare le variazioni, migliorare come giocatore e conoscere i propri risultati.
+
+(Nota: il sistema di punteggio della modalità \"Casual\" non è ELO, ma è più semplice e cumulativo e si basa sui risultati in tutti i livelli.)"</string>
+    <string name="enpassant_body">"L'ultima mossa del CPU è chiamata \"en passant\". Per ulteriori informazioni su questa mossa, leggere la sezione dedicata alle regole."</string>
+    <string name="enpassant_title">resa en passant\"</string>
+    <string name="export_pgn">Esporta PGN...</string>
+    <string name="export_pgn2">Esporta PGN</string>
+    <string name="exportpgn_text">Inserisci un nome per il PGN:</string>
+    <string name="exportpgn_text2">(il PGN verrà copiato anche negli appunti)</string>
+    <string name="finish_game">Fine partita</string>
+    <string name="gameTimer">Timer:</string>
+    <string name="game_in_progress">Partita in corso...</string>
+    <string name="game_over">Game over!</string>
+    <string name="game_timer">"Timer partita
+(min):"</string>
+    <string name="games_by_third_party">Gioco consigliato dai nostri partner:</string>
+    <string name="google1">Accedi a Google per condividere progressi e risultati con gli amici</string>
+    <string name="google2">Accesso a Google effettuato</string>
+    <string name="handicap">"Svantaggio
+bianco:"</string>
+    <string name="handicap_help">Svantaggio del bianco attivo. Il pezzo scelto verrà rimosso da quelli bianchi, avvantaggiando il nero.</string>
+    <string name="handicap_short">Svantaggio bianco:</string>
+    <string name="help1">REGOLE DEL GIOCO</string>
+    <string name="help2">"Il gioco degli scacchi è una battaglia tra due giocatori che, a turno, muovono i propri pezzi bianchi e neri. I pezzi vengono spostati su una casa vuota o su una casa occupata da un pezzo avversario, che viene così catturato e rimosso dalla scacchiera. Lo scopo finale del gioco è fare scacco matto al Re dell'avversario, in modo che questo non possa scappare. Per arrivare allo scacco matto è necessario muovere attentamente i pezzi per controllare lo spazio e guadagnare materiale, e quindi rafforzare l'attacco finale.
+
+Secondo la tradizione, i pezzi di cui sono composti gli scacchi rappresentano la società medievale. Nelle seguenti sezioni viene descritto come muovere i pezzi."</string>
+    <string name="help3">"Gli 8 Pedoni simboleggiano i lavoratori e i soldati. Si muovono in avanti una casa per volta. Alla prima mossa il Pedone può scegliere di avanzare di due case. I movimenti in avanti non possono essere mosse di presa. I Pedoni catturano i pezzi diagonalmente in avanti, ma possono muoversi in questa direzione soltanto per la presa. Quando un Pedone raggiunge l'altra estremità della scacchiera può essere sostituito da qualsiasi altro pezzo del medesimo colore, fatta eccezione per il Re, ovviamente. Questo scambio viene chiamato \"promozione\". In genere il Pedone viene promosso a Regina.
+
+Il Pedone ha anche una mossa aggiuntiva: la regola \"en passant\". Secondo questa regola, se un Pedone muove di due case può essere catturato immediatamente dal Pedone avversario, se quest'ultimo si trova nella casa adiacente a quella su cui è arrivato il primo Pedone con la doppia mossa (sulla quinta traversa). In pratica, ciò significa che l'avversario può eseguire la normale presa che sarebbe stata disponibile se il Pedone fosse avanzato di una sola casa. Sulla scacchiera, con la presa en passant il Pedone di cattura muove dietro il Pedone che ha effettuato la doppia mossa, quindi lo rimuove."</string>
+    <string name="help4">Il movimento del Cavallo è insolito: non si muove seguendo una linea orizzontale, ma effettua una mossa doppia, con un movimento singolo in avanti e un movimento singolo in diagonale. Questa mossa a \"L\" può essere effettuata in ogni direzione offrendo 8 possibili mosse quando il Cavallo si trova vicino al centro della scacchiera. I Cavalli, come nella realtà, possono saltare oltre i pezzi degli scacchi del medesimo colore o di colore diverso. Se il Cavallo inizia la mossa su una casa chiara, le terminerà su una casa scura.</string>
+    <string name="help5">"L'Alfiere può muovere di qualsiasi numero di case in direzione diagonale. Non può saltare i pezzi come il Cavallo."</string>
+    <string name="help6">La Torre può muovere di qualsiasi numero di case in direzione orizzontale o verticale. Non può saltare i pezzi come il Cavallo.</string>
+    <string name="help7">"La Regina può muoversi seguendo un percorso orizzontale, verticale o diagonale attraverso un qualsiasi numero di case, a meno che non sia bloccata. La Regina combina quindi le mosse della Torre e dell'Alfiere. La Regina è un pezzo formidabile e gioca spesso un ruolo centrale negli attacchi."</string>
+    <string name="help8">"Il Re è il soggetto principale degli attacchi dell'avversario. Quando è sotto scacco matto, il gioco è finito! Può spostarsi in tutte le otto direzioni orizzontali, verticali e diagonali possibili, ma solo una casa per volta. Il Re può inoltre usufruire di una mossa speciale denominata Arrocco: il Re si sposta di due case verso sinistra o verso destra, mentre la Torre lo scavalca per occupare la casa dal lato opposto."</string>
+    <string name="help9">"Questa mossa è possibile solo se il Re e la Torre non si sono mossi in precedenza, se nessuna delle case tra la Torre e il Re è occupata, se il Re non è sotto scacco e nessuna delle case attraverso cui è passato il Re è sotto l'attacco di un pezzo nemico. Il Re deve essere protetto, ma può anche diventare un forte pezzo da attacco. Nel finale di partita può diventare un formidabile pezzo da attacco contro i Pedoni nemici. Nei finali di partita semplici, in fase di scacco matto, diventa parte dell'attacco per il matto.
+
+Quando il Re viene attaccato direttamente da un pezzo avversario, si dice che il Re è \"sotto scacco\". Se il Re è sotto scacco, è necessario metterlo subito al riparo.
+
+Esistono tre modi per uscire dalla situazione di scacco:
+
+1. è possibile spostare il Re su una casa non attaccata da un pezzo nemico;
+
+2. è possibile catturare il pezzo che sta attaccando il Re;
+
+3. è possibile muovere un pezzo tra il Re e il pezzo nemico per bloccare lo scacco.
+
+Se il Re si trova sotto scacco e non può uscirne, allora si verifica lo scacco matto e la partita viene persa."</string>
+    <string name="helpmain1">COME GIOCARE</string>
+    <string name="helpmain2">"(scorrere per le regole degli scacchi)
+
+Prima di iniziare a giocare, verrà visualizzata una schermata con le impostazioni della partita. Da qui è possibile scegliere il lato da cui si desidera giocare (o alternarlo per ogni partita), la difficoltà CPU (1 per i principianti e 12 per gli esperti), lo svantaggio del bianco (un pezzo bianco rimosso per aiutare il nero), e i parametri del timer di gioco.
+
+Esistono due parametri per impostare il timer:
+
+TIMER PARTITA determina la quantità di tempo iniziale assegnata a ogni giocatore prima della partita. Con questa modalità il tempo viene scalato mentre il giocatore pensa alle proprie mosse: se il timer arriva a zero la partita viene persa.
+
+Il TIMER MOSSA è il tempo bonus assegnato a un giocatore dopo aver fatto una mossa.
+
+Una volta iniziata la partita, utilizzare il touchscreen o il d-pad/joystick del telefono per selezionare e spostare i pezzi. Per muovere un pezzo è necessario per prima cosa selezionarlo, quindi selezionare una casa legale su cui muoverlo.
+
+È possibile utilizzare il pulsante Annulla per annullare tutte le mosse desiderate.
+
+I nomi dei giocatori, i pezzi catturati e le notifiche di SOTTO SCACCO vengono visualizzate sopra e sotto la scacchiera. Quando il CPU sta pensando a una mossa, in alto a destra viene riprodotta un'animazione. Notare che maggiore è la difficoltà CPU, superiori saranno i tempi di riflessione. Se i timer sono attivi, il CPU ridurrà, se necessario, i tempi di riflessione.
+
+Nel corso della partita, è possibile premere il tasto MENU del telefono per accedere a due utili funzioni. SUGGERIMENTO dirà al CPU di valutare la situazione corrente e suggerire una mossa. RIVEDI PARTITA aprirà una nuova schermata in cui verrà visualizzato un elenco di mosse in cui sarà possibile individuare tutte le mosse effettuate fino a quel momento. È possibile scorrere l'elenco delle mosse. Selezionando una mossa si passa a quel punto. È inoltre possibile utilizzare i pulsanti di navigazione di sinistra per scorrere attraverso le mosse una alla volta o passare all'inizio e alla fine della cronologia delle mosse.
+
+SALVA &amp; ABBANDONA sono sempre disponibili nel pulsante MENU. Con questa funzione verrà salvata qualsiasi modifica delle impostazioni o dell'avanzamento, quindi si uscirà dal gioco.
+
+"<b>STATISTICHE:</b>"
+
+il gioco tiene traccia di vittorie/sconfitte/pareggi per ogni livello CPU. È possibile accedere a queste informazioni dalla schermata del menu titoli. La valutazione visualizzata in basso a sinistra nella pagina delle statistiche è una valutazione cumulativa calcolata su tutte le partite (non è una valutazione ELO). La percentuale di vittoria conteggia 1 punto per la vittoria e 0,5 punti per il pareggio. Notare che le partite con svantaggio non vengono conteggiate in tali statistiche.
+
+"<b>IL NOSTRO PROGRAMMA DI SCACCHI:</b>"
+
+il nostro programma di scacchi si basa sul motore di scacchi Treebeard, di cui è possibile scoprire i dettagli all'indirizzo http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm e il cui uso è stato concesso in licenza da Microsoft sui propri prodotti. Questo motore di scacchi utilizza tecniche non presenti nella maggior parte di programmi di scacchi e consente di giocare secondo uno stile più umano. A differenza dei programmi convenzionali, non cerca milioni di posizioni, ma utilizza invece una ricerca indirizzata alla probabilità per esaminare meno posizioni con più dettagli. Questo programma condivide la tecnologia del programma di scacchi giapponese \"Shotest\", classificatosi per due volte terzo al mondo.
+
+"<b>HEYZAP:</b>"
+
+il gioco ora supporta la rete di giochi Heyzap, che consente di accedere a Twitter o Facebook quando si vince una partita. Heyzap ti consente di visualizzare a quale gioco stanno giocando gli amici e di registrare i tuoi risultati (medaglie) e condividere i suggerimenti.
+
+"</string>
+    <string name="hint">Suggerimento</string>
+    <string name="leaderboards">Classifica</string>
+    <string name="leaving_game">"Stai per abbandonare la partita e perdere tutti i progressi non salvati.
+
+Per salvare o esportare prima in PGN, premi Annulla e vai al menu."</string>
+    <string name="load">Carica</string>
+    <string name="loadgame_title">Carica partita</string>
+    <string name="loadsavedgame">"Carica
+partita salvata"</string>
+    <string name="log_as_draw">"Pareggia la
+partita"</string>
+    <string name="mail_body">"Prova questo favoloso gioco di scacchi gratuito!
+
+http://market.android.com/details?id=uk.co.aifactory.chessfree
+"</string>
+    <string name="mail_body_no_link">Scopri il gioco per Android \"Chess Free\" di AI Factory Limited!</string>
+    <string name="mail_prompt">"Seleziona un'applicazione:"</string>
+    <string name="mail_subject">Prova questo gioco Android!</string>
+    <string name="main_menu">Menu principale</string>
+    <string name="main_menu_2">Menu principale</string>
+    <string name="match_settings">IMPOSTAZIONI PARTITA</string>
+    <string name="menu_button_end_of_game">→</string>
+    <string name="menu_text">Menu</string>
+    <string name="menu_text_large">MENU</string>
+    <string name="more">Più informazioni</string>
+    <string name="more_games">Altri giochi</string>
+    <string name="move_timer">"Timer mossa
+(sec):"</string>
+    <string name="new_feature">Nuova funzione!</string>
+    <string name="new_feature_1">"Nuova funzione:
+
+è ora possibile scegliere come visualizzare i pezzi sulla scacchiera durante le partite a due giocatori. Tra le opzioni sono disponibili quattro diverse modalità.
+"</string>
+    <string name="new_game">Nuova partita</string>
+    <string name="no">No</string>
+    <string name="noTimers">Nessun timer</string>
+    <string name="nosavedgames">Non sono presenti partite salvate...</string>
+    <string name="nothanks">No grazie</string>
+    <string name="off">Off</string>
+    <string name="offer_draw">Offri pareggio</string>
+    <string name="ok">OK</string>
+    <string name="on">On</string>
+    <string name="overwrite">"Sovrascrivi il file esistente:
+"</string>
+    <string name="piece_selection">Pezzo:</string>
+    <string name="piecesindanger_help">"\"Mostra pezzi in pericolo\" segnalerà in rosso i pezzi facilmente catturabili dall'avversario, insegnandoti a non sbagliare."</string>
+    <string name="play">GIOCA!</string>
+    <string name="play_again">Gioca di nuovo</string>
+    <string name="play_as">Gioca come:</string>
+    <string name="play_mode">Modalità gioco:</string>
+    <string name="play_to">Gioca a:</string>
+    <string name="player">Tu</string>
+    <string name="player1">Player 1</string>
+    <string name="player1_resigns">Il Giocatore 1 ha rinunciato</string>
+    <string name="player1_wins">Il Giocatore 1 ha vinto!</string>
+    <string name="player2">Player 2</string>
+    <string name="player2_resigns">Il Giocatore 2 ha rinunciato</string>
+    <string name="player2_wins">Il Giocatore 2 ha vinto!</string>
+    <string name="practice_help">.</string>
+    <string name="pro_body">Modalità \"Pro\" selezionata. Tutti gli aiuti al giocatore disattivati, statistiche calcolate a parte, occorre arrendersi per abbandonare una partita.</string>
+    <string name="promote">Selezionare un pezzo per la promozione a:</string>
+    <string name="proswitch_body">Modalità \"Pro\" attiva, tutti gli aiuti al giocatore (es. Annulla) disattivati, statistiche calcolate a parte, non si può abbandonare la partita.</string>
+    <string name="rate">Valuta</string>
+    <string name="rate_body">"Ti è piaciuto Chess Free?
+Inviaci la tua valutazione."</string>
+    <string name="rating_casual_help">In modalità Casual il punteggio è cumulativo e si basa sui risultati in tutti i livelli di difficoltà.</string>
+    <string name="rating_pro_help">In modalità Pro la valutazione ELO è basata sul sistema FIDE (dopo 5 partite Pro). N.B.: può essere diversa dalle attuali valutazioni umane FIDE. Vedi sezione alla fine di \"Regole scacchi\" per una spiegazione completa.</string>
+    <string name="recommend">"Consiglia
+a un amico"</string>
+    <string name="recommend_warning">"Stai per abbandonare temporaneamente il gioco per inviare un consiglio utilizzando l'applicazione di messaggistica preferita."</string>
+    <string name="recordgame">Registra partita</string>
+    <string name="reset">Azzera statistiche</string>
+    <string name="reset_question">Azzerare le statistiche?</string>
+    <string name="reset_question_gpg">Sicuro di voler azzerare tutte le statistiche? Questo azzererà anche quelle in cloud e i progressi in classifica se usi \"Google Play Games\".</string>
+    <string name="resign">hai rinunciato</string>
+    <string name="resign_cap">Rinuncia</string>
+    <string name="resign_confirm">Rinunciare alla partita?</string>
+    <string name="resign_match">"Rinuncia alla
+partita"</string>
+    <string name="resign_offered">Desidero rinunciare. Vuoi proseguire la partita?</string>
+    <string name="resigns">ha rinunciato</string>
+    <string name="review_game">Rivedi partita</string>
+    <string name="review_help">"Da questa schermata puoi valutare la partita attuale dall'inizio alla fine. Cliccando su una mossa dell'elenco potrai andare a quel punto della partita, oppure puoi navigare con le frecce."</string>
+    <string name="rules">Regole del gioco</string>
+    <string name="rules_of_chess">"Regole
+scacchi"</string>
+    <string name="rules_of_chess2">Regole scacchi</string>
+    <string name="save">Salva</string>
+    <string name="save_and_quit">Salva &amp; Abbandona</string>
+    <string name="save_pgn_success1">"salvato sulla memoria esterna, cartella:
+
+"</string>
+    <string name="save_pgn_success2">"
+
+Anche il PGN è stato copiato negli appunti..."</string>
+    <string name="save_success">"Partita salvata correttamente...
+
+Le partite salvate possono essere caricate dal menu principale."</string>
+    <string name="saveas">Salva partita...</string>
+    <string name="saveas_text">Inserisci un nome per la partita salvata:</string>
+    <string name="screen_warning">"** AVVERTENZA **
+
+La schermata di questo gioco è impostata su \"Sempre attivo\".
+
+Questo può comportare un esaurimento della batteria più rapido del normale."</string>
+    <string name="sd_load_fail">"Salvataggio nella memoria esterna non riuscito. Se si dispone di una scheda SD, assicurarsi che non sia dedicata all'uso su computer."</string>
+    <string name="selectagame">Selezionare una delle partite sopra indicate...</string>
+    <string name="settings">Opzioni</string>
+    <string name="settings1">OPZIONI DI GIOCO</string>
+    <string name="sfx_off">Audio Off</string>
+    <string name="showcputhinking_help">"\"Mostra riflessione CPU\" mostra la mossa ritenuta al momento migliore dal CPU mentre riflette, e quindi l'analisi CPU della posizione attuale."</string>
+    <string name="signin_body">"Per usare questa funzione devi prima accedere a Google. Una volta effettuato l'accesso, potrai condividere progressi e risultati con i tuoi amici!"</string>
+    <string name="signout">"Esci da
+Google"</string>
+    <string name="single_player">Unico giocatore</string>
+    <string name="skip">Ignora</string>
+    <string name="splat_confirm">Abbandonare la partita? Tutti i progressi andranno persi.</string>
+    <string name="stale_mate">Stallo...</string>
+    <string name="start">GIOCA</string>
+    <string name="stats">Statistiche</string>
+    <string name="stats_already_logged">Statistiche già calcolate per questa partita, non saranno conteggiate di nuovo alla fine.</string>
+    <string name="stats_col1">Difficoltà</string>
+    <string name="stats_col2">Vittorie</string>
+    <string name="stats_col3">Pareggi</string>
+    <string name="stats_col4">Sconfitte</string>
+    <string name="stats_col5">% Vittorie</string>
+    <string name="stats_title">Statistiche contro CPU</string>
+    <string name="swap_sides">Cambia colore</string>
+    <string name="swap_sides_confirm">"Sicuro di voler cambiare lato? Assumerai il controllo dei pezzi dell'avversario, e viceversa, ma la posizione di gioco rimarrà invariata."</string>
+    <string name="swap_sides_result">Le statistiche della partita non saranno calcolate e non verranno conteggiate nei risultati o nelle classifiche.</string>
+    <string name="switch_casual">"Passa a modalità
+\"Casual\""</string>
+    <string name="tap_for_more_info">Tocca il gioco per il download gratuito!</string>
+    <string name="tap_to_continue">Tocca scacchiera per cont.</string>
+    <string name="timer_expired">Tempo scaduto!</string>
+    <string name="timer_help">\"Timer partita\" indica il tempo totale per effettuare tutte le mosse. \"Timer mossa\" è il tempo bonus assegnato dopo ogni mossa.</string>
+    <string name="timers_active">Timer attivi:</string>
+    <string name="title1">"Seleziona un'opzione per iniziare:"</string>
+    <string name="tried">Hai provato questo gioco?</string>
+    <string name="tutor">Tutor:</string>
+    <string name="tutor_body">Il tutor ti insegna a giocare suggerendo una possibile mossa, a spostarti dalla tua posizione e a evitare errori. Puoi decidere di muovere un pezzo diverso da quello consigliato.</string>
+    <string name="tutor_level_0">"Livello:
+Auto-"</string>
+    <string name="tutor_level_1">"Livello:
+1/8"</string>
+    <string name="tutor_level_2">"Livello:
+2/8"</string>
+    <string name="tutor_level_3">"Livello:
+3/8"</string>
+    <string name="tutor_level_4">"Livello:
+4/8"</string>
+    <string name="tutor_level_5">"Livello:
+5/8"</string>
+    <string name="tutor_level_6">"Livello:
+6/8"</string>
+    <string name="tutor_level_7">"Livello:
+7/8"</string>
+    <string name="tutor_level_8">"Livello:
+8/8"</string>
+    <string name="tutor_title">Modalità Tutor:</string>
+    <string name="tutorlevel_help">Il Livello tutor stabilisce il tempo di riflessione del tutor, e quindi la sua forza. \"Auto\" sceglierà un livello basato sulla difficoltà del CPU contro cui si sta giocando.</string>
+    <string name="two_player">Due giocatori</string>
+    <string name="twoplayermode">"Due giocatori
+modalità pezzo:"</string>
+    <string name="twoplayerpieces_help">"Quest'opzione permette di scegliere come mostrare i pezzi in una partita a due."</string>
+    <string name="undo_hint">"Suggerimento
+
+Utilizzare il pulsante \"Annulla\" per deselezionare un pezzo scelto o per tornare indietro nella partita."</string>
+    <string name="undo_last_move">Annulla ultima mossa</string>
+    <string name="undo_text">Undo</string>
+    <string name="upgrade">Aggiorna scacchi</string>
+    <string name="user_offer_draw_confirm">"Sicuro di voler offrire un pareggio all'avversario?"</string>
+    <string name="view_all">"Visualizza
+tutti i giochi"</string>
+    <string name="view_board">Vis scacch</string>
+    <string name="vsCPU">vs livello CPU</string>
+    <string name="vsPlayer">Due giocatori</string>
+    <string name="win">hai vinto!</string>
+    <string name="win_rate">% Vittorie:</string>
+    <string name="wins">ha vinto!</string>
+    <string name="yes">Si</string>
+    <string name="you_resign">Hai rinunciato</string>
+    <string name="you_win">Hai vinto!</string>
+    <string name="you_win_short">Hai vinto!</string>
+    <string name="your_elo">Valut. ELO:</string>
+    <string name="your_opponent_resigns">Il tuo avversario ha rinunciato</string>
+    <string name="your_opponent_resigns_short">"L'avversario ha rinunciato"</string>
+    <string name="your_opponent_wins">"Ha vinto l'avversario!"</string>
+    <string name="your_rating">Valutazione:</string>
+    <string name="your_score">Il tuo punteggio:</string>
+</resources>

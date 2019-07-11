@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text_phone">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_text_tablet">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Если проблема не исчезнет, обратитесь к разработчику.</string>
+    <string name="common_google_play_services_unsupported_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", не поддерживаются на вашем устройстве. Обратитесь к производителю.</string>
+    <string name="common_google_play_services_unsupported_title">Сервисы Google Play</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_updating_title">Обновление сервисов Google Play…</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="abandon">"Выйти
+ из партии"</string>
+    <string name="accept">Принять</string>
+    <string name="accept_resign">"Принять
+отставку"</string>
+    <string name="achievements">Достижения</string>
+    <string name="advanced">Дополнительно:</string>
+    <string name="already_offered_draw">Вы уже это предлагали, и Ваше предложение было отклонено.</string>
+    <string name="also_available">Также доступны...</string>
+    <string name="analyse">Анализ</string>
+    <string name="analyse_help">При выборе опции \"Анализ\" проводится намного более серьезный поиск, чем при обычной подсказке, а также показываются возможные в игре ходы во время анализа программой сложившейся ситуации.</string>
+    <string name="app_name_free">Шахматы Free</string>
+    <string name="app_name_paid">Шахматы</string>
+    <string name="back">НАЗАД</string>
+    <string name="board_selection">Доска:</string>
+    <string name="cancel">Отмена</string>
+    <string name="castling_body">Последний ход ПК называется \"Рокировка\". Подробнее см. в разделе \"Правила игры\".</string>
+    <string name="castling_title">\"Рокировка\"</string>
+    <string name="casual_body">Вы выбрали режим \"Аматор\", в котором доступны следующие опции: ход назад, подсказка, анализ, коуч, форы белых, \"Показать, как думает ПК\", \"Фигуры под угрозой\". Они помогут вам улучшить свою игру.</string>
+    <string name="casual_only">Только \"Аматор\":</string>
+    <string name="casual_only2">(Только \"Аматор\")</string>
+    <string name="check">Шах!</string>
+    <string name="check_mate">Шах и мат!</string>
+    <string name="checkbox_aids">"Показывать возможный
+и последний ходы"</string>
+    <string name="checkbox_confirm">Подтвердить ход (Ас)</string>
+    <string name="checkbox_coords">Показывать Координаты</string>
+    <string name="checkbox_cpu_offers">Разрешить ПК сдачу/ничью</string>
+    <string name="checkbox_cpu_offers_explain">При выборе опции ПК может делать предложения о сдаче или ничьей.</string>
+    <string name="checkbox_expanded">Расширен. запись хода</string>
+    <string name="checkbox_flip">Переворачивать доску в режиме \"Два игрока\"</string>
+    <string name="checkbox_hidegpg">скрывать \"Google Play Игры\"</string>
+    <string name="checkbox_hideundo">Скрыть кн. \"Отменить\"</string>
+    <string name="checkbox_infobar">Полный экран</string>
+    <string name="checkbox_replace_hint">Заменить Подск с Анализ</string>
+    <string name="checkbox_screenalwayson">Экран Всегда включен</string>
+    <string name="checkbox_sfx">Звук включен</string>
+    <string name="checkbox_thinking">Показывать, как думает ПК</string>
+    <string name="checkbox_threat">Фигуры под угрозой</string>
+    <string name="checkbox_timer">Всегда показывать таймеры</string>
+    <string name="checkbox_transitions">Переключ. между экранами</string>
+    <string name="chess_program"><b>НАША ШАХМАТНАЯ ПРОГРАММА:</b>"
+
+Искусственный интеллект Шахматы Free основан на нашей шахматной программе Treebeard, которая лицензирована компанией Microsoft для использования в своих продуктах. Эта программа использует алгоритмы, которые Вы не найдёте в большинстве шахматных игр, и которая позволяет компьютеру подражать манере игры человека. Непохожая на обычные программы, наша не выполняет поиск миллионов позиций, а вместно этого использует направленный вероятностный поиск, чтобы детально обработать меньше позиций, но более качественно. Также технология нашей программы внедрена в шахматную программу Japanese Chess Shotest, дважды занимавшую третье место в мире.
+
+"</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="continue_message">Продолжить</string>
+    <string name="corrupt_file">К сожалению, файл игры поврежден. Вместо загрузки начата новая игра.</string>
+    <string name="cpu">Ваш противник</string>
+    <string name="cpu_1">ПК 1</string>
+    <string name="cpu_10">ПК 10</string>
+    <string name="cpu_11">ПК 11</string>
+    <string name="cpu_12">ПК 12</string>
+    <string name="cpu_2">ПК 2</string>
+    <string name="cpu_3">ПК 3</string>
+    <string name="cpu_4">ПК 4</string>
+    <string name="cpu_5">ПК 5</string>
+    <string name="cpu_6">ПК 6</string>
+    <string name="cpu_7">ПК 7</string>
+    <string name="cpu_8">ПК 8</string>
+    <string name="cpu_9">ПК 9</string>
+    <string name="cpu_p">ПК P</string>
+    <string name="cpu_short">ПК</string>
+    <string name="crosspromBackgammon">Древняя и популярная, игра большого мастерства, стратегии и удачи.</string>
+    <string name="crosspromMoveit">Отменный, оригинальный и совершенно новый тип головоломок = одна загрузка!</string>
+    <string name="decline">Отклонить</string>
+    <string name="decline_resign">Играть</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_question">Вы уверены, что хотите удалить эту сохранённую игру?</string>
+    <string name="difficulty">"Уровень сложности
+(P,1→12) :"</string>
+    <string name="dont_show_again">Больше не показывать</string>
+    <string name="dontshowagain">Больше не показывать</string>
+    <string name="download_now">Загрузите прямо сейчас!</string>
+    <string name="draw">Ничья!</string>
+    <string name="draw_50move">(за 50 ходов ни одной взятой фигуры и хода пешками)</string>
+    <string name="draw_agreed">Достигнута ничья!</string>
+    <string name="draw_agreed_">Игроки согласились на ничью</string>
+    <string name="draw_lackofpieces">(победа невозможна из-за оставшихся фигур)</string>
+    <string name="draw_offered">Вы согласны на ничью?</string>
+    <string name="draw_offered_p1">Игрок 1 предлагает Вам ничью. Вы согласны?</string>
+    <string name="draw_offered_p2">Игрок 2 предлагает Вам ничью. Вы согласны?</string>
+    <string name="draw_rejected">Я хотел(а) бы все же продолжить игру.</string>
+    <string name="draw_rejected_first">Я бы хотел(а) продолжить игру.</string>
+    <string name="draw_rejected_p1">Игрок 1 хотел бы продолжить игру.</string>
+    <string name="draw_rejected_p2">Игрок 2хотел бы продолжить игру.</string>
+    <string name="draw_repeated">(повторяющиеся ходы)</string>
+    <string name="draw_stalemate">(у игрока нет возможных ходов и ему не объявлен шах)</string>
+    <string name="elo_help"><b>Рейтинговая система Эло:</b>"
+
+После того как вы сыграете 5 игр в режиме \"Ас\", будет рассчитан ваш рейтинг Эло. Учтите, что он основывается на версии ФИДЕ Эло и обеспечит хороший рейтинг Эло в приложении. Каждый уровень сложности в компьютерной партии имеет протестированный рейтинг. Мы задали компьютерный уровень 12 для ФИДЕ Эло 2100 (однако он может быть больше), с уровнем 1 при 423.
+
+Учтите, однако, что это не совпадает в точности с рейтингом Эло, используемым в турнирах между людьми, по следующим причинам:
+
+1. ФИДЕ Эло и Шахматная федерация США (USCF) обычно рассчитывают рейтинги Эло по результатам соревнований с учетом времени, однако Chess Free имеет менее строгий контроль, который позволяет пользователю играть так долго, как ему нравится. Таким образом, получаемый вами рейтинг может быть выше, чем рейтинг в турнирах между людьми.
+
+2. Компьютерный рейтинг Эло не всегда совпадает с рейтингом Эло, используемым в турнирах между людьми, так что одни игроки могут решить, что программа играет лучше, чем заявлено, а другие - что программа играет намного хуже. Это связано с особенностями компьютера. Лица, играющие с шахматными программами, обнаружат в AI уловки, которыми можно воспользоваться, чтобы получить лучшие результаты.
+
+3. Шкалы Эло Фиде, USCF и прочие различаются по стандарту, так что, например, USCF может отличаться от ФИДЕ на 100 очков Эло.
+
+4. Различные устройства характеризуются некоторыми вариациями сложности. На более низких уровнях сложность будет идентичной для любого мобильного телефона, однако для серии ходов на более высоких уровнях лучше функционирует более быстрое устройство.
+
+Настоящая система Эло в точности отслеживает изменения рейтинга Эло ФИДЕ в пределах приложения, так что вы сможете оценить относительное изменение своего уровня. Так вы сможете развиваться как игрок и получить представление о своих действиях.
+
+(Примечание: система подсчета очков в режиме \"Аматор\" не является системой Эло и представляет собой простое суммирование показателей на основании ваших результатов на всех уровнях)."</string>
+    <string name="enpassant_body">Последний ход ПК называется \"Взятие на проходе\". Подробнее см. в разделе \"Правила игры\".</string>
+    <string name="enpassant_title">\"En Passant\" или Взятие на проходе</string>
+    <string name="export_pgn">Экспорт PGN...</string>
+    <string name="export_pgn2">Экспорт PGN</string>
+    <string name="exportpgn_text">Введите имя файла PGN:</string>
+    <string name="exportpgn_text2">(PGN будет также скопирован в буфер обмена)</string>
+    <string name="finish_game">Закончить</string>
+    <string name="gameTimer">Таймер:</string>
+    <string name="game_in_progress">Игра продолжается...</string>
+    <string name="game_over">Игра закончена!</string>
+    <string name="game_timer">Время игры (мин):</string>
+    <string name="games_by_third_party">Рекомендуемые игры от наших партнеров:</string>
+    <string name="google1">Зайдите в аккаунт Google, чтобы поделиться своими успехами с друзьями.</string>
+    <string name="google2">Вы вошли в аккаунт Google.</string>
+    <string name="handicap">Фора белых:</string>
+    <string name="handicap_help">Вы выбрали опцию \"Фора белых\". Будет удалена выбранная белая фигура, что даст преимущество черным.</string>
+    <string name="handicap_short">Фора белых:</string>
+    <string name="help1">ПРАВИЛА ИГРЫ</string>
+    <string name="help2">"Шахматы - это сражение между двумя игроками, выражаемое в поочередных ходах шахматными фигурами, белыми и черными. Шахматные фигуры могут перемещаться как на пустые клетки, так и на клетки, занятые фигурами противника. Атакованная фигура противника снимается с доски. Главная цель игры - объявить шах и мат королю противника, но этому предшествует осторожное маневрирование шахматными фигурами, позволяющее контролировать пространство на доске и собрать силы для финальной атаки.
+
+Обычно шахматные фигуры представляют собой классы средневекового общества. В следующих разделах описано, как фигуры могут ходить."</string>
+    <string name="help3">"8 пешек символизируют рабочих, или солдат. Они могут ходить только прямо, по одной клетке за ход. Однако за первый ход пешка может преодолеть и две клетки. Кроме того, делая ход вперед, Пешка не может атаковать противника. Она может завладеть фигурой противника, делая ход по диагонали (для других целей ход по диагонали не допускается). Когда пешка достигает противоположной стороны доски, она может быть заменена на любую фигуру своего цвета, за исключением короля. Это действие называется \"превращение пешки\". Обычно пешку заменяют на ферзя.
+
+У пешки также есть один специальный ход - \"Взятие на проходе\", согласно которому пешка, сделавшая двойной ход, может быть взята пешкой противника (расположенной на 5-й горизонтали) ответным ходом, если в момент совершения хода она находилась под боем. Пешка противника завершает взятие на пересеченном поле, как если бы ходившая пешка переместилась лишь на одно поле. Взятие на проходе может осуществляться только ответным ходом пешки противника."</string>
+    <string name="help4">Ход коня не похож на ход остальных фигур: он движется не по прямой линии, а делает ход на одну клетку прямо и на одну по диагонали. Такой \"Г-образный\" ход может выполняться в любом направлении, в результате чего конь может делать до 8 различных ходов, находясь близко к центру доски. Подобно настоящему коню, шахматный конь может перепрыгивать через шахматные фигуры обоих цветов. Если конь начинает свой ход со светлой клетки, он закончит его на темной.</string>
+    <string name="help5">Слоном можно совершать ходы через любое количество клеток в диагональном направлении. Слон не может перепрыгивать через фигуры, как это делает конь.</string>
+    <string name="help6">Ладьей можно совершать ходы через любое количество клеток в вертикальном или горизонтальном направлении. Однако ладья не может перепрыгивать через фигуры, как это делает конь.</string>
+    <string name="help7">Ферзь может ходить в горизонтальном, вертикальном и диагональном направлениях через любое количество клеток, объединяя возможности ладьи и слона, при условии, что на его пути нет других фигур. Ферзь является грозной фигурой и часто используется в качестве основной ударной силы в атаках.</string>
+    <string name="help8">Король является главной мишенью атак противника. Объявление мата королю означает, что игра закончена. Король может ходить в любом направлении, но только на одну клетку за один ход. У короля также есть специальный ход, называемый \"Рокировка\", при котором он может переместиться вправо или влево на две клетки. При этом ладья перепрыгивает через короля и оказывается по другую сторону от него.</string>
+    <string name="help9">"Рокировка возможна лишь в том случае, если король и ладья, с помощью которой совершается такой ход, не сделали до этого ни одного ход, ни одна из клеток между ними не занята другими шахматными фигурами, король не находится под шахом и не проходит через атакованное поле. Короля необходимо защищать, но он может быть и мощной шахматной фигурой. В конце игры король часто несет большую угрозу пешкам противника. В концовках партий он составляет основную силу при постановке мата королю противника.
+
+Когда король подвергается прямой атаке шахматной фигурой противника, ему объявляется шах. В такой ситуации он должен быть защищен немедленно.
+
+Существует три способа выйти из-под шаха:
+
+1. Король может переместиться на клетку, на которой он не будет атакован шахматной фигурой противника.
+
+2. Шахматная фигура, которая атакует короля, может быть \"убита\".
+
+3. Другая шахматная фигура может быть перемещена между королем и атакующей фигурой.
+
+Если король, находящийся под шахом, не может быть защищен, ему объявляется \"мат\" и игра завершается."</string>
+    <string name="helpmain1">КАК ИГРАТЬ</string>
+    <string name="helpmain2">"(Переместитесь вниз, чтобы ознакомиться с правилами игры в Шахматы).
+
+Перед тем, как начать игру, вам будет предложено сделать настройки для новой партии (Настройки партии). Здесь Вы можете выбрать, какими фигурами играть, уровень мастерства компьютера (1 - начинающий, 12 - гроссмейстер), фору белых фигур (белая фигура убирается, чтобы облегчить игру чёрными) и ограничить время партии.
+
+Здесь показаны два элемента настройки времени партии:
+
+Время партии ограничивает время для каждого игрока в начале партии. Время отсчитывается назад, когда игрок думает над своим ходом, и игрок считается проигравшим, если таймер достигает нуля.
+
+Добавление времени на один ход - это дополнительное время, которое получает игрок после совершения хода.
+
+После того, как игра начнётся, используйте экран или джойстик телефона, чтобы выбирать и ходить шахматными фигурами. Чтобы сделать ход, необходимо сначала выбрать шахматную фигуру, а затем выбрать доступную для совершения хода клетку.
+
+Кнопку \"Отменить последний ход\" можно использовать, чтобы переместиться назад в партии на желаемое количество ходов.
+
+Имена игроков, таймеры, взятые фигуры и важные сообщения отображаются над и под шахматной доской. Когда компьютер думает над своим ходом, в правом верхнем углу отображается анимация в виде звезды. Важно отметить, что чем выше уровень сложности, тем дольше думает компьютер. Если включены таймеры, то компьютер будет ходить быстрее.
+
+Во время игры, Вы можете нажать на кнопку Меню Вашего телефона, чтобы получить доступ к двум полезным элементам нашей программы - \"Подсказка\" и \"Обзор игры\". Нажатие на кнопку Подсказка заставит компьютер предложить Вам, какой ход лучше сделать в текущей расстановке сил. Обзор игры откроет экран, на котором отображён список ходов, которые Вы сделали до текущего момента, и Вы можете просмотреть их все. Выбрав любой ход из списка, Вы переместитесь к моменту в партии, когда был сделан этот ход. Вы также можете использовать кнопки навигации слева, чтобы прокрутить ход один за другим, или сразу переместиться к первому или последнему ходу.
+
+Функция \"Сохранить и Выйти\" всегда доступна при нажатии на кнопку Меню - данная функция позволяет сохранить весь прогресс текущей партии или изменения в настройках, которые Вы сделали, а затем выйти из игры.
+
+"<b>СТАТИСТИКА:</b>"
+
+В игре ведется учёт Ваших побед/поражений/ничьих в партиях против компьютера на каждом уровне сложности. Данная информация доступна в главном меню. Рейтинг, указанный в левом нижнем углу, рассчитанный из сыгранных Вами партий (это не является рейтингом ELO - принятый для расчёта рейтинг в играх между шахматистами, также известный как коэффициент ELO). Процент побед начисляется из расчёта - 1 очко за победу и 0,5 очка за ничью. Важно заметить, что игры с форой в статистике не учитываются.
+
+"<b>НАША ШАХМАТНАЯ ПРОГРАММА:</b>"
+
+Искусственный интеллект Шахматы Free основан на нашей шахматной программе Treebeard, которая лицензирована компанией Microsoft для использования в своих продуктах. Эта программа использует алгоритмы, которые Вы не найдёте в большинстве шахматных игр, и которая позволяет компьютеру подражать манере игры человека. Непохожая на обычные программы, наша не выполняет поиск миллионов позиций, а вместно этого использует направленный вероятностный поиск, чтобы детально обработать меньше позиций, но более качественно. Также технология нашей программы внедрена в шахматную программу Japanese Chess Shotest, дважды занимавшую третье место в мире.
+
+"<b>HEYZAP:</b>"
+
+Шахматы Free поддерживает игровую сеть Heyzap, которая позволяет Вам по желанию входить в свой аккаунт на Twitter или Facebook, когда Вы побеждаете. Heyzap позволяет видеть Вам, во что играют Ваши друзья, публиковать ваши достижения и делиться советами.
+
+"</string>
+    <string name="hint">Подск</string>
+    <string name="leaderboards">Лидеры</string>
+    <string name="leaving_game">"Вы собир. заверш. партию. Все Ваши ходы будут потер.
+
+Для сохран. или эксп. игры в PGN нажм. \"Отмена\" или перейд. в Меню."</string>
+    <string name="load">Загруз.</string>
+    <string name="loadgame_title">Загруз. игру</string>
+    <string name="loadsavedgame">"Загрузить
+сохраненную игру"</string>
+    <string name="log_as_draw">Засчитать ничью</string>
+    <string name="mail_body">"Сыграй в шахматы бесплатно!
+
+http://market.android.com/details?id=uk.co.aifactory.chessfree
+
+(Ссылка работает только на устройствах под управлением ОС Android с установленным приложением Android Market)
+"</string>
+    <string name="mail_body_no_link">Классная игра Chess Free\" для Android \"от AI Factory Limited!</string>
+    <string name="mail_prompt">Выберите приложение:</string>
+    <string name="mail_subject">Попробуй эту игру для Android!</string>
+    <string name="main_menu">Главное меню</string>
+    <string name="main_menu_2">Главное меню</string>
+    <string name="match_settings">НАСТР-КИ ПАРТИИ</string>
+    <string name="menu_button_end_of_game">→</string>
+    <string name="menu_text">Меню</string>
+    <string name="menu_text_large">МЕНЮ</string>
+    <string name="more">Еще</string>
+    <string name="more_games">Другие игры</string>
+    <string name="move_timer">Доп. время (с):</string>
+    <string name="new_feature">Новая функция!</string>
+    <string name="new_feature_1">"Новая функция:
+
+Вы можете выбрать способ отображ. фигур на доске в реж. \"Два игрока\". В настр. доступны четыре разл. способа отображ."</string>
+    <string name="new_game">Новая игра</string>
+    <string name="no">Нет</string>
+    <string name="noTimers">Без таймер.</string>
+    <string name="nosavedgames">Сохраненных игр нет...</string>
+    <string name="nothanks">Нет</string>
+    <string name="off">выкл</string>
+    <string name="offer_draw">Предложить ничью</string>
+    <string name="ok">OK</string>
+    <string name="on">вкл</string>
+    <string name="overwrite">"Хотите перезап. сущ-ий файл:
+"</string>
+    <string name="piece_selection">Фигура:</string>
+    <string name="piecesindanger_help">Опция \"Фигуры под угрозой\" обеспечивает подсветку красным цветом фигур, которые может захватить противник. Эта опция также позволяет учиться избегать ошибок.</string>
+    <string name="play">ИГРАТЬ!</string>
+    <string name="play_again">Играть еще раз</string>
+    <string name="play_as">Играть:</string>
+    <string name="play_mode">Режим:</string>
+    <string name="play_to">Играть:</string>
+    <string name="player">Вы</string>
+    <string name="player1">Игрок 1</string>
+    <string name="player1_resigns">Игрок 1 сдался</string>
+    <string name="player1_wins">Игрок 1 выиграл!</string>
+    <string name="player2">Игрок 2</string>
+    <string name="player2_resigns">Игрок 2 сдался</string>
+    <string name="player2_wins">Игрок 2выиграл!</string>
+    <string name="practice_help">.</string>
+    <string name="pro_body">Вы выбрали режим \"Ас\", в котором все опции помощи игроку отключены, нельзя прервать партию не сдавшись, статистика регистрируется отдельно.</string>
+    <string name="promote">Выберите фигуру для замены пешки:</string>
+    <string name="proswitch_body">Вы играете в режиме \"Ас\", в котором отключены все опции помощи игроку (напр., \"Отменить\"). Статистика регистрируется отдельно и не может быть удалена.</string>
+    <string name="rate">Рейтинг</string>
+    <string name="rate_body">"Нравится игра Chess Free?
+Дайте свою оценку."</string>
+    <string name="rating_casual_help">В режиме \"Аматор\" рейтинг - это совокупный результат по итогам вашей игры на всех уровнях.</string>
+    <string name="rating_pro_help">В режиме \"Ас\" ваш рейтинг - это рейтинг Эло, основанный на системе ФИДЕ (после 5 игр в режиме \"Ас\"). Он может отличаться от фактических рейтингов ФИДЕ. Полную информацию можно найти в нижней части раздела \"Правила игры\".</string>
+    <string name="recommend">Рекомендовать другу</string>
+    <string name="recommend_warning">Вы временно покидаете игру, чтобы отправить рекомендацию другу с помощью любого приложения для отправки сообщений.</string>
+    <string name="recordgame">Записать игру</string>
+    <string name="reset">Сброс. стат.</string>
+    <string name="reset_question">Вы уверены, что хотите сбросить стат.?</string>
+    <string name="reset_question_gpg">Вы действительно хотите сбросить всю статистику? Если вы используете опции \"Google Play Игры\", это также удалит всю статистику из облака и сбросит результаты таблицы лидеров.</string>
+    <string name="resign">сдались!</string>
+    <string name="resign_cap">Сдаться</string>
+    <string name="resign_confirm">Вы уверены, что желаете сдаться в этой игре?</string>
+    <string name="resign_match">Засчитать поражение</string>
+    <string name="resign_offered">Я сдаюсь. Вы хотите продолжить игру?</string>
+    <string name="resigns">сдался!</string>
+    <string name="review_game">Обзор партии</string>
+    <string name="review_help">Данный режим позволяет оценить текущую партию от начала до конца. Щелчок на ход в списке позволяет переместиться на конкретный этап игры; для навигации также можно использовать кнопки с изображением стрелки.</string>
+    <string name="rules">Правила игры</string>
+    <string name="rules_of_chess">"Правила
+ игры"</string>
+    <string name="rules_of_chess2">Правила игры</string>
+    <string name="save">Сохранить</string>
+    <string name="save_and_quit">Сохранить &amp; выйти</string>
+    <string name="save_pgn_success1">"сохранено на внешний носитель, папка:
+
+"</string>
+    <string name="save_pgn_success2">"
+
+PGN также скопирован в буфер обмена..."</string>
+    <string name="save_success">"Игра успешно сохранена...
+
+Ее можно загрузить из Главного меню."</string>
+    <string name="saveas">Сохранить игру...</string>
+    <string name="saveas_text">Введите имя для сохраняемой игры:</string>
+    <string name="screen_warning">"** ВНИМАНИЕ **
+
+В настр. игры для экрана выбран реж. \"Всегда включен\".
+
+Это увел. расход энергии батареи."</string>
+    <string name="sd_load_fail">Не удалось сохр. на вн. носитель. Если у Вас имеется SD-карта, убедитесь, что она не подкл. к комп.</string>
+    <string name="selectagame">Выберите игру из списка...</string>
+    <string name="settings">Опции</string>
+    <string name="settings1">ОПЦИИ ИГРЫ</string>
+    <string name="sfx_off">Выключить звук</string>
+    <string name="showcputhinking_help">При выборе опции \"Показать, как думает ПК\" будет показан ход, который компьютер считает оптимальным во время рассуждений. Это позволит понять суть анализа компьютером текущего положения.</string>
+    <string name="signin_body">Войдите в аккаунт Google, чтобы воспользоваться этой опцией. После входа в аккаунт вы сможете поделиться своими успехами с друзьями!</string>
+    <string name="signout">"Выйти из
+Google"</string>
+    <string name="single_player">Один игрок</string>
+    <string name="skip">Пропустить</string>
+    <string name="splat_confirm">Вы уверены, что хотите завершить партию? Все Ваши ходы будут потеряны.</string>
+    <string name="stale_mate">Пат</string>
+    <string name="start">ИГРАТЬ</string>
+    <string name="stats">Статистика</string>
+    <string name="stats_already_logged">Статистика данной партии уже зарегистрирована, так что счет по окончании игры не запишется.</string>
+    <string name="stats_col1">Ур. сложности</string>
+    <string name="stats_col2">Победы</string>
+    <string name="stats_col3">Ничьи</string>
+    <string name="stats_col4">Поражен.</string>
+    <string name="stats_col5">% побед</string>
+    <string name="stats_title">Стат-ка в играх против ПК</string>
+    <string name="swap_sides">Пом. мест.</string>
+    <string name="swap_sides_confirm">Вы уверены, что хотите обменяться сторонами? Вы будете контролировать фигуры Ваших противников, а они - Ваши, но игровая позиция останется неизменной.</string>
+    <string name="swap_sides_result">Результаты не повлияют на статистику игры, Достижения и таблицы лидеров.</string>
+    <string name="switch_casual">"В режим
+\"Аматор\""</string>
+    <string name="tap_for_more_info">Выберите игру для бесплатной загрузки!</string>
+    <string name="tap_to_continue">Отк. табл. для продолж....</string>
+    <string name="timer_expired">Время вышло!</string>
+    <string name="timer_help">\"Время игры\" - это суммарное время, которое у вас есть, чтобы выполнить все ходы. \"Доп. время\" - это дополнительное время, которое добавляется после того, как игрок сделал ход.</string>
+    <string name="timers_active">Таймеры включены:</string>
+    <string name="title1">Выберите настройку, чтобы начать:</string>
+    <string name="tried">Вы попробовали эту игру?</string>
+    <string name="tutor">Коуч:</string>
+    <string name="tutor_body">В режиме \"Коуч\" вам показывается фигура, которую можно переместить. Это позволяет понять, как ходить в данной ситуации, и помогает избегать ошибок. Вы можете выбрать для игры фигуру, отличную от указанной.</string>
+    <string name="tutor_level_0">"Уровень:
+авто-"</string>
+    <string name="tutor_level_1">"Уровень:
+1/8"</string>
+    <string name="tutor_level_2">"Уровень:
+2/8"</string>
+    <string name="tutor_level_3">"Уровень:
+3/8"</string>
+    <string name="tutor_level_4">"Уровень:
+4/8"</string>
+    <string name="tutor_level_5">"Уровень:
+5/8"</string>
+    <string name="tutor_level_6">"Уровень:
+6/8"</string>
+    <string name="tutor_level_7">"Уровень:
+7/8"</string>
+    <string name="tutor_level_8">"Уровень:
+8/8"</string>
+    <string name="tutor_title">Коуч</string>
+    <string name="tutorlevel_help">Уровень \"Коуча\" определяет, как долго будет рассуждать программа-консультант, и, следовательно, эффективность ходов. Режим \"Авто\" выбирает уровень на основании уровня сложности компьютера, против которого вы играете.</string>
+    <string name="two_player">Два игрока</string>
+    <string name="twoplayermode">Фигуры в режиме \"Два игрока\":</string>
+    <string name="twoplayerpieces_help">Данная опция позволяет выбрать способ отображения фигур при игре двух лиц.</string>
+    <string name="undo_hint">"Совет
+
+Используйте кнопку \"Отменить\" для отмены выбранной фигуры и перехода назад."</string>
+    <string name="undo_last_move">Отменить последний ход</string>
+    <string name="undo_text">Отменить</string>
+    <string name="upgrade">Новая версия Шахматы</string>
+    <string name="user_offer_draw_confirm">Вы уверены, что хотите предложить Вашему противнику ничью?</string>
+    <string name="view_all">"Посмотреть
+все игры"</string>
+    <string name="view_board">Пр. табл.</string>
+    <string name="vsCPU">Против ПК</string>
+    <string name="vsPlayer">Два игрока</string>
+    <string name="win">выиграли!</string>
+    <string name="win_rate">% Побед:</string>
+    <string name="wins">выиграл!</string>
+    <string name="yes">Да</string>
+    <string name="you_resign">Вы сдались</string>
+    <string name="you_win">Вы выиграли!</string>
+    <string name="you_win_short">Вы выиграли!</string>
+    <string name="your_elo">Рейт. Эло:</string>
+    <string name="your_opponent_resigns">Ваш противник сдался</string>
+    <string name="your_opponent_resigns_short">Противник сдался</string>
+    <string name="your_opponent_wins">Ваш противник выиграл!</string>
+    <string name="your_rating">Ваш рейтинг:</string>
+    <string name="your_score">Ваши очки:</string>
+</resources>

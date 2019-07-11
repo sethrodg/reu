@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_pencil_wht_24dp" android:id="@id/compose" android:visible="false" android:title="@string/menu_compose" android:alphabeticShortcut="@string/trigger_compose_char" app:showAsAction="always" />
+    <item android:icon="@drawable/quantum_gm_ic_account_circle_vd_theme_24" android:id="@id/identity_disc_menu_item" android:title="@null" app:showAsAction="always" app:actionViewClass="com.google.android.libraries.onegoogle.account.disc.AccountParticleDisc" />
+</menu>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="common_google_play_services_enable_button">Aktivera</string>
+    <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
+    <string name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
+    <string name="common_google_play_services_install_button">Hämta Google Play-tjänster</string>
+    <string name="common_google_play_services_install_text_phone">Du måste installera Google Play-tjänster för att kunna köra %1$s på mobilen.</string>
+    <string name="common_google_play_services_install_text_tablet">Du måste installera Google Play-tjänster för att kunna köra %1$s på surfplattan.</string>
+    <string name="common_google_play_services_install_title">Hämta Google Play-tjänster</string>
+    <string name="common_google_play_services_notification_ticker">Fel på Google Play-tjänster</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problem med Google Play-tjänster. Om problemet kvarstår kontaktar du utvecklaren.</string>
+    <string name="common_google_play_services_unsupported_text">För %1$s krävs Google Play-tjänster, och dessa stöds inte på enheten. Kontakta tillverkaren om du vill ha hjälp.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-tjänster</string>
+    <string name="common_google_play_services_update_button">Uppdatera</string>
+    <string name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
+    <string name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
+    <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="common_google_play_services_updating_title">Google Play-tjänster uppdateras</string>
+    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="common_open_on_phone">Öppna på mobilen</string>
+    <string name="common_signin_button_text">Logga in</string>
+    <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="abandon">"Avbryt
+parti"</string>
+    <string name="accept">Acceptera</string>
+    <string name="accept_resign">Låt motståndaren ge upp</string>
+    <string name="achievements">Prestationer</string>
+    <string name="advanced">Avancerat:</string>
+    <string name="already_offered_draw">Du har redan lagt ett anbud det här draget, och det accepterades inte.</string>
+    <string name="also_available">Titta gärna också på ...</string>
+    <string name="analyse">Analys</string>
+    <string name="analyse_help">\"Analys\" gör en djupare sökning än vid en vanlig ledtråd, och visar också de drag spelet överväger medan det tänker.</string>
+    <string name="app_name_free">Schack Free</string>
+    <string name="app_name_paid">Schack</string>
+    <string name="back">TILLBAKA</string>
+    <string name="board_selection">Bräde:</string>
+    <string name="cancel">Avbryt</string>
+    <string name="castling_body">Det senaste draget datorn gjorde kallas för \"rockad\". Du kan läsa mer om</string>
+    <string name="castling_title">\"Rockad\"</string>
+    <string name="casual_body">Du har valt alternativet \"Casual\". I detta läge kan du ta tillbaka ditt drag, få tips, se analys, få vägledning, få handikapp för vit, \"visa när datorn tänker\" och \"visa pjäser i fara\" så att du kan förbättra ditt spel.</string>
+    <string name="casual_only">Endast läget Casual:</string>
+    <string name="casual_only2">(Endast läget Casual)</string>
+    <string name="check">Schack!</string>
+    <string name="check_mate">Schack matt!</string>
+    <string name="checkbox_aids">Visa giltiga och senaste drag</string>
+    <string name="checkbox_confirm">Bekräfta drag (Pro)</string>
+    <string name="checkbox_coords">Visa koordinater</string>
+    <string name="checkbox_cpu_offers">Låt datorn ge upp/bjuda remi</string>
+    <string name="checkbox_cpu_offers_explain">När detta alternativ är valt kan datorn bjuda remi eller ge upp ett parti.</string>
+    <string name="checkbox_expanded">Utökad dragnotation</string>
+    <string name="checkbox_flip">Vänd bräde</string>
+    <string name="checkbox_hidegpg">Dölj \"Google Play Spel\"</string>
+    <string name="checkbox_hideundo">Dölj \"Ångra\"-knappen</string>
+    <string name="checkbox_infobar">Dölj statusfält</string>
+    <string name="checkbox_replace_hint">Ersätt Tips med Analys</string>
+    <string name="checkbox_screenalwayson">Skärm alltid på</string>
+    <string name="checkbox_sfx">Ljud på</string>
+    <string name="checkbox_thinking">Visa när datorn tänker</string>
+    <string name="checkbox_threat">Visa pjäser i fara</string>
+    <string name="checkbox_timer">Visa alltid timers</string>
+    <string name="checkbox_transitions">Skärm-övergångar</string>
+    <string name="chess_program"><b>VÅRT SCHACKPROGRAM:</b>"
+
+Vårt schackprogram är baserat på schackmotorn Treebeard som du kan läsa mer om på http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm och som licensierats för användning av Microsoft i deras produkter. I den här schackmotorn används teknik som saknas i de flesta andra schackprogram och som gör att spelupplevelsen blir mer \"mänsklig\". Till skillnad från konventionella program söks inte miljontals möjliga drag igenom, utan i stället används en sökteknik baserad på sannolikhetsteorin, vilket gör att färre möjliga drag behöver beräknas i detalj. Detta program har samma teknik som det japanska schackprogrammet \"Shotest\", som två gånger rankats som världens tredje bästa.
+
+"</string>
+    <string name="confirm">Bekräfta</string>
+    <string name="continue_message">Fortsätt ...</string>
+    <string name="corrupt_file">Din sparade fil var tyvärr skadad och därför startades ett nytt parti i stället.</string>
+    <string name="cpu">Din motståndare</string>
+    <string name="cpu_1">Cpu (1)</string>
+    <string name="cpu_10">Cpu (10)</string>
+    <string name="cpu_11">Cpu (11)</string>
+    <string name="cpu_12">Cpu (12)</string>
+    <string name="cpu_2">Cpu (2)</string>
+    <string name="cpu_3">Cpu (3)</string>
+    <string name="cpu_4">Cpu (4)</string>
+    <string name="cpu_5">Cpu (5)</string>
+    <string name="cpu_6">Cpu (6)</string>
+    <string name="cpu_7">Cpu (7)</string>
+    <string name="cpu_8">Cpu (8)</string>
+    <string name="cpu_9">Cpu (9)</string>
+    <string name="cpu_p">Cpu P</string>
+    <string name="cpu_short">Dator</string>
+    <string name="crosspromBackgammon">Det urgamla men ständigt aktuella spelet med skicklighet, strategi och tur i fokus.</string>
+    <string name="crosspromMoveit">Ett elegant, originellt pusselspel av en helt ny typ = självklar nedladdning!</string>
+    <string name="decline">Neka</string>
+    <string name="decline_resign">Spela vidare</string>
+    <string name="delete">Radera</string>
+    <string name="delete_question">Vill du verkligen radera detta sparade parti?</string>
+    <string name="difficulty">"Svårighet
+(P,1→12) :"</string>
+    <string name="dont_show_again">Visa inte igen</string>
+    <string name="dontshowagain">Visa inte igen</string>
+    <string name="download_now">Hämta nu!</string>
+    <string name="draw">Remi!</string>
+    <string name="draw_50move">(50 drag utan att slå eller flytta en bonde)</string>
+    <string name="draw_agreed">Ni är överens om remi!</string>
+    <string name="draw_agreed_">Spelarna har kommit överens om remi</string>
+    <string name="draw_lackofpieces">(Ingen vinst möjlig med resterande pjäser)</string>
+    <string name="draw_offered">Vill du acceptera remi?</string>
+    <string name="draw_offered_p1">Spelare 1 bjuder remi. Accepterar du?</string>
+    <string name="draw_offered_p2">Spelare 2 bjuder remi. Accepterar du?</string>
+    <string name="draw_rejected">Jag vill fortfarande spela en stund till.</string>
+    <string name="draw_rejected_first">Jag vill spela en stund till.</string>
+    <string name="draw_rejected_p1">Spelare 1 vill spela en stund till.</string>
+    <string name="draw_rejected_p2">Spelare 2 vill spela en stund till.</string>
+    <string name="draw_repeated">(Upprepade drag)</string>
+    <string name="draw_stalemate">(Aktuell spelare kan inte flytta och är inte ställd i schack)</string>
+    <string name="elo_help"><b>ELO- ratingssystem:</b>"
+
+Spelet i \"Pro\"-läge beräknar en ELO-rating åt dig efter 5 matcher. Observera att detta baseras på ELO:s FIDE-version och ger en bra ELO-rating i appen. Alla svårighetsnivåer på datorn i spelet har en testad rankning. Vi har ställt in datornivå 12 på FIDE ELO 2100 (men den kan vara högre), med nivå 1 på 750.
+
+Men observera att detta inte exakt matchar den ELO som används i turneringar med människor, av följande skäl:
+
+1. FIDE ELO och USCF beräknar normalt ELO-rating från styrda tidsbegränsade partier, men Chess Free har en mer avslappnad styrning som ger användaren obegränsad betänketid. Därför kan ratingen du får vara högre än vid en turnering med människor.
+
+2. Datorns ELO matchar inte alltid med människors ELO. Därför kan vissa spelare tycka att ett program är starkare än det utger sig för att vara medan andra tycker att det är mycket svagare. Det beror på datorstilen. Personer som ofta spelar schackprogram hittar egenheter i AI som de kan utnyttja för att förbättra resultaten.
+
+3. FIDE, USCF och andra ELO-skalor skiljer sig i standard, t.ex. kan USCF skilja sig med ca 100 ELO-poäng från FIDE.
+
+4. Styrkan mellan enheter varierar något. För de lägre nivåerna kommer det vara samma på alla handenheter, men för några drag på de högre nivåerna kommer en snabb enhet att spela bättre.
+
+Detta ELO-system följer exakt FIDE ELO-ratingändringarna i appen, så du kan följa den relativa ändringen av din styrka. På så sätt utvecklas du som spelare och får en uppfattning om hur bra det går för dig.
+
+(Obs! Poängsystemet för läget \"Casual\" är inte ELO utan ett enklare ackumulerande poängsystem baserat på dina resultat vid alla nivåer.)"</string>
+    <string name="enpassant_body">Det senaste draget från datorn kallas för \"en passant\". Du kan läsa mer om detta i reglerna.</string>
+    <string name="enpassant_title">\"En passant\"-drag</string>
+    <string name="export_pgn">Exportera PGN ...</string>
+    <string name="export_pgn2">Exportera PGN</string>
+    <string name="exportpgn_text">Ange ett namn för denna PGN:</string>
+    <string name="exportpgn_text2">(PGN kopieras också till urklipp)</string>
+    <string name="finish_game">Avsluta match</string>
+    <string name="gameTimer">Timer:</string>
+    <string name="game_in_progress">Pågående parti ...</string>
+    <string name="game_over">Spelet är slut!</string>
+    <string name="game_timer">"Speltimer
+(min.):"</string>
+    <string name="games_by_third_party">Rekommenderat spel från våra partners:</string>
+    <string name="google1">Logga in med Google och dela dina framsteg och prestationer med dina vänner</string>
+    <string name="google2">Du är inloggad med Google</string>
+    <string name="handicap">"Handikapp
+för vit:"</string>
+    <string name="handicap_help">Du har slagit på Handikapp för vit. Det tar bort den valda pjäsen från den vita sidan och ger svart en fördel.</string>
+    <string name="handicap_short">Hkapp vit:</string>
+    <string name="help1">SPELREGLER</string>
+    <string name="help2">"Schack är en kamp mellan två spelare som turas om att flytta sina pjäser, vita respektive svarta. Pjäserna får flyttas endera till en tom ruta eller till en ruta med en motståndarpjäs. Står en motståndarpjäs på rutan flyttas den från brädet och anses slagen. Målet med spelet är att ställa motståndarens kung schack matt i ett läge där den inte har någonstans att ta vägen. För att kunna göra detta måste man flytta sina pjäser omsorgsfullt och strategiskt för att komma i läge för det slutgiltiga angreppet.
+
+Schackpjäserna representerar av tradition de olika klasserna i ett medeltida samhälle. Nedan förklaras hur pjäserna får förflyttas."</string>
+    <string name="help3">"De åtta bönderna representerar arbetare eller soldater. De flyttar framåt, en ruta i taget. Den allra första gången du flyttar en bonde kan du välja att låta den gå två steg framåt. När du går rakt fram med en bonde kan den inte användas för att slå en motståndarpjäs. Bönder slår motståndarpjäser genom att gå ett steg snett framåt, men får endast flytta diagonalt just när en annan pjäs ska slås. När en bonde når motsatt sida av spelbrädet kan den bytas ut mot valfri annan pjäs i samma färg, med undantag för kungen. Detta kallas för en \"promovering\". Vanligen väljer man att promovera en bonde till en dam.
+
+För bonden finns också ytterligare ett specialdrag: regeln \"en-passant\". Denna regel innebär att då man flyttat sin bonde två steg, kan motståndaren slå denna bonde med sin bonde som flyttas ett diagonalt steg så att den hamnar direkt bakom den första bonden. I princip innebär detta att motståndaren kan slå bonden på vanligt sätt som om den faktiskt bara hade flyttat det enda, vanliga steget. På brädet innebär en \"en-passant\" att bonden som slår placeras bakom bonden som gick två steg, varpå denna är slagen."</string>
+    <string name="help4">Hästen rör sig på ett annorlunda sätt, inte i rät linje. Förflyttningen sker i två etapper, först ett enda rakt steg, och därefter ett diagonalt steg. Denna \"L-formade\" rörelse kan göras i alla riktningar, vilket innebär att 8 drag är möjliga då hästen befinner sig nära brädets mitt. På samma sätt som en riktig häst kan schackhästen hoppa över andra pjäser på sin väg. Om hästen inledningsvis står på en vit ruta avslutas förflyttningen på en svart ruta.</string>
+    <string name="help5">Löparen kan flytta valfritt antal rutor i diagonal riktning. Den kan inte hoppa över pjäser.</string>
+    <string name="help6">Tornet kan flyttas valfritt antal rutor i vågrät eller lodrät riktning. Den kan inte hoppa över pjäser.</string>
+    <string name="help7">Drottningen kan flytta valfritt antal rutor i vågrät, lodrät eller diagonal riktning förutsatt att inga andra pjäser står i vägen. Drottningen har ett rörelsemönster som kan ses som en kombination av torn och löpare. Drottningen är en mäktig pjäs och är ofta mycket viktig för angrepp.</string>
+    <string name="help8">Kungen är huvudmålet för motståndarens angrepp. När kungen väl hamnat i schack matt är spelet över! Den kan röra sig i alla åtta riktningar, både lod- och vågrätt samt diagonalt, men bara en ruta i taget. Kungen kan också användas vid två specialförflyttningar, rockader. Vid en rockad flyttas kungen två rutor åt höger eller vänster, och tornet hoppar då över kungen och placeras på rutan närmast kungen (på dess andra sida).</string>
+    <string name="help9">"Detta drag får enbart göras under förutsättning att kungen och tornet ännu inte har förflyttats, att alla rutor mellan tornet och kungen är tomma, att kungen inte är schackad och ingen av de rutor som kungen måste passera innebär att kungen hamnar i schack. Kungen måste skyddas, men kan även användas som en kraftfull pjäs vid angrepp. I slutspelet fungerar den som en ytterst praktisk angreppspjäs gentemot motståndarens bönder. Vid enklare slutspel utgör den en del av angreppet.
+
+När motspelaren hotar att slå kungen direkt i nästa drag kallas detta för att kungen står i schack. Om kungen står i schack måste spelaren omedelbart sätta den i säkerhet.
+
+Det finns tre sätt att ta sig ur denna situation:
+
+1. Kungen kan flyttas till en ruta som inte är hotad av en motståndarpjäs.
+
+2. Den pjäs som ställt kungen i schack kan slås.
+
+3. En pjäs kan ställas mellan kungen och motståndarpjäsen för att blockera schacksituationen.
+
+Om kungen står i schack och inte kan räddas, då säger man i stället att det är \"schack matt\". Spelet är då förlorat."</string>
+    <string name="helpmain1">SÅ HÄR SPELAR DU</string>
+    <string name="helpmain2">"(Bläddra nedåt för att läsa reglerna)
+
+Innan ett parti startas visas skärmen där du gör inställningar för partiet. Här kan du välja om du vill spela som svart eller vit (eller välja automatisk växling mellan varje spel), hur duktig din datormotståndare är (1 för nybörjare, 12 för experter), handikapp för vit (en vit pjäs tas bort som hjälp för svart) och parametrar för timern.
+
+SPELTIMER avgör hur lång tid varje spelare har på sig att göra ett drag. Timern räknar ned medan spelaren funderar på sitt drag och när räknaren når noll förlorar denne automatiskt partiet.
+
+DRAGTIMER är den bonustid en spelare får efter att ha gjort sitt drag.
+
+Så snart partiet har satt igång används telefonens pekskärm eller styranordning för att välja och flytta pjäserna. Du flyttar en pjäs genom att först markera den och sedan flytta den till en giltig ruta.
+
+Du kan använda knappen Ångra för att backa tillbaka valfritt antal drag.
+
+Spelarnas namn, timers, slagna pjäser och SCHACK-meddelanden visas ovanför och nedanför brädet. När din datormotståndare funderar på ett drag visas detta genom en animering längst upp till höger. Observera att betänketiderna ökar i takt med svårighetsgraden. Om du valt att använda timers kommer datormotståndaren att göra sitt drag innan tiden är slut.
+
+Under pågående parti kan du trycka på telefonens menyknapp för att nå två praktiska funktioner. Välj TIPS om du vill få ett tips om vilket ditt nästa drag bör vara. Välj GRANSKA PARTI om du vill gå till en skärm med en lista över de drag som hittills har gjorts. Du kan bläddra i listan med drag och väljer du ett drag går du till partiet i detta läge. Du kan också använda navigeringsknapparna till vänster för att steg för steg gå igenom dragen, eller hoppa till början eller slutet av draghistoriken.
+
+Du kan alltid hitta alternativet SPARA OCH AVSLUTA via knappen MENY, och med det kan du spara ditt parti och eventuella ändringar. Sedan avslutas spelet.
+
+"<b>STATISTIK:</b>"
+
+Spelet sparar statistiken för antal vinster/förluster/remier inom varje svårighetsgrad. Denna information når du via startmenyskärmen. Den rankning du ser längst ned till vänster på statistiksidan är en sammanlagd rankning baserad på alla partier du spelat (detta är inte en ELO-rankning). Vinstprocenten beräknas med en poäng per vinst, och 0,5 poäng för remi. Observera att spel där handikapp används inte räknas med i denna statistik.
+
+"<b>VÅRT SCHACKPROGRAM:</b>"
+
+Vårt schackprogram är baserat på schackmotorn Treebeard som du kan läsa mer om på http://www.aifactory.co.uk/newsletter/2005_02_treebeard_chess.htm och som licensierats för användning av Microsoft i deras produkter. I den här schackmotorn används teknik som saknas i de flesta andra schackprogram och som gör att spelupplevelsen blir mer \"mänsklig\". Till skillnad från konventionella program söks inte miljontals möjliga drag igenom, utan i stället används en sökteknik baserad på sannolikhetsteorin, vilket gör att färre möjliga drag behöver beräknas i detalj. Detta program har samma teknik som det japanska schackprogrammet \"Shotest\", som två gånger rankats som världens tredje bästa.
+
+"<b>HEYZAP:</b>"
+
+Spelet har nu stöd för spelnätverket Heyzap som du - om du vill - kan använda för att logga in på Twitter eller Facebook när du har vunnit ett parti. Med Heyzap kan du se vad dina vänner spelar och logga dina resultat (utmärkelser) och dela med dig av speltips.
+
+"</string>
+    <string name="hint">Tips</string>
+    <string name="leaderboards">Resultattavlor</string>
+    <string name="leaving_game">"Du är på väg att lämna partiet och förlora alla drag som inte har sparats.
+
+Om du först vill spara eller exportera till PGN, tryck på Avbryt och gå till menyn."</string>
+    <string name="load">Ladda</string>
+    <string name="loadgame_title">Ladda spel</string>
+    <string name="loadsavedgame">"Ladda
+sparat parti"</string>
+    <string name="log_as_draw">"Remi
+"</string>
+    <string name="mail_body">"Testa detta toppenschackspel gratis!
+
+http://market.android.com/details?id=uk.co.aifactory.chessfree
+"</string>
+    <string name="mail_body_no_link">Ta en titt på Android-spelet \"Chess Free\" från AI Factory Limited!</string>
+    <string name="mail_prompt">Välj en app:</string>
+    <string name="mail_subject">Testa det här spelet för Android!</string>
+    <string name="main_menu">Huvudmeny</string>
+    <string name="main_menu_2">Huvudmeny</string>
+    <string name="match_settings">INSTÄLLNINGAR PARTI</string>
+    <string name="menu_button_end_of_game">→</string>
+    <string name="menu_text">Meny</string>
+    <string name="menu_text_large">MENY</string>
+    <string name="more">Mer</string>
+    <string name="more_games">Fler spel</string>
+    <string name="move_timer">"Dragtimer
+(sek.):"</string>
+    <string name="new_feature">Ny funktion!</string>
+    <string name="new_feature_1">"Ny funktion:
+
+Du kan nu välja hur pjäserna visas på brädet under partier med två spelare. Du kan välja mellan fyra olika lägen i Alternativ.
+"</string>
+    <string name="new_game">Nytt spel</string>
+    <string name="no">Nej</string>
+    <string name="noTimers">Inga timers</string>
+    <string name="nosavedgames">Det finns inga sparade partier ...</string>
+    <string name="nothanks">Nej tack</string>
+    <string name="off">Av</string>
+    <string name="offer_draw">Erbjud remi</string>
+    <string name="ok">OK</string>
+    <string name="on">På</string>
+    <string name="overwrite">"Vill du skriva över den befintliga filen:
+"</string>
+    <string name="piece_selection">Pjäs:</string>
+    <string name="piecesindanger_help">\"Visa pjäser i fara\" placerar en röd markering bakom pjäser som motspelaren kan ta. Det kan också lära dig att undvika misstag.</string>
+    <string name="play">SPELA!</string>
+    <string name="play_again">Spela igen</string>
+    <string name="play_as">Spela:</string>
+    <string name="play_mode">Spelläge:</string>
+    <string name="play_to">Spela till:</string>
+    <string name="player">Du</string>
+    <string name="player1">Spelare 1</string>
+    <string name="player1_resigns">Spelare 1 gav upp</string>
+    <string name="player1_wins">Spelare 1 vinner!</string>
+    <string name="player2">Spelare 2</string>
+    <string name="player2_resigns">Spelare 2 gav upp</string>
+    <string name="player2_wins">Spelare 2 vinner!</string>
+    <string name="practice_help">.</string>
+    <string name="pro_body">Du har valt alternativet \"Pro\". I detta läge är alla spelares hjälpmedel inaktiverade, man kan inte lämna ett parti utan att ge upp och statistik loggas separat.</string>
+    <string name="promote">Välj en pjäs som du vill promovera till:</string>
+    <string name="proswitch_body">Du är i läget \"Pro\", som inaktiverar alla hjälpmedel (t.ex. ångra). Pro-matcher loggas också separat i statistiken, och kan inte avbrytas.</string>
+    <string name="rate">Betygsätt</string>
+    <string name="rate_body">"Gillar du Chess Free?
+Ge det gärna ett betyg."</string>
+    <string name="rating_casual_help">I läget Casual är det en ackumulerad poäng som baseras på dina resultat i alla svårighetsnivåer.</string>
+    <string name="rating_pro_help">I läget Pro är din rankning en ELO-rating baserat på FIDE-systemet (när du har spelat 5 Pro-spel). Obs. att det kan skilja sig från FIDE-rankningen. Läs avsnittet i slutet av \"Schackregler\" för en fullständig beskrivning.</string>
+    <string name="recommend">"Tipsa en
+kompis"</string>
+    <string name="recommend_warning">Du lämnar nu tillfälligt spelet för att skicka ett tips via valfri meddelandeapp.</string>
+    <string name="recordgame">Logga parti</string>
+    <string name="reset">Nollställ statistik</string>
+    <string name="reset_question">Vill du verkligen nollställa statistiken?</string>
+    <string name="reset_question_gpg">Vill du verkligen nollställa statistiken? Detta återställer också statistiken i molnet och dina framsteg i resultattavlan om du använder \"Google Play Spel\".</string>
+    <string name="resign">uppgiven</string>
+    <string name="resign_cap">Ge upp</string>
+    <string name="resign_confirm">Är du säker på att du vill ge upp det här partiet?</string>
+    <string name="resign_match">"Ge upp
+partiet"</string>
+    <string name="resign_offered">Jag skulle vilja ge upp. Vill du fortsätta spela?</string>
+    <string name="resigns">uppgivna</string>
+    <string name="review_game">Granska spel</string>
+    <string name="review_help">Från denna skärm kan du nå det aktuella spelet från start till avslut. Om du klickar på ett drag i listan kommer du till den tidpunkten i spelet. Du kan även använda pilknapparna.</string>
+    <string name="rules">Spelregler</string>
+    <string name="rules_of_chess">"Schack
+regler"</string>
+    <string name="rules_of_chess2">Schackregler</string>
+    <string name="save">Spara</string>
+    <string name="save_and_quit">Spara och avsluta</string>
+    <string name="save_pgn_success1">"sparades till extern lagring i mappen:
+
+"</string>
+    <string name="save_pgn_success2">"
+
+PGN har även kopierats till urklipp ..."</string>
+    <string name="save_success">"Spelet har sparats ...
+
+Sparade spel kan laddas via huvudmenyn."</string>
+    <string name="saveas">Spara spel ...</string>
+    <string name="saveas_text">Ange ett namn för ditt sparade parti:</string>
+    <string name="screen_warning">"** VARNING **
+
+Skärmen är inställd på \"Alltid på\" för detta spel.
+
+Det kan öka batteriförbrukningen."</string>
+    <string name="sd_load_fail">Det gick inte att spara till extern lagring. Om du har ett SD-kort ska du kontrollera att det inte är monterat för datoranvändning.</string>
+    <string name="selectagame">Välj ett av ovanstående partier ...</string>
+    <string name="settings">Alternativ</string>
+    <string name="settings1">SPELINSTÄLLNINGAR</string>
+    <string name="sfx_off">Ljud av</string>
+    <string name="showcputhinking_help">\"Visa när datorn tänker\" markerar draget som datorn tycker är bäst medan den tänker. Det visar datorns analys av det aktuella draget.</string>
+    <string name="signin_body">Denna funktion kräver att du först loggar in på Google. När du är inloggad kan du dela dina framsteg och prestationer med dina vänner.</string>
+    <string name="signout">"Logga ut
+Google"</string>
+    <string name="single_player">En spelare</string>
+    <string name="skip">Hoppa över</string>
+    <string name="splat_confirm">Vill du verkligen lämna det här partiet? Partiet kommer att försvinna.</string>
+    <string name="stale_mate">Ställningsupprepning ...</string>
+    <string name="start">SPELA</string>
+    <string name="stats">Statistik</string>
+    <string name="stats_already_logged">Statistiken har redan loggats för den här matchen, så det här spelet räknas inte med i statistiken.</string>
+    <string name="stats_col1">Svårighet</string>
+    <string name="stats_col2">Segrar</string>
+    <string name="stats_col3">Remier</string>
+    <string name="stats_col4">Förluster</string>
+    <string name="stats_col5">Vinst-%</string>
+    <string name="stats_title">Statistik för spel mot datorn</string>
+    <string name="swap_sides">Byta sida</string>
+    <string name="swap_sides_confirm">Är du säker på att du vill byta sida? Du kommer att ta över din motståndares pjäser och din motståndare kommer att ta över dina, men pjäsernas placering kommer inte att ändras.</string>
+    <string name="swap_sides_result">Ingen statistik kommer att sparas för partiet och det kommer inte att räknas bland Prestationer eller på Resultattavlor.</string>
+    <string name="switch_casual">"Växla till
+äge Casual\""</string>
+    <string name="tap_for_more_info">Tryck på spelet för att ladda ned gratis!</string>
+    <string name="tap_to_continue">Knacka på brädet och forts.</string>
+    <string name="timer_expired">Tiden har gått ut!</string>
+    <string name="timer_help">\"Speltimer\" är din totala speltid för alla drag. \"Dragtimer\" är en tidsbonus som läggs till efter varje drag.</string>
+    <string name="timers_active">Aktiva timers:</string>
+    <string name="title1">Välj ett alternativ för att starta:</string>
+    <string name="tried">Har du testat det här spelet?</string>
+    <string name="tutor">Vägl.:</string>
+    <string name="tutor_body">Vägledaren lär dig att spela genom att föreslå vilken pjäs du ska flytta. Du får vägledning i den aktuella positionen och hur du undviker misstag. Du kan välja att spela en annan pjäs än den som rekommenderas.</string>
+    <string name="tutor_level_0">"Nivå:
+Auto-"</string>
+    <string name="tutor_level_1">"Nivå:
+1/8"</string>
+    <string name="tutor_level_2">"Nivå:
+2/8"</string>
+    <string name="tutor_level_3">"Nivå:
+3/8"</string>
+    <string name="tutor_level_4">"Nivå:
+4/8"</string>
+    <string name="tutor_level_5">"Nivå:
+5/8"</string>
+    <string name="tutor_level_6">"Nivå:
+6/8"</string>
+    <string name="tutor_level_7">"Nivå:
+7/8"</string>
+    <string name="tutor_level_8">"Nivå:
+8/8"</string>
+    <string name="tutor_title">Vägledn.läge</string>
+    <string name="tutorlevel_help">Vägledningsnivån avgör hur länge vägledaren tänker, och därför styrkan i dragen. \"Auto\" väljer en nivå baserad på hur duktig din datormotståndare är.</string>
+    <string name="two_player">Två spelare</string>
+    <string name="twoplayermode">"Två spelare
+pjäsläge:"</string>
+    <string name="twoplayerpieces_help">Med detta alternativ kan du välja hur dragen ska visas i partier med två spelare.</string>
+    <string name="undo_hint">"Tips
+
+Använd knappen \"Ångra\" för att avmarkera en vald pjäs och för att backa drag för drag."</string>
+    <string name="undo_last_move">Ångra senaste drag</string>
+    <string name="undo_text">Undo</string>
+    <string name="upgrade">Uppgradera schack</string>
+    <string name="user_offer_draw_confirm">Är du säker på att du vill bjuda remi till din motspelare?</string>
+    <string name="view_all">Visa alla spel</string>
+    <string name="view_board">Visa bräde</string>
+    <string name="vsCPU">mot dator (nivå)</string>
+    <string name="vsPlayer">Två spelare</string>
+    <string name="win">seger!</string>
+    <string name="win_rate">Vinst-%:</string>
+    <string name="wins">segrar!</string>
+    <string name="yes">Ja</string>
+    <string name="you_resign">Du har gett upp</string>
+    <string name="you_win">Du har vunnit!</string>
+    <string name="you_win_short">Du har vunnit!</string>
+    <string name="your_elo">ELO-rating:</string>
+    <string name="your_opponent_resigns">Din motståndare har gett upp</string>
+    <string name="your_opponent_resigns_short">Motståndaren gav upp</string>
+    <string name="your_opponent_wins">Din motståndare har vunnit!</string>
+    <string name="your_rating">Din rankning:</string>
+    <string name="your_score">Dina poäng:</string>
+</resources>

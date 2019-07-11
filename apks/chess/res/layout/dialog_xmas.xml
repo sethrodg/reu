@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/RootView" android:padding="25.0dip" android:layout_width="320.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/Text1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/festive_update" />
+    <ImageView android:layout_gravity="center|top" android:id="@id/ImageView01" android:layout_width="225.0dip" android:layout_height="100.0dip" android:layout_marginBottom="5.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/Text2" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/festive_update_main" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="60.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="16.0dip" android:id="@id/YesButton" android:layout_width="120.0dip" android:layout_height="60.0dip" android:layout_marginRight="5.0dip" android:text="@string/base_yes_please" />
+        <Button android:textSize="16.0dip" android:id="@id/NoButton" android:layout_width="120.0dip" android:layout_height="60.0dip" android:layout_marginLeft="5.0dip" android:text="@string/no_thanks" />
+    </LinearLayout>
+    <Button android:textSize="16.0dip" android:id="@id/MaybeButton" android:layout_width="120.0dip" android:layout_height="60.0dip" android:text="@string/maybe_later" />
+</LinearLayout>

@@ -12,6 +12,9 @@ from appium.webdriver.common.touch_action import TouchAction
 #check settings for DA permission
 #check manifest file for DA permission
 
+settingsFound = False
+manifestFound = False
+
 #get user input
 appName = raw_input("enter the app to test: ")
 
@@ -23,7 +26,40 @@ os.system("adb install -r \"{}\".apk".format(appName))
 
 #check manifest file
 def manifestCheck():
-    
+
+    global manifestFound
+
+    os.system("apktool d " + appName + ".apk")
+    os.chdir(appName)
+
+    root = ET.parse("AndroidManifest.xml").getroot()
+
+    #sort through regular permissions
+    permissions = root.findall("uses-permission")
+    print("\n\tList of permissions:\n")
+    for perm in permissions:
+        for att in perm.attrib:
+            print("\t{}\n".format(perm.attrib[att]))
+            if(perm.attrib[att] == "android.permission.BIND_DEVICE_ADMIN"):
+                print("triggered")
+                manifestFound = True
+
+    #sort through speical (receiver) permissions
+    receivers = root.findall("application/receiver")
+    for rec in receivers:
+        for auu in rec.attrib:
+             #print("\t{}\n".format(rec.attrib[auu]))
+             if(rec.attrib[auu] == "android.permission.BIND_DEVICE_ADMIN"):
+                 manifestFound = True
+                 print("\t{}\n".format(rec.attrib[auu]))
+
+    #determine if DA permission was found
+    if manifestFound == True:
+        print("\n\n\tmanifest found\n")
+        return True
+    else:
+        print("\n\n\tmanifest nout found\n")
+        return False
 
 #check settings for DA permission
 class settingsCheck(unittest.TestCase):
@@ -45,8 +81,7 @@ class settingsCheck(unittest.TestCase):
 
     def test_navigation(self):
 
-        #appName = raw_input("enter the name of the app: ")
-        da_found = False
+        global settingsFound
 
         #click 'apps and notifications'
         self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Apps & Notifications")').click()
@@ -72,17 +107,23 @@ class settingsCheck(unittest.TestCase):
 
         try:
             self.driver.find_element_by_android_uiautomator('new UiSelector().textContains(\"{}\")'.format(appName)).click()
-            da_found = True
+            settingsFound = True
         except:
             pass
 
         sleep(5)
         print("\n\n")
-        if da_found == True:
-            print("found")
+        if settingsFound == True:
+            print("settings found")
+            return True
         else:
-            print("not found")
+            print("settings not found")
+            return False
 
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(settingsCheck)
     unittest.TextTestRunner(verbosity=2).run(suite)
+
+manifestCheck()
+if manifestFound != settingsFound:
+    print("\n\nDA DISCREPENCY DETECTED")

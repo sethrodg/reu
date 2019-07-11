@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/item_view_compact_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/conversation_item_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/conv_list_side_margin" android:layout_marginRight="@dimen/conv_list_side_margin">
+        <View android:id="@id/compact_checkbox" style="@style/ItemListCheckboxStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/conversation_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/conv_list_compact_padding_bottom" android:layout_weight="1.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/priority" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_padding_priority" />
+                <FrameLayout android:id="@id/senders_decoration" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationListSendersDecorationStyle">
+                    <ImageView android:id="@id/reply_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_reply_state_padding_top" android:layout_marginRight="@dimen/conv_list_reply_state_padding_end" android:src="@drawable/quantum_ic_reply_grey600_18" android:layout_marginEnd="@dimen/conv_list_reply_state_padding_end" />
+                    <ImageView android:id="@id/personal_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_padding" android:src="@drawable/ic_email_caret_single" style="@style/ConversationListPersonalIndicatorStyle" />
+                </FrameLayout>
+                <TextView android:textSize="16.0sp" android:id="@id/senders" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_padding" android:text="@string/long_string" android:lines="1" android:includeFontPadding="false" android:layout_toEndOf="@id/senders_decoration" />
+                <TextView android:id="@id/date" android:layout_marginTop="@dimen/conv_list_compact_padding" android:text="@string/long_string" android:layout_alignBaseline="@id/senders" style="@style/ConversationListDateStyle" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/date">
+                    <ImageView android:id="@id/scheduled_send_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_scheduled_send_icon_padding_top" android:paddingStart="@dimen/conv_list_scheduled_send_icon_padding_start" />
+                    <ImageView android:id="@id/attachment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_padding" android:src="@drawable/quantum_ic_attachment_grey600_18" style="@style/ConversationListAttachmentStyle" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:id="@id/wa_symbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_compact_padding" android:text="@string/long_string" android:lines="1" android:includeFontPadding="false" android:layout_alignBaseline="@id/senders" style="@style/ConversationListWalletAttachmentStyle" />
+                <ImageView android:id="@id/hover_action" style="@style/ConversationListHoverActionButtonStyle" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/star" style="@style/ConversationListCompactStarStyle" />
+                <TextView android:textSize="@dimen/item_view_body_content_text_size" android:id="@id/subject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_item_details_padding_top" android:includeFontPadding="false" style="@style/ConversationListSubjectStyle" />
+                <TextView android:textSize="@dimen/folder_tl_font_size" android:id="@id/folders" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ConversationListCompactFoldersStyle" />
+                <TextView android:textSize="@dimen/item_view_body_content_text_size" android:id="@id/rank_rationale_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conv_list_item_details_padding_top" android:includeFontPadding="false" style="@style/ConversationListCompactItemRankRationaleStyle" />
+            </RelativeLayout>
+            <com.android.mail.browse.AttachmentChipsLayout android:orientation="horizontal" android:id="@id/attachment_chips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/conv_list_default_attachment_height" android:layout_marginTop="@dimen/conv_list_default_attachment_margin_top" />
+            <include layout="@layout/offer_image" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingTop="@dimen/incognito_action_item_vertical_padding" android:paddingBottom="@dimen/incognito_action_item_vertical_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/incognito_icon_avatar_margin_start" android:layout_marginStart="@dimen/incognito_icon_avatar_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/incognito_icon" android:padding="@dimen/incognito_icon_image_padding" android:layout_width="@dimen/incognito_icon_image_size" android:layout_height="@dimen/incognito_icon_image_size" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/incognito_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/og_turn_on_incognito" android:maxLines="3" style="@style/ActionItemStyle" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/ss_banner_background_stroke_width" android:color="@color/ss_banner_stroke" />
+    <corners android:radius="@dimen/ss_banner_background_corner_radius" />
+    <padding android:left="@dimen/ss_banner_background_side_padding" android:right="@dimen/ss_banner_background_side_padding" />
+</shape>

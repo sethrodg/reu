@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/datetimepicker_dialog_background" android:paddingTop="@dimen/datetimepicker_custom_dialog_padding_top" android:paddingBottom="@dimen/datetimepicker_custom_dialog_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/datetimepicker_custom_dialog_padding_start" android:paddingEnd="@dimen/datetimepicker_custom_dialog_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/datetimepicker_title_text_size" android:textColor="@color/datetimepicker_dark_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/datetimepicker_title_bottom_margin" android:text="@string/datetimepicker_dialog_title" android:fontFamily="@font/google_sans" />
+    <FrameLayout android:background="@drawable/date_time_picker_spinner_view_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/datetimepicker_spinner_vertical_gap">
+        <TextView android:id="@id/date_selector" style="@style/datetimepicker_dialogSpinner" />
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/date_time_picker_spinner_view_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.gmail.libraries.widgets.datetimepicker.impl.AlwaysNotifyOnItemSelectedSpinner android:id="@id/time_selector" android:visibility="gone" style="@style/datetimepicker_dialogSpinner" />
+        <TextView android:id="@id/time_selector_simple" android:visibility="gone" style="@style/datetimepicker_dialogSpinner" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/datetimepicker_error_time_zone_container_vertical_margin" android:layout_marginStart="@dimen/datetimepicker_error_time_zone_container_start_margin">
+        <TextView android:textSize="@dimen/datetimepicker_error_text_size" android:textColor="@color/datetimepicker_error_text" android:id="@id/error_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="Roboto" />
+        <TextView android:textSize="@dimen/datetimepicker_time_zone_text_size" android:textColor="@color/datetimepicker_time_zone_text" android:id="@id/time_zone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="Roboto" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/datetimepicker_buttons_margin_bottom" android:layout_marginEnd="@dimen/datetimepicker_buttons_margin_end">
+        <Button android:textSize="@dimen/datetimepicker_button_text_size" android:textColor="@color/datetimepicker_cancel_button" android:id="@id/cancel_dialog_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/datetimepicker_cancel_button_text" android:fontFamily="@font/google_sans_medium" android:layout_marginEnd="@dimen/datetimepicker_buttons_horizontal_gap" style="@style/Widget.GoogleMaterial.Button.TextButton" />
+        <Button android:textSize="@dimen/datetimepicker_button_text_size" android:textColor="@color/done_button_color" android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/google_sans_medium" style="@style/Widget.GoogleMaterial.Button.TextButton" />
+    </LinearLayout>
+</LinearLayout>

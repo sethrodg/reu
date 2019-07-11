@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gm.ads.AdFormfillView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingTop="@dimen/ad_formfill_card_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:id="@id/ad_formfill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/ad_formfill_card_margin">
+            <ViewFlipper android:id="@id/ad_formfill_view_flipper" android:padding="@dimen/ad_formfill_card_inner_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ad_formfill_view_flipper_padding_top" android:measureAllChildren="false">
+                <include android:orientation="vertical" android:id="@id/ad_formfill_input_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ad_formfill_user_input_view" />
+                <include android:orientation="vertical" android:id="@id/ad_formfill_disclaimer_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ad_formfill_disclaimer_view" />
+                <include android:orientation="vertical" android:id="@id/ad_formfill_post_submit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ad_formfill_post_submit_view" />
+            </ViewFlipper>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ad_formfill_advertiser_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.google.android.gm.ads.LogoStackView android:id="@id/ad_formfill_advertiser_logo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/ad_formfill_advertiser_name_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AdFormfillAdvertiserName" />
+    </LinearLayout>
+</com.google.android.gm.ads.AdFormfillView>

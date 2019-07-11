@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/RootView" android:background="@drawable/dialog_bg" android:padding="15.0dip" android:layout_width="320.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/Text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <Button android:id="@id/YesButton" android:layout_marginRight="10.0dip" android:text="@string/yes" style="@style/StretchyDialogButton" />
+        <Button android:id="@id/NoButton" android:layout_marginLeft="10.0dip" android:text="@string/no" style="@style/StretchyDialogButton" />
+    </LinearLayout>
+    <Button android:id="@id/ViewBoardButton" android:text="@string/view_board" style="@style/StretchyDialogButton" />
+</LinearLayout>

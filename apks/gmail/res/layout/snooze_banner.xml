@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/snooze_banner" android:background="@color/banner_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/snooze_banner_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/snooze_banner_icon" app:srcCompat="@drawable/quantum_gm_ic_schedule_vd_theme_24" style="@style/ConversationBannerImageStyle" />
+        <TextView android:id="@id/snooze_banner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ConversationBannerTextStyle" />
+    </LinearLayout>
+    <View style="@style/MaterialDividerStyle" />
+</LinearLayout>

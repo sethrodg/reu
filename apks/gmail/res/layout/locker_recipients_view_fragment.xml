@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/locker_recipients_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/locker_recipients_custom_actionbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/compose_locker_recipients_margin">
+            <TextView android:textAppearance="@style/LockerRecipientFragmentTitleTextStyle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/locker_recipients_warning_title" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/compose_locker_recipients_body_margin" android:layout_marginBottom="@dimen/compose_locker_recipients_body_margin" android:text="@string/locker_recipients_warning_body" />
+            <android.support.design.textfield.TextInputEditText android:id="@id/focus_grabber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/locker_recipient_input_cards_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/compose_locker_recipients_margin" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
