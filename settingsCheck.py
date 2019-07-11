@@ -68,9 +68,6 @@ class settingsCheck(unittest.TestCase):
         else:
             print("not found")
 
-        #
-        #./apks/<file.apk>
-        #adb install -r "file.apk"
 
 
 
