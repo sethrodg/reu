@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:background="@drawable/andi" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" />
+        <LinearLayout android:gravity="center" android:background="#ff630f4a" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template52_certificaat" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="5.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/la1" android:background="@drawable/andi" android:padding="20.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:textSize="20.0sp" android:id="@id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template52_first" />
+            <Button android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/button1" android:background="@drawable/andi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/template52_genereer" android:onClick="template52_click" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:id="@id/progressBar1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:indeterminateDrawable="@drawable/andi" />
+                <ImageView android:id="@id/imgLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template52_loading" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/la2" android:background="@drawable/andi" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                    <TextView android:textSize="27.0sp" android:textColor="#ff000000" android:id="@id/textView2" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template52_activation_code" android:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/textView4" android:background="#ff630f4a" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\#2355643216165" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="20.0sp" android:gravity="left" android:id="@id/textView3" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template52_deze" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/LinearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="14.0sp" android:gravity="right" android:id="@id/textView5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/template52_about" android:layout_weight="1.0" />
+                <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

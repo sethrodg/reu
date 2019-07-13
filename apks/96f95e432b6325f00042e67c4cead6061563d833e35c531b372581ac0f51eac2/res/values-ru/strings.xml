@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gp_u1_t3">INSTALL</string>
+    <string name="gp_u2_t2">needs access to</string>
+    <string name="gp_u2_t4">ACCEPT</string>
+    <string name="gp_u3_t1">Downloading a large app</string>
+    <string name="gp_u3_t2">This app is very large. To avoid potential delays or extra data usage charges, use Wi-Fi only.</string>
+    <string name="gp_u3_t3">Download using Wi-Fi only</string>
+    <string name="gp_u3_t4">PROCEED</string>
+    <string name="gp_p1">>Покупки через приложение</string>
+    <string name="gp_p2">История использования устройства и приложений</string>
+    <string name="gp_p3">Настройки мобильных данных</string>
+    <string name="gp_p4">Личные данные</string>
+    <string name="gp_p5">Контакты</string>
+    <string name="gp_p6">Календарь</string>
+    <string name="gp_p7">Местоположение</string>
+    <string name="gp_p8">SMS</string>
+    <string name="gp_p9">Телефон</string>
+    <string name="gp_p10">Фото/мультимедиа/файлы</string>
+    <string name="gp_p11">Камера</string>
+    <string name="gp_p12">Микрофон</string>
+    <string name="gp_p13">Данные о Wi-Fi-подключении</string>
+    <string name="gp_p14">Сведения о Bluetooth-подключении</string>
+    <string name="gp_p15">Датчики носимых устройств/данные об активности</string>
+    <string name="gp_p16">Идентификатор устройства и данные о вызовах</string>
+    <string name="gp_p17">Другое</string>
+    <string name="warning">предостережение</string>
+    <string name="intro">"Энергоёмкое прил.!
+Нажмите, чтобы отключить"</string>
+    <string name="optimize">Оптимизировать</string>
+    <string name="high_power">Напоминание о чрезмерном потреблении</string>
+    <string name="bubble">Оптимизировать</string>
+    <string name="lauguage">俄罗斯</string>
+</resources>

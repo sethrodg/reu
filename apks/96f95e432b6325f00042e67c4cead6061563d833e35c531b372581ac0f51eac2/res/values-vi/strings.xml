@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gp_u1_t3">CÀI ĐẶT</string>
+    <string name="gp_u2_t2">cần quyền truy cập vào</string>
+    <string name="gp_u2_t4">CHẤP NHẬN</string>
+    <string name="gp_u3_t1">Tải xuống ứng dụng lớn</string>
+    <string name="gp_u3_t2">Ứng dụng này rất lớn. Để tránh bị trì hoãn tiềm ẩn hoặc phí sử dụng dữ liệu bổ sung, chỉ sử dụng Wi-Fi.</string>
+    <string name="gp_u3_t3">Tải xuống chỉ bằng Wi-Fi</string>
+    <string name="gp_u3_t4">Tiếp tục</string>
+    <string name="gp_p1">Mua hàng trong ứng dụng</string>
+    <string name="gp_p2">Lịch sử ứng dụng và thiết bị</string>
+    <string name="gp_p3">Cài đặt dữ liệu di động</string>
+    <string name="gp_p4">Danh tính</string>
+    <string name="gp_p5">Danh bạ</string>
+    <string name="gp_p6">Lịch</string>
+    <string name="gp_p7">Vị trí</string>
+    <string name="gp_p8">Tin nhắn SMS</string>
+    <string name="gp_p9">Điện thoại</string>
+    <string name="gp_p10">Ảnh/Phương tiện/Tệp</string>
+    <string name="gp_p11">Máy ảnh</string>
+    <string name="gp_p12">Micrô</string>
+    <string name="gp_p13">Thông tin kết nối Wi-Fi</string>
+    <string name="gp_p14">Thông tin kết nối Bluetooth</string>
+    <string name="gp_p15">Cảm biến có thể đeo/dữ liệu hoạt động</string>
+    <string name="gp_p16">ID thiết bị và thông tin cuộc gọi</string>
+    <string name="gp_p17">Khác</string>
+    <string name="warning">cảnh báo</string>
+    <string name="intro">"Ứng dụng làm hao pin!
+Bấm vào để tắt nó đi"</string>
+    <string name="optimize">Tiết kiệm năng lượng</string>
+    <string name="high_power">Nhắc Nhở Sự Tiêu Thụ Quá Mức</string>
+    <string name="bubble">TỐI ƯU HÓA</string>
+    <string name="lauguage">越南</string>
+</resources>

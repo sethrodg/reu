@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/InterstitialLoading" android:background="#aa000000" android:padding="30.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:gravity="center" android:layout_gravity="center" android:id="@id/CloseInterstitialWarning" android:background="#00000000" android:focusable="true" android:clickable="true" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/hourglass" android:scaleType="fitXY" android:adjustViewBounds="true" />
-</LinearLayout>

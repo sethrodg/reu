@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Настройка MMS TELE2</string>
+    <string name="cc" />
+    <string name="sda" />
+    <string name="title_activity_activity_blank">Настройка MMS TELE2</string>
+    <string name="title_activity_activity_first">Настройка MMS TELE2</string>
+</resources>

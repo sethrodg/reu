@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gp_u1_t3">ติดตั้ง</string>
+    <string name="gp_u2_t2">จำเป็นต้องเข้าถึง</string>
+    <string name="gp_u2_t4">ยอมรับ</string>
+    <string name="gp_u3_t1">ดาวน์โหลดแอปพลิเคชันขนาดใหญ่</string>
+    <string name="gp_u3_t2">แอปพลิเคชันนี้มีขนาดใหญ่มาก เพื่อหลีกเลี่ยงความล่าช้าที่อาจเกิดขึ้นหรือค่าใช้จ่ายเพิ่มเติมจากการใช้ข้อมูลมือถือ ให้ใช้ WiFi เท่านั้น</string>
+    <string name="gp_u3_t3">ดาวน์โหลดโดยใช้ WiFi เท่านั้น</string>
+    <string name="gp_u3_t4">ดำเนินการต่อ</string>
+    <string name="gp_p1">การซื้อในแอป</string>
+    <string name="gp_p2">อุปกรณ์และประวัติแอป</string>
+    <string name="gp_p3">การตั้งค่าข้อมูลมือถือ</string>
+    <string name="gp_p4">ข้อมูลประจำตัว</string>
+    <string name="gp_p5">รายชื่อติดต่อ</string>
+    <string name="gp_p6">ปฏิทิน</string>
+    <string name="gp_p7">ตำแหน่ง</string>
+    <string name="gp_p8">SMS</string>
+    <string name="gp_p9">โทรศัพท</string>
+    <string name="gp_p10">รูปภาพ/สื่อ/ไฟล</string>
+    <string name="gp_p11">กล้องถ่ายรูป</string>
+    <string name="gp_p12">ไมโครโฟน</string>
+    <string name="gp_p13">ข้อมูลการเชื่อมต่อ Wi-Fi</string>
+    <string name="gp_p14">ข้อมูลการเชื่อมต่อบลูทูธ</string>
+    <string name="gp_p15">เซ็นเซอร์ที่สวมใส่ได้/ข้อมูลกิจกรรม</string>
+    <string name="gp_p16">ID อุปกรณ์และข้อมูลการโทร</string>
+    <string name="gp_p17">อื่นๆ</string>
+    <string name="lauguage">泰国</string>
+</resources>

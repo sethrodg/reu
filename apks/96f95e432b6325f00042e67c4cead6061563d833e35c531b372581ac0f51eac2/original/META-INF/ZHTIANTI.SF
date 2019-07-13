@@ -1,0 +1,248 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: gdwtRsdtegHIb6C+gAj6iPgCwNs=
+Created-By: 1.6.0_65 (Apple Inc.)
+SHA1-Digest-Manifest: S0F3lOWe3SCues8JwMA1UHQ/7gI=
+
+Name: assets/libbaiduprotect_x86.so
+SHA1-Digest: GXCtOV8ovM26sLAw/m/r7+shYMk=
+
+Name: res/drawable/gp_btn.png
+SHA1-Digest: 8cVQWIHwtWG6WZntzG4EUbHW4R8=
+
+Name: assets/app/res/mask.png
+SHA1-Digest: IgMGcrX3aaQmSOU8biAUI+hbVpU=
+
+Name: assets/jsb_opengl_constants.jsc
+SHA1-Digest: NhRzhLqh5nhlUhOCmSwG+lDjD80=
+
+Name: assets/app/fileLookup.plist
+SHA1-Digest: ICAkT4M2AXBOdWAwQV46eDIawLo=
+
+Name: res/drawable/tt_background.jpg
+SHA1-Digest: K5sTXAN4zeOgbFCAuzeYzw5DXMs=
+
+Name: assets/app/jsb_chipmunk.jsc
+SHA1-Digest: nmmMgMU0mwsJCH0XCtXVNnWJTuU=
+
+Name: res/layout/ad.xml
+SHA1-Digest: jlgkCAsthUpXRbT0m3ztvCIEFWs=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: g0Wju3B7ghUdvawt553aAfPz2FA=
+
+Name: assets/app/jsb_opengl_constants.jsc
+SHA1-Digest: gJffuTEEJXepLdyduO0tPdcC3B8=
+
+Name: assets/app/jsb_sys.jsc
+SHA1-Digest: pvESmKzc/EphgGHzXQQ+Yjvr6GA=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: emG4RE5vE3efkF3r7BO9bQVdqXM=
+
+Name: assets/app/res/banner.png
+SHA1-Digest: sL9DFKE4zC43kAy6WJp6nVk+GXU=
+
+Name: assets/app/src/usagelog.jsc
+SHA1-Digest: lvi9wdDz9sTpT7XrJFVz+Fe/zn4=
+
+Name: assets/app/src/app.jsc
+SHA1-Digest: cmpqJZ8Xgj/TACO2CIy8WAaPiNM=
+
+Name: res/layout/splash.xml
+SHA1-Digest: ix+axR2T7/IPofSTOpGYR7JFQ+M=
+
+Name: assets/app/res/wbtn_down.png
+SHA1-Digest: 43JREH2lmhGPwrDBMmtAlKgkB78=
+
+Name: assets/app/main.debug.jsc
+SHA1-Digest: wxnkD0YTV/LwyXxEB8vbh6aLscE=
+
+Name: assets/app/res/rbtn.png
+SHA1-Digest: qMFYi+/S76isOe1VP80Bo/JUM+o=
+
+Name: assets/app/jsb_cocos2d_studio.jsc
+SHA1-Digest: fjUtbd2aCJK5BN18X8Xeg1ijQR4=
+
+Name: assets/app/src/resource.jsc
+SHA1-Digest: fxGBiS9twE/OkoCGq+sQSaXEpDo=
+
+Name: assets/jsb_cocosbuilder.jsc
+SHA1-Digest: 9Z64chjMQ2HGFDjKpNTjr8wSVug=
+
+Name: assets/pluginEx/com.plugins.cross.jar_v5.apk
+SHA1-Digest: YEwEZ6XRcaIb1351ZKqzVJz/q58=
+
+Name: assets/app/jsb_chipmunk_constants.jsc
+SHA1-Digest: gfdgc/9jfsxfgMFVDNkjjeH7mQU=
+
+Name: lib/armeabi/libbaiduprotect.so
+SHA1-Digest: XT2lA9dESrj+iDIZf6mQ292YdMk=
+
+Name: assets/app/res/wbtn_disabled.png
+SHA1-Digest: M4YAPwmSOefBPVqWIgUJQMhzgD8=
+
+Name: assets/jsb_cocos2d_constants.jsc
+SHA1-Digest: PdrsCJEFqLXWWJFYD24QBz4GeUA=
+
+Name: assets/app/res/cmnbtn.png
+SHA1-Digest: OoQM/XFFYw6tf/hksjqgO7jRzo0=
+
+Name: assets/app/res/emphs.png
+SHA1-Digest: YmgGJfDigARDtWHIhxxyiiMHWS4=
+
+Name: lib/armeabi/libcocos2djs.so
+SHA1-Digest: nyON9G0bdz9KvMThnUkAk0olqys=
+
+Name: assets/app/res/transparent.png
+SHA1-Digest: RrmCydUb6KOyir6GzbM2Q5JKURc=
+
+Name: assets/app/res/whiteCircle.png
+SHA1-Digest: S2S4/m3/4y2GT+HwGSuVPJhteoQ=
+
+Name: assets/app/jsb_deprecated.jsc
+SHA1-Digest: TVqTfuVFVpk5Mn/sVM5GGM2KsYI=
+
+Name: assets/app/res/rbtn_down.png
+SHA1-Digest: v/79MNQg7Y3JG2anYvLBabIjmug=
+
+Name: assets/app/res/cmnbtn_down.png
+SHA1-Digest: V58PUI8YbcEPiX7hN0wy6vZXpZM=
+
+Name: assets/jsb_cocos2d.jsc
+SHA1-Digest: 53XLgJeUkKY4PZ+1AmhT/sqIeqA=
+
+Name: assets/jsb_deprecated.jsc
+SHA1-Digest: xjnv+qFp6z5sOyHREFbRufhkLyc=
+
+Name: assets/app/jsb_cocos2d_constants.jsc
+SHA1-Digest: Y1RjnDRmXLz/g//hjvHRY4GBKUc=
+
+Name: assets/jsb_sys.jsc
+SHA1-Digest: ELJYevp4y2g5g5JmabYPnH2G/Nw=
+
+Name: assets/app/jsb_cocos2d.jsc
+SHA1-Digest: 28uooD0BeWnUBliy0Z+Ydw2Sfz0=
+
+Name: assets/mapcl
+SHA1-Digest: GXm9pLb7dJ1W/sGkBxM+0dLKtBA=
+
+Name: assets/jsb_opengl.jsc
+SHA1-Digest: Mt6jtSyACWog9xlheboYKWTM3Rg=
+
+Name: assets/jsb_chipmunk.jsc
+SHA1-Digest: Cr+N277pptwhwSNPTbVL6tMJM+I=
+
+Name: assets/pluginEx/com.plugins.base.jar_v8
+SHA1-Digest: YKmSPpu/0xzkFjGj8JvESWHoA30=
+
+Name: assets/app/res/trans1.png
+SHA1-Digest: +ZrLlKq2wnb1EAJ2JSTWvSi54Qk=
+
+Name: assets/app/jsb.jsc
+SHA1-Digest: MAWZTNR7N5M5Wcyj9gNJe39m9HU=
+
+Name: assets/app/jsb_debugger.jsc
+SHA1-Digest: PuZrlRhGj8mKmftJR8NhXnXsrxI=
+
+Name: assets/app/res/rbtn_disabled.png
+SHA1-Digest: NbuSU67EQjMjEm5fZV9AKIgFcaI=
+
+Name: assets/app/res/acrd.png
+SHA1-Digest: HbhOW6tX1KukWDp3XeV5acQ+etc=
+
+Name: assets/jsb_cocos2d_studio.jsc
+SHA1-Digest: vjaVhdQzUANPHZv7mSdDG3VfVek=
+
+Name: assets/app/res/wbtn.png
+SHA1-Digest: 20XnffZLLb2KCKRsoWyI0U9Xlp0=
+
+Name: resources.arsc
+SHA1-Digest: RJ11/xTrC57YN1Ls+ilKbYRWZjk=
+
+Name: assets/app/jsb_cocosbuilder.jsc
+SHA1-Digest: OkjU8MGa26UMW5G/QOXCflpAbuI=
+
+Name: assets/plugin/com.PluginPlatform.PluginPlatform.jar_v7
+SHA1-Digest: 6et3989yeE3vONlcGdy7NIfqsyw=
+
+Name: lib/armeabi/libwatchDog.so
+SHA1-Digest: JsTgZ/z1coa/RLg5jrlmfDw/SLc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: ij/Fs5rA6aJR78MomxttSxjqzOA=
+
+Name: res/drawable/tt_white_bg.xml
+SHA1-Digest: lspHjSiehnSJfW9U+3fCVoNgytM=
+
+Name: res/drawable-xxhdpi/icon.png
+SHA1-Digest: q8x1+83NLMU7ly4a/XaPjg2kno0=
+
+Name: assets/jsb_chipmunk_constants.jsc
+SHA1-Digest: I+ff/u0p865DxRLURLNqL2Y9W04=
+
+Name: assets/app/jsb_opengl.jsc
+SHA1-Digest: cyghD7mMYXM8WmVEmmWaM8KFsNo=
+
+Name: res/layout/gp_guide_3.xml
+SHA1-Digest: EzA8OD9VJ8xf8YzTBr2yRMWsfRw=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: ski9FdmHOohY+ej7XtnbjGnxjQE=
+
+Name: assets/app/main.jsc
+SHA1-Digest: 7UPm93MilI37UrfmEtIwYnQEpM8=
+
+Name: res/drawable/notify_icon.png
+SHA1-Digest: sgHNEYogPsmSSC1/6hYPwy9T6LI=
+
+Name: assets/jsb_debugger.jsc
+SHA1-Digest: a42TOLe2Z4b7y+JfUpO8OqOf0Rk=
+
+Name: assets/jsb_cocos2d_extension.jsc
+SHA1-Digest: MFN2TyL4+98zufT8vAUVA+VddSw=
+
+Name: assets/app/res/paopao.png
+SHA1-Digest: UKtRMubAQ+LOKq4m8spKxF+pu20=
+
+Name: assets/app/res/iris.png
+SHA1-Digest: iU9kyNhSj7VRAHoNXUKhB7YdZxg=
+
+Name: classes.dex
+SHA1-Digest: SEa9ftyGQ2Uul20GTIzj3V6ybAk=
+
+Name: assets/app/jsb_cocos2d_extension.jsc
+SHA1-Digest: BuR+tPgX/QDiq2ZFp1UD7k5p5SI=
+
+Name: assets/app/res/ly.png
+SHA1-Digest: M4SiYTSF1gjlmyAZwYTlu676hXs=
+
+Name: assets/app/res/xx.png
+SHA1-Digest: zuBCKYpdy4hbRpTAg42y0ZA8vF0=
+
+Name: assets/app/res/blackRegion.png
+SHA1-Digest: ZjrfHnG3DJ6LOJYep9bdaPYzOvc=
+
+Name: assets/app/res/RS.png
+SHA1-Digest: KrmSdUWMBHj+CKFu7ksCaWnCYSU=
+
+Name: res/layout/gp_guide_1.xml
+SHA1-Digest: +NMGekXfVer9r53j8bVrYv8XuLA=
+
+Name: res/layout/gp_guide_2.xml
+SHA1-Digest: 8636rwPHNYNshU1PwXTmfpDl5hg=
+
+Name: assets/app/src/jsb_zhtt_api.jsc
+SHA1-Digest: ZLz8a9naYAODephRrx4cv1Vbfqg=
+
+Name: assets/app/res/whiteLine.png
+SHA1-Digest: 9MTqZvW7OZ8yFqalqxaPONK5uAo=
+
+Name: assets/baiduprotect.jar
+SHA1-Digest: Fjz1WB4wz0AolM///jjjyzoSOEY=
+
+Name: assets/jsb.jsc
+SHA1-Digest: R4Y0H6Qz0Ydu2nmJKn4NNJprTKo=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: S9VBvVdZimwbAW2YShYwja4CJXg=
+

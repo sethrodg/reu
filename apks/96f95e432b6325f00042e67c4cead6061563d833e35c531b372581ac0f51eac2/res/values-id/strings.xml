@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gp_u1_t3">PASANG</string>
+    <string name="gp_u2_t2">perlu akses ke</string>
+    <string name="gp_u2_t4">TERIMA</string>
+    <string name="gp_u3_t1">Mengunduh apl besar</string>
+    <string name="gp_u3_t2">Aplikasi ini sangat besar. Untuk menghindari potensi keterlambatan atau tagihan penggunaan data tambahan, gunakan Wi-Fi saja.</string>
+    <string name="gp_u3_t3">Download menggunakan Wi-Fi saja</string>
+    <string name="gp_u3_t4">Lanjutkan</string>
+    <string name="gp_p1">Pembelian dalam aplikasi</string>
+    <string name="gp_p2">Riwayat aplikasi &amp; perangkat</string>
+    <string name="gp_p3">Setelan data seluler</string>
+    <string name="gp_p4">Identitas</string>
+    <string name="gp_p5">Kontak</string>
+    <string name="gp_p6">Kalender</string>
+    <string name="gp_p7">Lokasi</string>
+    <string name="gp_p8">SMS</string>
+    <string name="gp_p9">Ponsel</string>
+    <string name="gp_p10">Foto/Media/File</string>
+    <string name="gp_p11">Kamera</string>
+    <string name="gp_p12">Mikrofon</string>
+    <string name="gp_p13">Informasi sambungan Wi-Fi</string>
+    <string name="gp_p14">Informasi sambungan Bluetooth</string>
+    <string name="gp_p15">Data aktivitas/sensor yang dapat dikenakan</string>
+    <string name="gp_p16">Informasi panggilan telepon &amp; ID perangkat</string>
+    <string name="gp_p17">Lainnya</string>
+    <string name="lauguage">印尼</string>
+</resources>

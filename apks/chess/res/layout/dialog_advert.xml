@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/RootView" android:background="@drawable/dialog_bg" android:layout_width="320.0dip" android:layout_height="340.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:aif="http://schemas.android.com/apk/res/uk.co.aifactory.chessfree">
-    <FrameLayout android:layout_gravity="center|top" android:id="@id/adcontainer" android:layout_width="300.0dip" android:layout_height="250.0dip" android:layout_marginTop="10.0dip" />
-    <Button android:layout_gravity="bottom|center" android:id="@id/Continue" android:layout_marginBottom="10.0dip" android:text="@string/skipad" style="@style/StretchyDialogButton" />
-</FrameLayout>

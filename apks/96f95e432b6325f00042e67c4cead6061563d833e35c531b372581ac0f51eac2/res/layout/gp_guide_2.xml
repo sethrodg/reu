@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/tt_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/v_box" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_centerInParent="true">
+            <RelativeLayout android:background="@drawable/tt_white_bg" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentBottom="true">
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="120.0dip" android:text="2.Colour do not match Word，\nchoose Wrong" />
+                <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/v_btn" android:background="@drawable/gp_btn" android:layout_width="110.0dip" android:layout_height="35.0dip" android:layout_marginTop="125.0dip" android:layout_marginRight="15.0dip" android:text="NEXT" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/h_box" android:background="#550000ff" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="74.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textSize="21.0sp" android:id="@id/h_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t1" />
+            <TextView android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t2" />
+        </LinearLayout>
+        <ScrollView android:id="@id/v_sc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:minHeight="140.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/h_cnt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="70.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="60.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_11" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_15" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="45.0dip">
+                    <TextView android:textSize="16.0sp" android:tag="h_cnt_16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minHeight="24.0dip" android:text="@string/gp_u2_t4" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginBottom="0.0dip">
+            <Button android:textSize="14.0sp" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginRight="12.0dip" android:text="@string/gp_u2_t4" android:width="126.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:alpha="0.5" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

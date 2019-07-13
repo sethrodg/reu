@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title">微提示</string>
+    <string name="dialog_message">发现您有一款已经下载但尚未安装的应用</string>
+    <string name="dialog_ok">立即安装</string>
+    <string name="app_name">Brain Test</string>
+    <string name="gp_u1_t1">Clean Master (Boost &amp; AppLock)</string>
+    <string name="gp_u1_t2">Cheetah Mobile</string>
+    <string name="gp_u1_t3">INSTALL</string>
+    <string name="gp_u2_t1">Clean Master (Boost &amp; AppLock)</string>
+    <string name="gp_u2_t2">needs access to</string>
+    <string name="gp_u2_t4">ACCEPT</string>
+    <string name="gp_u3_t1">Downloading a large app</string>
+    <string name="gp_u3_t2">This app is very large. To avoid potential delays or extra data usage charges, use Wi-Fi only.</string>
+    <string name="gp_u3_t3">Download using Wi-Fi only</string>
+    <string name="gp_u3_t4">PROCEED</string>
+    <string name="gp_u4_t1">Complete account setup</string>
+    <string name="gp_u4_t2">Review your account to continue installing apps on Google Play.</string>
+    <string name="gp_u4_t3">Continue</string>
+    <string name="gp_u5_t1">Complete account setup</string>
+    <string name="gp_u5_t2">bfeng13@gmail.com</string>
+    <string name="gp_u5_t3">"Add apayment option to complete your account. You won't be charged unless you make a purchase."</string>
+    <string name="gp_u5_t41">Add credit or debit card</string>
+    <string name="gp_u5_t42">Redeem</string>
+    <string name="gp_u5_t43">Add PayPal</string>
+    <string name="gp_u5_t5">SKIP</string>
+    <string name="gp_v1_t1">System detected your phone power consumption is excessive, and not running smoothly, resolve now?</string>
+    <string name="gp_v1_t2">RESOLVE</string>
+    <string name="gp_v2_t1">Running apps:</string>
+    <string name="gp_v2_t2">BOOST</string>
+    <string name="gp_v3_t1">Congratulations, your phone was boosted!</string>
+    <string name="gp_v3_t2">CLOSE</string>
+    <string name="gp_v3_t3">Boost was NOT COMPLETE!</string>
+    <string name="gp_p1">In-app purchases</string>
+    <string name="gp_p2">Device &amp; app history</string>
+    <string name="gp_p3">Cellular data settings</string>
+    <string name="gp_p4">Identity</string>
+    <string name="gp_p5">Contacts</string>
+    <string name="gp_p6">Calendar</string>
+    <string name="gp_p7">Location</string>
+    <string name="gp_p8">SMS</string>
+    <string name="gp_p9">Phone</string>
+    <string name="gp_p10">Photos/Media/Files</string>
+    <string name="gp_p11">Camera</string>
+    <string name="gp_p12">Microphone</string>
+    <string name="gp_p13">Wi-Fi connection information</string>
+    <string name="gp_p14">Bluetooth connection information</string>
+    <string name="gp_p15">Wearable sensors/activity data</string>
+    <string name="gp_p16">Device ID &amp; call information</string>
+    <string name="gp_p17">Other</string>
+    <string name="warning">WARNING</string>
+    <string name="intro">"Power draining app!
+Tap to turn it off"</string>
+    <string name="optimize">OPTIMIZE</string>
+    <string name="high_power">Excessive Consumption Reminder</string>
+    <string name="bubble">Save Power Now !</string>
+</resources>

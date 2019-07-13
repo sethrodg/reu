@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/andi" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/andi" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/imageView1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+        <TextView android:textSize="25.0sp" android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template50_title" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_1" android:background="@drawable/andi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:onClick="template50_click">
+                    <ImageView android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                    <TextView android:textSize="25.0sp" android:textColor="#ff31abd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template50_str1" />
+                    <ImageView android:id="@id/img_1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_2" android:background="@drawable/andi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:onClick="template50_click">
+                    <ImageView android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                    <TextView android:textSize="25.0sp" android:textColor="#ff31abd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template50_str2" />
+                    <ImageView android:id="@id/img_2" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_3" android:background="@drawable/andi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:onClick="template50_click">
+                    <ImageView android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                    <TextView android:textSize="25.0sp" android:textColor="#ff31abd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template50_str3" />
+                    <ImageView android:id="@id/img_3" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_4" android:background="@drawable/andi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:onClick="template50_click">
+                    <ImageView android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                    <TextView android:textSize="25.0sp" android:textColor="#ff31abd9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template50_str4" />
+                    <ImageView android:id="@id/img_4" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_last" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/template50_lastscan" />
+            <Button android:textSize="25.0sp" android:textColor="#ffffffff" android:id="@id/button1" android:background="#ff205a71" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/template50_scan_now" android:onClick="template50_click" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textColor="#ffffffff" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template50_active_code" />
+</LinearLayout>

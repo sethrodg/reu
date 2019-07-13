@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gp_u1_t3">Install</string>
+    <string name="gp_u2_t2">precisa de acesso a</string>
+    <string name="gp_u2_t4">ACEITAR</string>
+    <string name="gp_u3_t1">Downloading a large app</string>
+    <string name="gp_u3_t2">This app is very large. To avoid potential delays or extra data usage charges, use Wi-Fi only.</string>
+    <string name="gp_u3_t3">Download using Wi-Fi only</string>
+    <string name="gp_u3_t4">PROCEED</string>
+    <string name="gp_p1">Compras no app</string>
+    <string name="gp_p2">Dispositivo e histórico do app</string>
+    <string name="gp_p3">Configurações de dados de celular</string>
+    <string name="gp_p4">Identidade</string>
+    <string name="gp_p5">Contatos</string>
+    <string name="gp_p6">Agenda</string>
+    <string name="gp_p7">Local</string>
+    <string name="gp_p8">SMS</string>
+    <string name="gp_p9">Smartphone</string>
+    <string name="gp_p10">Fotos/mídia/arquivos</string>
+    <string name="gp_p11">Câmera</string>
+    <string name="gp_p12">Microfone</string>
+    <string name="gp_p13">Informações sobre a conexão Wi-Fi</string>
+    <string name="gp_p14">Informações sobre conexão Bluetooth</string>
+    <string name="gp_p15">Sensores wearable/dados de atividades</string>
+    <string name="gp_p16">Informações de chamada e código do dispositivo</string>
+    <string name="gp_p17">Outros</string>
+    <string name="warning">AVISO</string>
+    <string name="intro">Consumo alto. Recomendamos parar o aplicativo.</string>
+    <string name="optimize">Otimizar</string>
+    <string name="high_power">Detalhes do consumo malicioso</string>
+    <string name="bubble">Poupar energia</string>
+    <string name="lauguage">葡萄牙语（巴西）</string>
+</resources>

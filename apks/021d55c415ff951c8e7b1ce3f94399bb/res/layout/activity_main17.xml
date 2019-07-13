@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/andi" android:scaleType="fitXY" />
+    <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/la1" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:textColor="#ff1a75bc" android:id="@id/textView7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template17_trasted" />
+                <TextView android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template17_steps" />
+                <Button android:textSize="21.0sp" android:textColor="#ffffffff" android:id="@id/button1" android:background="@drawable/andi" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template17_gener" android:onClick="template17_click" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ProgressBar android:id="@id/progressBar1" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:indeterminateDrawable="@drawable/andi" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/la2" android:padding="1.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip">
+                <TextView android:textSize="14.0sp" android:gravity="left" android:id="@id/textView5" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template17_kunt_gebruik" />
+                <TextView android:textSize="22.0sp" android:gravity="left" android:id="@id/textView3" android:paddingLeft="5.0dip" android:paddingTop="7.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template17_Persoonlijke" />
+                <TextView android:textSize="33.0sp" android:textColor="#ff1a75bc" android:gravity="center" android:id="@id/textView4" android:background="@drawable/andi" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/template17_code" />
+            </LinearLayout>
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/andi" android:scaleType="fitXY" />
+            <ImageView android:id="@id/imageView4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/andi" android:scaleType="fitCenter" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

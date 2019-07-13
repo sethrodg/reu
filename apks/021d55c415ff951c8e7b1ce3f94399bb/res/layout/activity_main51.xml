@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewFlipper android:id="@id/viewFlipper1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" />
+            <ListView android:id="@id/listView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/andi" android:divider="#ffffffff" android:dividerHeight="2.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="right" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_add_another" android:background="@drawable/andi" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="template51_click">
+                    <TextView android:textSize="30.0sp" android:textColor="#ff888888" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_add_another" android:layout_weight="1.0" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_add" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/RelativeLayout1" android:background="#ff73aad9" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_back1" android:background="@drawable/andi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="template51_click" />
+                <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/TextView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_add_account" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="20.0sp" android:textColor="#ff999999" android:gravity="center_horizontal" android:id="@id/tv_add_desk" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/template51_please" />
+                <LinearLayout android:id="@id/ll_edit" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                    <EditText android:textSize="25.0sp" android:textColor="#ff000000" android:id="@id/editText1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/template51_enter_code" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_progress" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                    <ProgressBar android:id="@id/progressBar1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </LinearLayout>
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_retry" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_retry" android:onClick="template51_click" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_loading_next" android:background="@drawable/andi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_next" android:onClick="template51_click" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_new_account" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/RelativeLayout1" android:background="#ff73aad9" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_new_acc" android:background="@drawable/andi" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="template51_click" />
+                <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/TextView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_add_account" android:layout_alignBaseline="@id/btn_new_acc" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="19.0sp" android:textColor="#ff999999" android:gravity="center_horizontal" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/template51_about_acc" />
+                <LinearLayout android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                    <TextView android:textSize="25.0sp" android:textColor="#ff999999" android:gravity="center_horizontal" android:id="@id/tv_new_acc" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_about_acc" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_next_main" android:background="@drawable/andi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_next" android:onClick="template51_click" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_generate" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/RelativeLayout1" android:background="#ff73aad9" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_back2" android:background="@drawable/andi" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="template51_click" />
+                <TextView android:textSize="25.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/TextView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_otp" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="25.0sp" android:textColor="#ff999999" android:gravity="center_horizontal" android:id="@id/tv_generate_title" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/template51_about_acc" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+                    <TextView android:textSize="35.0sp" android:textColor="#ff999999" android:gravity="center_horizontal" android:id="@id/tv_generate_code" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_about_acc" />
+                    <Button android:textSize="35.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_generate" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_generate_code" android:onClick="template51_click" />
+                    <ProgressBar android:id="@id/progressBar2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+                <Button android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/btn_back2" android:background="@drawable/andi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template51_back" android:onClick="template51_click" />
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
+</LinearLayout>
