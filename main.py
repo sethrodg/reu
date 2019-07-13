@@ -12,6 +12,7 @@ from appium.webdriver.common.touch_action import TouchAction
 
 settingsFound = False
 manifestFound = False
+daHiding = False
 
 #get user input
 appName = raw_input("enter the app to test: ")
@@ -34,14 +35,12 @@ def getName():
     labelCommand = "aapt d badging ./{}.apk | grep \"application: label\"".format(appName)
     pipe = subprocess.Popen(labelCommand, shell=True, stdout=subprocess.PIPE).stdout
     output = pipe.read()
-    print(output)
 
     appLabel = re.search('label=\'(.+?)\'', output)
     if appLabel:
         appLabel = appLabel.group(1)
     else:
         raise Exception
-    print(appLabel)
 
 
 
@@ -169,3 +168,13 @@ if __name__ == '__main__':
 #determine if app is hiding DA
 if manifestFound != settingsFound:
     print("\n\nDA DISCREPENCY DETECTED")
+    daHiding = True
+
+
+
+
+#write results to file
+os.chdir ('../')
+os.chdir ('../')
+f= open("results.txt","a")
+f.write("app: " + appLabel + " - DA hiding: " + str(daHiding) + "\n")
