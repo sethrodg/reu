@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_preferences_holo" android:id="@id/menuitem4" android:title="@string/settings" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_menu_gameelements_holo" android:id="@id/menuitem999" android:title="@string/more" android:showAsAction="always">
+        <menu>
+            <item android:icon="@drawable/ic_menu_info_details_holo" android:id="@id/menuitem3" android:title="@string/rules_of_chess2" android:showAsAction="never" />
+            <item android:icon="@drawable/ic_menu_save_holo" android:id="@id/menuitem10" android:title="@string/saveas" android:showAsAction="never" />
+            <item android:icon="@drawable/ic_menu_archive_holo" android:id="@id/menuitem11" android:title="@string/export_pgn" android:showAsAction="never" />
+            <item android:icon="@drawable/ic_menu_close_clear_cancel_holo" android:id="@id/menuitem5" android:title="@string/save_and_quit" android:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

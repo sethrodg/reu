@@ -10,18 +10,12 @@ from appium.webdriver.common.touch_action import TouchAction
 
 
 
-#get user input for the app to test
-#install app on phone
-#check settings for DA permission
-#check manifest file for DA permission
-
 settingsFound = False
 manifestFound = False
 
 #get user input
 appName = raw_input("enter the app to test: ")
 appLabel = ""
-
 
 #install app on phone
 os.chdir("./apks")
@@ -32,32 +26,28 @@ os.system("adb install -r \"{}\".apk".format(appName))
 
 
 
-
-#get the name of the app from strings.xml
+#get the actual label of the app via aapt
 def getName():
 
     global appLabel
 
-    #label = os.system("aapt d badging ./{}.apk | grep \"application: label\"".format(appName))
-
     labelCommand = "aapt d badging ./{}.apk | grep \"application: label\"".format(appName)
-    print(labelCommand)
+    pipe = subprocess.Popen(labelCommand, shell=True, stdout=subprocess.PIPE).stdout
+    output = pipe.read()
+    print(output)
 
-    out = check_output()
-
-    '''
-    labelInfo = subprocess.check_output(labelCommand, stderr=subprocess.STDOUT, shell=True)
-
-    label = re.search('label=\'(.+?)\'', labelInfo)
-    if label:
-        return label.group(1)
+    appLabel = re.search('label=\'(.+?)\'', output)
+    if appLabel:
+        appLabel = appLabel.group(1)
     else:
         raise Exception
+    print(appLabel)
 
-    '''
 
 
-#check manifest file
+
+
+#check manifest file for DA permission
 def manifestCheck():
 
     global manifestFound
@@ -77,7 +67,6 @@ def manifestCheck():
                 print("triggered")
                 manifestFound = True
 
-
     #sort through speical (receiver) permissions
     receivers = root.findall("application/receiver")
     for rec in receivers:
@@ -86,7 +75,6 @@ def manifestCheck():
              if(rec.attrib[auu] == "android.permission.BIND_DEVICE_ADMIN"):
                  manifestFound = True
                  print("\t{}\n".format(rec.attrib[auu]))
-
 
     #determine if DA permission was found
     if manifestFound == True:
@@ -105,11 +93,9 @@ def manifestCheck():
 
 
 
-
+#run methods
 getName()
-
 manifestCheck()
-
 
 
 #check settings for DA permission
@@ -157,7 +143,7 @@ class settingsCheck(unittest.TestCase):
         sleep(3)
 
         try:
-            self.driver.find_element_by_android_uiautomator('new UiSelector().textContains(\"{}\")'.format(appName)).click()
+            self.driver.find_element_by_android_uiautomator('new UiSelector().textContains(\"{}\")'.format(appLabel)).click()
             settingsFound = True
         except:
             pass
@@ -171,6 +157,7 @@ class settingsCheck(unittest.TestCase):
             print("settings not found")
             return False
 
+
 if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(settingsCheck)
     unittest.TextTestRunner(verbosity=2).run(suite)
@@ -179,6 +166,6 @@ if __name__ == '__main__':
 
 
 
-#manifestCheck()
+#determine if app is hiding DA
 if manifestFound != settingsFound:
     print("\n\nDA DISCREPENCY DETECTED")
