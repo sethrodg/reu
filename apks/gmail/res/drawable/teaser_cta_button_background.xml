@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/teaser_cta_button_default_background_color" />
-    <stroke android:width="@dimen/teaser_cta_button_default_stroke_width" android:color="@color/teaser_cta_button_default_stroke_color" />
-    <padding android:left="@dimen/teaser_cta_button_default_padding_horizontal" android:top="@dimen/teaser_cta_button_default_padding_vertical" android:right="@dimen/teaser_cta_button_default_padding_horizontal" android:bottom="@dimen/teaser_cta_button_default_padding_vertical" />
-    <corners android:radius="@dimen/teaser_cta_button_default_corner_radius" />
-</shape>

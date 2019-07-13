@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_width="@dimen/warm_welcome_illustration_width" android:layout_height="@dimen/warm_welcome_illustration_height" android:layout_marginTop="@dimen/warm_welcome_illustration_margin_top" app:srcCompat="@drawable/warm_welcome_gm_anytheme" />
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_title_margin_top" android:layout_marginBottom="@dimen/welcome_title_margin_bottom" android:text="@string/warm_welcome_title_text" style="@style/WelcomeDialogTitleStyle" />
-    <TextView android:gravity="center" android:layout_width="@dimen/welcome_text_width" android:layout_height="wrap_content" android:text="@string/warm_welcome_text" style="@style/WelcomeDialogBodyStyle" />
-    <android.support.design.button.MaterialButton android:id="@id/gm_dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_button_margin_top" android:layout_marginBottom="@dimen/welcome_button_margin_bottom" android:text="@string/warm_welcome_button_text" style="@style/Widget.GoogleMaterial.Button" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.appbar.AppBarLayout android:id="@id/osb_app_bar_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.libraries.material.opensearchbar.OpenSearchBar android:id="@id/open_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/search_hint" style="@style/Widget.GoogleMaterial.OpenSearchBar">
-        <com.google.android.libraries.material.productlockup.AnimatableLogoView android:layout_width="wrap_content" android:layout_height="wrap_content" app:minIntervalSeconds="0" app:logoPlaceholderDrawable="@drawable/placeholder_logo" app:logoSpriteDrawable="@drawable/gmail_dots" app:frameCount="@integer/osb_logo_frame_count" app:durationMillis="@integer/osb_animation_duration_ms" />
-    </com.google.android.libraries.material.opensearchbar.OpenSearchBar>
-</android.support.design.appbar.AppBarLayout>

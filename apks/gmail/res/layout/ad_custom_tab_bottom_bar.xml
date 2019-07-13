@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/ad_dismiss_button" android:layout_width="@dimen/dismiss_button_in_bottom_toolbar_max_size" android:layout_height="@dimen/dismiss_button_in_bottom_toolbar_max_size" android:src="@drawable/quantum_gm_ic_delete_vd_theme_24" android:tint="@color/google_grey700" android:contentDescription="@string/delete" android:layout_marginEnd="@dimen/dismiss_button_in_custom_tab_bottom_bar_margin" />
-</LinearLayout>

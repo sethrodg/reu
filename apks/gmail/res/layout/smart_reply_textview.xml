@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Button android:textSize="@dimen/smart_reply_text_size" android:textColor="@color/smart_reply_text" android:ellipsize="end" android:gravity="center" android:id="@id/smart_reply_button" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="3" android:layout_weight="1.0" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:lineSpacingMultiplier="1.1" android:textAllCaps="false" android:paddingStart="@dimen/smart_reply_item_horizontal_padding" android:paddingEnd="@dimen/smart_reply_item_horizontal_padding" style="@style/Widget.GoogleMaterial.Button.StrokedButton"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

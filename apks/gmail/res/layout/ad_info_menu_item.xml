@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_width="@dimen/ad_toolbar_menu_item_size" android:layout_height="@dimen/ad_toolbar_menu_item_size"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/ad_toolbar_menu_item_on_click_ripple_diameter" android:layout_height="@dimen/ad_toolbar_menu_item_on_click_ripple_diameter">
-        <ImageView android:layout_width="@dimen/ad_toolbar_ad_info_icon_size" android:layout_height="@dimen/ad_toolbar_ad_info_icon_size" android:scaleType="centerInside" android:contentDescription="@string/ad_info_description" app:srcCompat="@drawable/quantum_gm_ic_info_vd_theme_24" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/sectioned_inbox_onboarding_category_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/category_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="@dimen/sectioned_inbox_onboarding_category_icon_margin_start" android:layout_marginEnd="@dimen/sectioned_inbox_onboarding_category_icon_margin_end" />
-    <TextView android:textSize="@dimen/sectioned_inbox_onboarding_category_name_text_size" android:textColor="@color/folder_teaser_main_text" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/category_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/SectionedInboxTeaserFolderNameStyle" />
-    <TextView android:layout_gravity="center_vertical" android:id="@id/category_unseen_indicator" android:layout_width="@dimen/sectioned_inbox_onboarding_category_unseen_width" android:layout_height="@dimen/sectioned_inbox_onboarding_category_unseen_height" android:contentDescription="@null" android:layout_marginEnd="@dimen/sectioned_inbox_onboarding_category_unseen_margin_end" />
-</LinearLayout>

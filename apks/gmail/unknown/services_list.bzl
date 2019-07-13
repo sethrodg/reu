@@ -1,2 +1,0 @@
-ComponentInflator
-Logger

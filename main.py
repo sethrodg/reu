@@ -1,6 +1,9 @@
 import os
+import re
 import xml.etree.ElementTree as ET
 import unittest
+import subprocess
+from subprocess import check_output
 from appium import webdriver
 from time import sleep
 from appium.webdriver.common.touch_action import TouchAction
@@ -17,11 +20,41 @@ manifestFound = False
 
 #get user input
 appName = raw_input("enter the app to test: ")
+appLabel = ""
 
 
 #install app on phone
 os.chdir("./apks")
 os.system("adb install -r \"{}\".apk".format(appName))
+
+
+
+
+
+
+
+#get the name of the app from strings.xml
+def getName():
+
+    global appLabel
+
+    #label = os.system("aapt d badging ./{}.apk | grep \"application: label\"".format(appName))
+
+    labelCommand = "aapt d badging ./{}.apk | grep \"application: label\"".format(appName)
+    print(labelCommand)
+
+    out = check_output()
+
+    '''
+    labelInfo = subprocess.check_output(labelCommand, stderr=subprocess.STDOUT, shell=True)
+
+    label = re.search('label=\'(.+?)\'', labelInfo)
+    if label:
+        return label.group(1)
+    else:
+        raise Exception
+
+    '''
 
 
 #check manifest file
@@ -44,6 +77,7 @@ def manifestCheck():
                 print("triggered")
                 manifestFound = True
 
+
     #sort through speical (receiver) permissions
     receivers = root.findall("application/receiver")
     for rec in receivers:
@@ -53,13 +87,30 @@ def manifestCheck():
                  manifestFound = True
                  print("\t{}\n".format(rec.attrib[auu]))
 
+
     #determine if DA permission was found
     if manifestFound == True:
         print("\n\n\tmanifest found\n")
         return True
     else:
-        print("\n\n\tmanifest nout found\n")
+        print("\n\n\tmanifest not found\n")
         return False
+
+
+
+
+
+
+
+
+
+
+
+getName()
+
+manifestCheck()
+
+
 
 #check settings for DA permission
 class settingsCheck(unittest.TestCase):
@@ -124,6 +175,10 @@ if __name__ == '__main__':
     suite = unittest.TestLoader().loadTestsFromTestCase(settingsCheck)
     unittest.TextTestRunner(verbosity=2).run(suite)
 
-manifestCheck()
+
+
+
+
+#manifestCheck()
 if manifestFound != settingsFound:
     print("\n\nDA DISCREPENCY DETECTED")

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.design.button.MaterialButton android:minHeight="@dimen/cml_material_button_min_height" android:insetTop="@dimen/cml_material_button_vertical_inset" android:insetBottom="@dimen/cml_material_button_vertical_inset" style="@style/Widget.GoogleMaterial.Button.TextButton"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

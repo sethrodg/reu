@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_close_24dp" android:id="@id/open_search_bar_clear_button" android:title="@string/search_clear_desc" android:contentDescription="@string/search_clear_desc" app:showAsAction="always" />
-</menu>

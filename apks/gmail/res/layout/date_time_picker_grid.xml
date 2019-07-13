@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/datetimepicker_menu_grid_container_padding_top" android:layout_width="@dimen/datetimepicker_menu_width" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:gravity="center" android:id="@id/datetimepicker_options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchMode="columnWidth" android:numColumns="2" android:paddingStart="@dimen/datetimepicker_menu_grid_side_padding" android:paddingEnd="@dimen/datetimepicker_menu_grid_side_padding" />
-    <TextView android:textSize="@dimen/datetimepicker_menu_time_zone_info_text_size" android:textColor="@color/datetimepicker_menu_time_zone_info" android:gravity="center" android:layout_gravity="center" android:id="@id/time_zone_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/datetimepicker_menu_time_zone_info_top_margin" android:layout_marginBottom="@dimen/datetimepicker_menu_time_zone_info_bottom_margin" android:fontFamily="Roboto" />
-</LinearLayout>

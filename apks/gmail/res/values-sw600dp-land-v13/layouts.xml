@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="layout" name="sud_template">@layout/sud_template_card_wide</item>
-    <item type="layout" name="sud_template_short">@layout/sud_template_card_wide</item>
-</resources>

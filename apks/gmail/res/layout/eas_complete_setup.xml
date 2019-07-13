@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/loading_messages_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:layout_width="@dimen/eas_complete_setup_icon_dimension" android:layout_height="@dimen/eas_complete_setup_icon_dimension" android:layout_margin="@dimen/eas_complete_setup_icon_margin" app:srcCompat="@drawable/quantum_gm_ic_error_outline_vd_theme_24" app:tint="@color/eas_complete_setup_icon_color" />
-    <TextView android:textSize="@dimen/eas_complete_setup_label_text_size" android:textColor="@color/secondary_text_color_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/banner_title_mid_way_account_setup" android:textAlignment="center" />
-    <android.support.design.button.MaterialButton android:textSize="@dimen/eas_complete_setup_button_text_size" android:textColor="@color/color_accent_blue" android:id="@id/complete_setup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eas_complete_setup_button_top_margin" android:text="@string/button_to_complete_setup" android:fontFamily="@font/google_sans" style="@style/Widget.GoogleMaterial.Button.TextButton" />
-</LinearLayout>

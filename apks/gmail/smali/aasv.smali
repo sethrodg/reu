@@ -1,8 +1,0 @@
-.class public interface abstract Laasv;
-.super Ljava/lang/Object;
-.source "SourceFile"
-
-
-# virtual methods
-.method public abstract a(Lydi;)V
-.end method

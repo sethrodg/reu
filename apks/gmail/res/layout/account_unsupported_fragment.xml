@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:theme="@style/Theme.GoogleMaterial.Light.Bridge" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AccountSetupFormContainer"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/explanation_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/account_unsupported_explanation" style="@style/AccountSetupTextInfo" />
-    <TextView android:id="@id/remove_account" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/remove_account_button_label" style="@style/AccountSetupText.Action" />
-</LinearLayout>

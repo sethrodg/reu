@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/conversation_list_folder_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/conversation_list_folder_name" android:paddingTop="@dimen/folder_header_top_padding" android:paddingBottom="@dimen/folder_header_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/folder_header_top_margin" android:textDirection="locale" android:layout_marginStart="@dimen/folder_header_start_end_margin" android:layout_marginEnd="@dimen/folder_header_start_end_margin" style="@style/FolderHeaderStyle" />
-</LinearLayout>

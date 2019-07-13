@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<View android:background="@color/account_setup_settings_division_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/account_setup_settings_division_line_height" android:layout_marginTop="@dimen/account_setup_settings_division_line_margin" android:layout_marginBottom="@dimen/account_setup_settings_division_line_margin" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

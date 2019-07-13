@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/wait" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/opensearchbar_scrolling_view_behavior"
-      xmlns:android="http://schemas.android.com/apk/res/android" />
-    <include layout="@layout/open_search_bar_with_animation" />
-    <include layout="@layout/open_search_view_with_suggestions" />
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
