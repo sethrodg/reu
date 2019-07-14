@@ -1,5 +1,6 @@
 import os
 import re
+import csv
 import xml.etree.ElementTree as ET
 import unittest
 import subprocess
@@ -9,29 +10,30 @@ from time import sleep
 from appium.webdriver.common.touch_action import TouchAction
 
 
+f= open("results.txt","a")
+sOne = "APP"
+sTwo = "DA HIDING"
+f.write("%-25s %-25s\n" % (sOne, sTwo))
+
 #get list of APKS
 os.chdir("./apks")
 apks = subprocess.Popen("ls", shell=True, stdout=subprocess.PIPE).stdout
 apkList = apks.read()
 splitApks = apkList.split("\n")
-#print(splitApks)
 
+#process and check each apk
 for i in splitApks:
     print(i)
-    appName = i.rstrip(".apk")
+    appName = i
+    appName = appName[:-4]
 
     settingsFound = False
     manifestFound = False
     daHiding = False
-
-    #get user input
-    #appName = raw_input("enter the app to test: ")
-    #appName = i
     appLabel = ""
 
     #install app on phone
     os.system("adb install -r \"{}\".apk".format(appName))
-
 
 
 
@@ -42,7 +44,7 @@ for i in splitApks:
 
         global appLabel
 
-        labelCommand = "aapt d badging ./{}.apk | grep \"application: label\"".format(appName)
+        labelCommand = "aapt d badging ./\"{}\".apk | grep \"application: label\"".format(appName)
         pipe = subprocess.Popen(labelCommand, shell=True, stdout=subprocess.PIPE).stdout
         output = pipe.read()
 
@@ -61,7 +63,7 @@ for i in splitApks:
 
         global manifestFound
 
-        os.system("apktool d " + appName + ".apk")
+        os.system("apktool d \"{}\".apk".format(appName))
         os.chdir(appName)
 
         root = ET.parse("AndroidManifest.xml").getroot()
@@ -186,6 +188,15 @@ for i in splitApks:
     #write results to file
     os.chdir ('../')
     os.chdir ('../')
-    f= open("results.txt","a")
-    f.write("app: " + appLabel + " - DA hiding: " + str(daHiding) + "\n")
+
+
+
+    with open('results.csv', mode='a') as results_file:
+        results_writer = csv.writer(results_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+
+        results_writer.writerow([appLabel, str(daHiding)])
+        
     os.chdir("./apks")
+
+    #f= open("results.txt","a")
+    #f.write("%-25s %-25s\n" % (appLabel, str(daHiding)))

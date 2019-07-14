@@ -32,7 +32,8 @@ def getName():
 
     global appLabel
 
-    labelCommand = "aapt d badging ./{}.apk | grep \"application: label\"".format(appName)
+    #labelCommand = "aapt d badging ./{}.apk | grep \"application: label\"".format(appName)
+    labelCommand = "aapt d badging ./\"{}\".apk | grep \"application: label\"".format(appName)
     pipe = subprocess.Popen(labelCommand, shell=True, stdout=subprocess.PIPE).stdout
     output = pipe.read()
 
@@ -51,7 +52,7 @@ def manifestCheck():
 
     global manifestFound
 
-    os.system("apktool d " + appName + ".apk")
+    os.system("apktool d \"{}\".apk".format(appName))
     os.chdir(appName)
 
     root = ET.parse("AndroidManifest.xml").getroot()
