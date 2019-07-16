@@ -20,6 +20,7 @@ os.chdir("./apks")
 apks = subprocess.Popen("ls", shell=True, stdout=subprocess.PIPE).stdout
 apkList = apks.read()
 splitApks = apkList.split("\n")
+splitApks = splitApks[:-1]
 
 #process and check each apk
 for i in splitApks:
@@ -195,7 +196,7 @@ for i in splitApks:
         results_writer = csv.writer(results_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         results_writer.writerow([appLabel, str(daHiding)])
-        
+
     os.chdir("./apks")
 
     #f= open("results.txt","a")

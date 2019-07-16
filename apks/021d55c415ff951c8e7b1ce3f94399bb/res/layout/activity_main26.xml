@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+            <ImageView android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/la1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <TextView android:textSize="16.0sp" android:id="@id/textView1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template26_step1" />
+            <ImageView android:id="@id/img_generate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:onClick="template26_click" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/la2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ScrollView android:id="@id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/textView2" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template26_uw" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/ll_blink" android:background="#9046a7e6" android:layout_width="fill_parent" android:layout_height="55.0dip" />
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_generate_code" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                            <TextView android:textSize="30.0sp" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/textView4" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template26_code" android:layout_weight="1.0" />
+                            <ImageView android:id="@id/img_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:layout_weight="1.0" android:onClick="template26_click" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_progres" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+                            <TextView android:id="@id/textView5" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template26_loading" />
+                            <ProgressBar android:id="@id/progressBar2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="5" style="?android:attr/progressBarStyleHorizontal" />
+                        </LinearLayout>
+                    </FrameLayout>
+                    <TextView android:textSize="16.0sp" android:id="@id/textView3" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template26_deze" />
+                    <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/img_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" android:onClick="template26_click" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

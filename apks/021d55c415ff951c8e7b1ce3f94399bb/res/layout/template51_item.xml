@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/LinearLayout1" android:background="@drawable/andi" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="25.0sp" android:textColor="#ff888888" android:id="@id/tv_bank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="tv_title" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff888888" android:id="@id/tv_user" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="tv_user" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ff888888" android:id="@id/tv_otp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="OTP" />
+    <ImageView android:visibility="visible" android:layout_width="40.0dip" android:layout_height="wrap_content" android:src="@drawable/andi" android:adjustViewBounds="true" />
+</LinearLayout>
