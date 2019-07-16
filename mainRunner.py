@@ -35,6 +35,7 @@ for i in splitApks:
 
     #install app on phone
     os.system("adb install -r \"{}\".apk".format(appName))
+    print("installed")
 
 
 
@@ -118,7 +119,7 @@ for i in splitApks:
             desired_caps = {}
             desired_caps['platformName'] = 'Android'
             desired_caps['platformVersion'] = '9'
-            desired_caps['deviceName'] = 'Pixel API 28'
+            desired_caps['deviceName'] = 'Nexus 6P API 28'
             #desired_caps['automationName'] = 'uiautomator2'
             desired_caps['appPackage'] = 'com.android.settings'
             desired_caps['appActivity'] = 'com.android.settings.Settings'
@@ -141,12 +142,13 @@ for i in splitApks:
             actions.press(x=20, y=972).move_to(x=10, y=476).release().perform()
             sleep(1)
 
+            '''
             #click 'advanced' and scroll down
             self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Advanced")').click()
             sleep(1)
             actions.press(x=20, y=972).move_to(x=10, y=476).release().perform()
             sleep(2)
-
+            '''
             #click special app access
             self.driver.find_element_by_android_uiautomator('new UiSelector().textContains("Special App Access")').click()
             sleep(2)

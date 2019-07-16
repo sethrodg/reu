@@ -1,0 +1,111 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{iccv}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\iccvfinalcopy % *** Uncomment this line for the final submission
+
+\def\iccvPaperID{****} % *** Enter the ICCV Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+%\ificcvfinal\pagestyle{empty}\fi
+\setcounter{page}{4321}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Android Self Hiding Behavior Analysis - Device Administrator}
+
+\author{Seth Rodgers\\
+Wichita State University\\
+Institution1 address\\
+{\tt\small firstauthor@i1.org}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+\and
+Luke Baird\\
+Wichita State University\\
+First line of institution2 address\\
+{\tt\small secondauthor@i2.org}
+}
+
+\maketitle
+%\thispagestyle{empty}
+
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+Due to the large market share of Android phones today combined with the fact that Android is less secure than other mobile operating systems makes Android a large target for hackers and malware. Our study is designed to use dynamic analysis to investigate apps to see if they contain malicious behavior. We achieve this by decompiling the source code of apps while simultaneously using automation to see if there are discrepancies or if the user is being deceived. What we found was that through different strategies, apps are able to perform certain behaviors or hold certain permissions while being able to hide these things from the user in the user interface. We believe that we have found a consistent way of checking some of these things, and that apps should be more carefully vetted in these ways.
+\end{abstract}
+
+%%%%%%%%% BODY TEXT
+\section{Introduction}
+
+Android malware has always been an important topic due to the nature of android. While the Google Play Store may monitor apps, it is still possible with some configuration for users to install third party apps, going around the Google Play Store. If Android had more control over the issue, we would not be conducting this research, but Android malware is still a large issue that affects thousands of people negatively to this day.
+
+Before conducting this research, we did not know much about android malware. We knew that exists, but we have never looked into android malware, how it works, and how it takes advantage of users.
+
+We hope that our study will bring to light yet another issue that allows applications to manipulate and deceive users, but also bring attention to the issue in general. It should not be this common for malware to exist, and through our study we hope that we can reduce future malware of this nature by showing how it works.
+
+
+%-------------------------------------------------------------------------
+\subsection{Related Works}
+
+There has been no shortage of studies done on android malware in the past. Both static and dynamic, researchers have tried to analyze different types of malware and how to prevent it. In our research, we made an effort to combine both static and dynamic analysis to create a more accurate and stable system for catching apps that are using self-hiding behaviors and pinpointing them.
+
+\section{Project}
+
+Android devices use a system of permissions in order to determine what apps have the ability to do different tasks and access different information. There is one permission called device administrator that holds more authority than other permissions. If an app has the device administrator permission, it has the ability to factory reset a device clean if lost or stolen. This is obviously an important permission, not something you want every app to have. You would also want to know what apps have this permission, which is where our research comes in. We studied a set of android apps to see if the apps were deceiving users with their device administrator permission.
+
+To do this, we used a system that consisted of two steps. The first step, we would decompile the app’s APK file, extracting the AndroidManifest.xml file. This app contains what permissions the app uses, including the device administrator permission (if the app used this permission). Then, the second step of the process involved using automation. In the settings of android devices is a list that shows the user what apps have the device administrator permission. So using automation, we navigate to this list, and check whether or not the apps that do in fact have DA permission, are showing the user their DA status truthfully. Any app that contained the device administrator permission in the AndroidManifest.xml file, but did not show up on the device admin list would be determined malicious. We also considered apps using different names on the device admin list to be malicious as well.
+
+
+
+
+%-------------------------------------------------------------------------
+\subsection{Android Manifest}
+
+The first step, we would decompile the app’s APK file, extracting the AndroidManifest.xml file. This app contains what permissions the app uses, including the device administrator permission (if the app used this permission).
+
+\subsection{Automation}
+
+Then, the second step of the process involved using automation. In the settings of android devices is a list that shows the user what apps have the device administrator permission. So using automation, we navigate to this list, and check whether or not the apps that do in fact have DA permission, are showing the user their DA status truthfully.
+
+
+\subsection{Algorithm}
+
+Text
+
+%------------------------------------------------------------------------
+\section{Evaluation}
+
+Text
+
+
+
+%------------------------------------------------------------------------
+\section{Conclusions}
+
+Text
+
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{egbib}
+}
+
+\end{document}

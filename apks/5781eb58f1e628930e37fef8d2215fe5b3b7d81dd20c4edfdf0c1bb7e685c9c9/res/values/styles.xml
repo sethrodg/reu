@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="BoldText" parent="@android:style/Widget.TextView">
-        <item name="android:textSize">20.0dip</item>
-        <item name="android:textStyle">bold</item>
-    </style>
-</resources>
